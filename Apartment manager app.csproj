@@ -118,5 +118,8 @@
   <ItemGroup>
     <None Include="Resources\error %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_person_male_24px_2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
