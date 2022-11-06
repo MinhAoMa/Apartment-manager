@@ -16,5 +16,70 @@ namespace Apartment_manager_app
         {
             InitializeComponent();
         }
+
+        private void btnApp_click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHome_click(object sender, EventArgs e)
+        {
+            bool isExits = false;
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "FrmSideMain")
+                {
+                    f.Activate();
+                    isExits = true;
+                    break;
+                }
+            }
+            if (!isExits)
+            {
+                FrmSideMain frm = new FrmSideMain();
+                frm.MdiParent = this;
+                frm.Dock = DockStyle.Fill;
+                frm.Show();
+            }
+            BtnMenu.Checked = false;
+            BtnHome.Checked = true;
+        }
+
+        private void btnApp_Click(object sender, EventArgs e)
+        {
+            bool isExits = false;
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "FrmMenu")
+                {
+                    f.Activate();
+                    isExits = true;
+                    break;
+                }
+            }
+            if (!isExits)
+            {
+                FrmMenu frm = new FrmMenu();
+                frm.MdiParent = this;
+                frm.Dock = DockStyle.Fill;
+                frm.Show();
+            }
+            BtnHome.Checked = false;
+            BtnMenu.Checked = true;    
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+            FrmSideMain frm = new FrmSideMain();
+            frm.MdiParent = this;
+            frm.Dock = DockStyle.Fill;
+            frm.Show();
+            BtnHome.Checked = true;
+        }
     }
 }

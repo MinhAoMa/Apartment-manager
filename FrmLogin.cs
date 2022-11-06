@@ -33,6 +33,10 @@ namespace Apartment_manager_app
 
         }
 
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
         private void guna2HtmlLabel4_Click(object sender, EventArgs e)
         {
 
