@@ -33,5 +33,10 @@ namespace Apartment_manager_app
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
