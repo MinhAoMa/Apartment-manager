@@ -33,12 +33,10 @@ namespace Apartment_manager_app
 
         }
 
-<<<<<<< HEAD
         private void FrmLogin_Load(object sender, EventArgs e)
         {
 
         }
-=======
         private void guna2HtmlLabel4_Click(object sender, EventArgs e)
         {
 
@@ -48,6 +46,5 @@ namespace Apartment_manager_app
         {
             this.Close();
         }
->>>>>>> dat
     }
 }

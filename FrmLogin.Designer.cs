@@ -84,7 +84,7 @@
             this.btnExit.ShadowDecoration.Parent = this.btnExit;
             this.btnExit.Size = new System.Drawing.Size(48, 43);
             this.btnExit.TabIndex = 20;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+//            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // guna2ToggleSwitch1
             // 
@@ -144,7 +144,7 @@
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(106, 22);
             this.guna2HtmlLabel4.TabIndex = 15;
             this.guna2HtmlLabel4.Text = "Remember me";
-            this.guna2HtmlLabel4.Click += new System.EventHandler(this.guna2HtmlLabel4_Click);
+            //this.guna2HtmlLabel4.Click += new System.EventHandler(this.guna2HtmlLabel4_Click);
             // 
             // guna2TextBox2
             // 
