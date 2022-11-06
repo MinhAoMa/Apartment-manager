@@ -103,6 +103,16 @@ namespace Apartment_manager_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_person_male_24px_2 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_person_male_24px_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Không_có_tiêu_đề {
             get {
                 object obj = ResourceManager.GetObject("Không có tiêu đề", resourceCulture);
