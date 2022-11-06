@@ -67,22 +67,24 @@
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Asap", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(30, 83);
+            this.label2.Location = new System.Drawing.Point(133, 85);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(621, 57);
+            this.label2.Size = new System.Drawing.Size(438, 49);
             this.label2.TabIndex = 36;
             this.label2.Text = "Bạn muốn đóng ứng dụng không ?\r\n\r\n\r\n";
             // 
             // guna2Button1
             // 
+            this.guna2Button1.BorderRadius = 10;
             this.guna2Button1.CheckedState.Parent = this.guna2Button1;
             this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2Button1.Font = new System.Drawing.Font("Asap", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(89, 192);
+            this.guna2Button1.Location = new System.Drawing.Point(121, 192);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(178, 45);
@@ -92,12 +94,14 @@
             // 
             // guna2Button2
             // 
+            this.guna2Button2.BorderRadius = 10;
             this.guna2Button2.CheckedState.Parent = this.guna2Button2;
             this.guna2Button2.CustomImages.Parent = this.guna2Button2;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2Button2.Font = new System.Drawing.Font("Asap", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(359, 192);
+            this.guna2Button2.Location = new System.Drawing.Point(393, 192);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
             this.guna2Button2.Size = new System.Drawing.Size(178, 45);

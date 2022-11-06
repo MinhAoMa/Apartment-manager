@@ -84,7 +84,6 @@
             this.btnExit.ShadowDecoration.Parent = this.btnExit;
             this.btnExit.Size = new System.Drawing.Size(48, 43);
             this.btnExit.TabIndex = 20;
-//            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // guna2ToggleSwitch1
             // 
@@ -112,7 +111,7 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Black;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(95, 436);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(340, 33);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(226, 22);
             this.guna2HtmlLabel1.TabIndex = 18;
             this.guna2HtmlLabel1.Text = "Forgot Username or Password ?";
             // 
@@ -139,12 +138,11 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(82, 296);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(82, 301);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(158, 33);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(106, 22);
             this.guna2HtmlLabel4.TabIndex = 15;
             this.guna2HtmlLabel4.Text = "Remember me";
-            //this.guna2HtmlLabel4.Click += new System.EventHandler(this.guna2HtmlLabel4_Click);
             // 
             // guna2TextBox2
             // 
@@ -212,11 +210,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(11, 83);
+            this.label1.Font = new System.Drawing.Font("Bungee", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.label1.Location = new System.Drawing.Point(60, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(436, 48);
+            this.label1.Size = new System.Drawing.Size(322, 61);
             this.label1.TabIndex = 0;
             this.label1.Text = "ĐĂNG NHẬP HỆ THỐNG";
             this.label1.Click += new System.EventHandler(this.label1_Click);

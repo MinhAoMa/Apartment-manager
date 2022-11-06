@@ -153,6 +153,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmMain";
             this.Load += new System.EventHandler(this.FrmMain_Load);
+            this.MdiChildActivate += new System.EventHandler(this.FrmMain_MdiChildActivate);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);

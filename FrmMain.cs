@@ -12,6 +12,7 @@ namespace Apartment_manager_app
 {
     public partial class FrmMain : Form
     {
+        
         public FrmMain()
         {
             InitializeComponent();
@@ -80,6 +81,28 @@ namespace Apartment_manager_app
             frm.Dock = DockStyle.Fill;
             frm.Show();
             BtnHome.Checked = true;
+        }
+
+        private void FrmMain_MdiChildActivate(object sender, EventArgs e)
+        {
+            foreach (Form f in this.MdiChildren)
+            {
+                
+                if (f.Name == "FrmSideMain")
+                {
+                    BtnMenu.Checked = false;
+                    BtnHome.Checked = true;
+                    f.Show();
+                    break;
+                }
+                if (f.Name == "FrmMenu")
+                {
+                    BtnHome.Checked = false;
+                    BtnMenu.Checked = true;
+                    f.Show();
+                    break;
+                }
+            }
         }
     }
 }
