@@ -440,13 +440,13 @@
             // 
             // panel2
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel2.Controls.Add(this.guna2Button7);
             this.panel2.Controls.Add(this.guna2Button6);
             this.panel2.Controls.Add(this.guna2Button5);
-            this.panel2.Location = new System.Drawing.Point(788, 3);
+            this.panel2.Location = new System.Drawing.Point(812, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(291, 42);
+            this.panel2.Size = new System.Drawing.Size(267, 42);
             this.panel2.TabIndex = 8;
             // 
             // guna2Button7
@@ -772,10 +772,10 @@
             this.guna2GradientPanel7.Controls.Add(this.guna2CircleProgressBar1);
             this.guna2GradientPanel7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(85)))), ((int)(((byte)(219)))));
             this.guna2GradientPanel7.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(85)))), ((int)(((byte)(219)))));
-            this.guna2GradientPanel7.Location = new System.Drawing.Point(251, 106);
+            this.guna2GradientPanel7.Location = new System.Drawing.Point(247, 106);
             this.guna2GradientPanel7.Name = "guna2GradientPanel7";
             this.guna2GradientPanel7.ShadowDecoration.Parent = this.guna2GradientPanel7;
-            this.guna2GradientPanel7.Size = new System.Drawing.Size(376, 157);
+            this.guna2GradientPanel7.Size = new System.Drawing.Size(380, 157);
             this.guna2GradientPanel7.TabIndex = 12;
             // 
             // label16
