@@ -11,3 +11,16 @@ D:\New folder (2)\Apartment-manager\obj\Debug\Apartment manager app.pdb
 D:\New folder (2)\Apartment-manager\bin\Debug\Guna.UI2.dll
 D:\New folder (2)\Apartment-manager\obj\Debug\Apartment_manager_app.FrmMain.resources
 D:\New folder (2)\Apartment-manager\obj\Debug\Apartment manager app.csproj.CopyComplete
+C:\Users\Acer\source\repos\quan ly 2\Apartment-manager\bin\Debug\Apartment manager app.exe.config
+C:\Users\Acer\source\repos\quan ly 2\Apartment-manager\bin\Debug\Apartment manager app.exe
+C:\Users\Acer\source\repos\quan ly 2\Apartment-manager\bin\Debug\Apartment manager app.pdb
+C:\Users\Acer\source\repos\quan ly 2\Apartment-manager\obj\Debug\Apartment manager app.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\quan ly 2\Apartment-manager\obj\Debug\Apartment manager app.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\source\repos\quan ly 2\Apartment-manager\obj\Debug\Apartment_manager_app.FrmMain.resources
+C:\Users\Acer\source\repos\quan ly 2\Apartment-manager\obj\Debug\Apartment_manager_app.Properties.Resources.resources
+C:\Users\Acer\source\repos\quan ly 2\Apartment-manager\obj\Debug\Apartment manager app.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\quan ly 2\Apartment-manager\obj\Debug\Apartment manager app.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\quan ly 2\Apartment-manager\obj\Debug\Apartment manager app.csproj.CopyComplete
+C:\Users\Acer\source\repos\quan ly 2\Apartment-manager\obj\Debug\Apartment manager app.exe
+C:\Users\Acer\source\repos\quan ly 2\Apartment-manager\obj\Debug\Apartment manager app.pdb
+C:\Users\Acer\source\repos\quan ly 2\Apartment-manager\obj\Debug\Apartment_manager_app.FrmLogin.resources
