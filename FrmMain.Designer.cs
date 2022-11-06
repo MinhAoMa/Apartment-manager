@@ -231,7 +231,7 @@
             this.guna2GradientPanel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.guna2GradientPanel6.FillColor2 = System.Drawing.Color.Cyan;
             this.guna2GradientPanel6.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.guna2GradientPanel6.Location = new System.Drawing.Point(730, 137);
+            this.guna2GradientPanel6.Location = new System.Drawing.Point(812, 137);
             this.guna2GradientPanel6.Name = "guna2GradientPanel6";
             this.guna2GradientPanel6.ShadowDecoration.Parent = this.guna2GradientPanel6;
             this.guna2GradientPanel6.Size = new System.Drawing.Size(233, 132);
@@ -255,7 +255,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(13, 32);
+            this.label11.Location = new System.Drawing.Point(30, 32);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(45, 19);
             this.label11.TabIndex = 1;
@@ -282,7 +282,7 @@
             this.guna2GradientPanel5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.guna2GradientPanel5.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.guna2GradientPanel5.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.guna2GradientPanel5.Location = new System.Drawing.Point(491, 137);
+            this.guna2GradientPanel5.Location = new System.Drawing.Point(533, 137);
             this.guna2GradientPanel5.Name = "guna2GradientPanel5";
             this.guna2GradientPanel5.ShadowDecoration.Parent = this.guna2GradientPanel5;
             this.guna2GradientPanel5.Size = new System.Drawing.Size(233, 132);
@@ -333,7 +333,7 @@
             this.guna2GradientPanel4.FillColor = System.Drawing.Color.Lime;
             this.guna2GradientPanel4.FillColor2 = System.Drawing.Color.Lime;
             this.guna2GradientPanel4.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.guna2GradientPanel4.Location = new System.Drawing.Point(252, 137);
+            this.guna2GradientPanel4.Location = new System.Drawing.Point(272, 137);
             this.guna2GradientPanel4.Name = "guna2GradientPanel4";
             this.guna2GradientPanel4.ShadowDecoration.Parent = this.guna2GradientPanel4;
             this.guna2GradientPanel4.Size = new System.Drawing.Size(233, 132);
@@ -384,7 +384,7 @@
             this.guna2GradientPanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(48)))), ((int)(((byte)(121)))));
             this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(85)))), ((int)(((byte)(219)))));
             this.guna2GradientPanel3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.guna2GradientPanel3.Location = new System.Drawing.Point(13, 137);
+            this.guna2GradientPanel3.Location = new System.Drawing.Point(15, 137);
             this.guna2GradientPanel3.Name = "guna2GradientPanel3";
             this.guna2GradientPanel3.ShadowDecoration.Parent = this.guna2GradientPanel3;
             this.guna2GradientPanel3.Size = new System.Drawing.Size(233, 132);
@@ -444,9 +444,9 @@
             this.panel2.Controls.Add(this.guna2Button7);
             this.panel2.Controls.Add(this.guna2Button6);
             this.panel2.Controls.Add(this.guna2Button5);
-            this.panel2.Location = new System.Drawing.Point(764, 3);
+            this.panel2.Location = new System.Drawing.Point(788, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(315, 42);
+            this.panel2.Size = new System.Drawing.Size(291, 42);
             this.panel2.TabIndex = 8;
             // 
             // guna2Button7
@@ -541,7 +541,7 @@
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(85)))), ((int)(((byte)(219)))));
-            this.label1.Location = new System.Drawing.Point(4, 45);
+            this.label1.Location = new System.Drawing.Point(12, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 17);
             this.label1.TabIndex = 3;
