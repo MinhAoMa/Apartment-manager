@@ -38,5 +38,10 @@ namespace Apartment_manager_app
         {
 
         }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
