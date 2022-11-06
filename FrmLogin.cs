@@ -19,15 +19,9 @@ namespace Apartment_manager_app
             InitializeComponent();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        
 
-        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void guna2HtmlLabel2_Click(object sender, EventArgs e)
         {
@@ -37,6 +31,16 @@ namespace Apartment_manager_app
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2HtmlLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
