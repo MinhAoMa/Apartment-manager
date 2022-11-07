@@ -31,55 +31,55 @@
             this.components = new System.ComponentModel.Container();
             this.LbDate = new System.Windows.Forms.Label();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label5 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.guna2GradientPanel5 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2GradientButton5 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label6 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.guna2GradientPanel6 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2GradientButton6 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label7 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.guna2GradientPanel7 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2GradientButton7 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label8 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.guna2GradientPanel8 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2GradientButton8 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label9 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.guna2GradientPanel9 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2GradientButton9 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label10 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
             this.guna2GradientPanel10 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2GradientButton10 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label11 = new System.Windows.Forms.Label();
             this.guna2GradientPanel11 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2GradientButton12 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton11 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton6 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton7 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton8 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton9 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton10 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton5 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnBackforward = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btnBackforward = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2GradientButton13 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -103,7 +103,6 @@
             this.panel12.SuspendLayout();
             this.guna2GradientPanel10.SuspendLayout();
             this.guna2GradientPanel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // LbDate
@@ -130,6 +129,26 @@
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
             this.guna2GradientPanel1.Size = new System.Drawing.Size(88, 86);
             this.guna2GradientPanel1.TabIndex = 24;
+            // 
+            // guna2GradientButton1
+            // 
+            this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton1.BorderRadius = 10;
+            this.guna2GradientButton1.CheckedState.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.CustomImages.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientButton1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.Transparent;
+            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton1.HoverState.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.Image = global::Apartment_manager_app.Properties.Resources.human;
+            this.guna2GradientButton1.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientButton1.Name = "guna2GradientButton1";
+            this.guna2GradientButton1.ShadowDecoration.Parent = this.guna2GradientButton1;
+            this.guna2GradientButton1.Size = new System.Drawing.Size(88, 86);
+            this.guna2GradientButton1.TabIndex = 22;
             // 
             // label1
             // 
@@ -184,6 +203,26 @@
             this.guna2GradientPanel2.Size = new System.Drawing.Size(88, 86);
             this.guna2GradientPanel2.TabIndex = 24;
             // 
+            // guna2GradientButton2
+            // 
+            this.guna2GradientButton2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton2.BorderRadius = 10;
+            this.guna2GradientButton2.CheckedState.Parent = this.guna2GradientButton2;
+            this.guna2GradientButton2.CustomImages.Parent = this.guna2GradientButton2;
+            this.guna2GradientButton2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientButton2.FillColor = System.Drawing.Color.DarkOrange;
+            this.guna2GradientButton2.FillColor2 = System.Drawing.Color.Transparent;
+            this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton2.HoverState.Parent = this.guna2GradientButton2;
+            this.guna2GradientButton2.Image = global::Apartment_manager_app.Properties.Resources.residential;
+            this.guna2GradientButton2.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2GradientButton2.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientButton2.Name = "guna2GradientButton2";
+            this.guna2GradientButton2.ShadowDecoration.Parent = this.guna2GradientButton2;
+            this.guna2GradientButton2.Size = new System.Drawing.Size(88, 86);
+            this.guna2GradientButton2.TabIndex = 22;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -215,6 +254,26 @@
             this.guna2GradientPanel3.ShadowDecoration.Parent = this.guna2GradientPanel3;
             this.guna2GradientPanel3.Size = new System.Drawing.Size(88, 86);
             this.guna2GradientPanel3.TabIndex = 24;
+            // 
+            // guna2GradientButton3
+            // 
+            this.guna2GradientButton3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton3.BorderRadius = 10;
+            this.guna2GradientButton3.CheckedState.Parent = this.guna2GradientButton3;
+            this.guna2GradientButton3.CustomImages.Parent = this.guna2GradientButton3;
+            this.guna2GradientButton3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientButton3.FillColor = System.Drawing.Color.IndianRed;
+            this.guna2GradientButton3.FillColor2 = System.Drawing.Color.RosyBrown;
+            this.guna2GradientButton3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton3.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton3.HoverState.Parent = this.guna2GradientButton3;
+            this.guna2GradientButton3.Image = global::Apartment_manager_app.Properties.Resources.agreement;
+            this.guna2GradientButton3.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2GradientButton3.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientButton3.Name = "guna2GradientButton3";
+            this.guna2GradientButton3.ShadowDecoration.Parent = this.guna2GradientButton3;
+            this.guna2GradientButton3.Size = new System.Drawing.Size(88, 86);
+            this.guna2GradientButton3.TabIndex = 22;
             // 
             // label4
             // 
@@ -249,6 +308,26 @@
             this.guna2GradientPanel4.Size = new System.Drawing.Size(88, 86);
             this.guna2GradientPanel4.TabIndex = 24;
             // 
+            // guna2GradientButton4
+            // 
+            this.guna2GradientButton4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton4.BorderRadius = 10;
+            this.guna2GradientButton4.CheckedState.Parent = this.guna2GradientButton4;
+            this.guna2GradientButton4.CustomImages.Parent = this.guna2GradientButton4;
+            this.guna2GradientButton4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientButton4.FillColor = System.Drawing.Color.LawnGreen;
+            this.guna2GradientButton4.FillColor2 = System.Drawing.Color.DarkSeaGreen;
+            this.guna2GradientButton4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton4.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton4.HoverState.Parent = this.guna2GradientButton4;
+            this.guna2GradientButton4.Image = global::Apartment_manager_app.Properties.Resources.id_card;
+            this.guna2GradientButton4.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2GradientButton4.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientButton4.Name = "guna2GradientButton4";
+            this.guna2GradientButton4.ShadowDecoration.Parent = this.guna2GradientButton4;
+            this.guna2GradientButton4.Size = new System.Drawing.Size(88, 86);
+            this.guna2GradientButton4.TabIndex = 22;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -282,6 +361,26 @@
             this.guna2GradientPanel5.Size = new System.Drawing.Size(88, 86);
             this.guna2GradientPanel5.TabIndex = 24;
             // 
+            // guna2GradientButton5
+            // 
+            this.guna2GradientButton5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton5.BorderRadius = 10;
+            this.guna2GradientButton5.CheckedState.Parent = this.guna2GradientButton5;
+            this.guna2GradientButton5.CustomImages.Parent = this.guna2GradientButton5;
+            this.guna2GradientButton5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientButton5.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2GradientButton5.FillColor2 = System.Drawing.Color.SkyBlue;
+            this.guna2GradientButton5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton5.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton5.HoverState.Parent = this.guna2GradientButton5;
+            this.guna2GradientButton5.Image = global::Apartment_manager_app.Properties.Resources.customer_loyalty;
+            this.guna2GradientButton5.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2GradientButton5.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientButton5.Name = "guna2GradientButton5";
+            this.guna2GradientButton5.ShadowDecoration.Parent = this.guna2GradientButton5;
+            this.guna2GradientButton5.Size = new System.Drawing.Size(88, 86);
+            this.guna2GradientButton5.TabIndex = 22;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -295,6 +394,7 @@
             // 
             // panel6
             // 
+            this.panel6.BackColor = System.Drawing.Color.Transparent;
             this.panel6.Controls.Add(this.panel3);
             this.panel6.Controls.Add(this.panel5);
             this.panel6.Controls.Add(this.panel2);
@@ -307,6 +407,7 @@
             // 
             // panel7
             // 
+            this.panel7.BackColor = System.Drawing.Color.Transparent;
             this.panel7.Controls.Add(this.panel8);
             this.panel7.Controls.Add(this.panel9);
             this.panel7.Controls.Add(this.panel10);
@@ -338,6 +439,26 @@
             this.guna2GradientPanel6.ShadowDecoration.Parent = this.guna2GradientPanel6;
             this.guna2GradientPanel6.Size = new System.Drawing.Size(88, 86);
             this.guna2GradientPanel6.TabIndex = 24;
+            // 
+            // guna2GradientButton6
+            // 
+            this.guna2GradientButton6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton6.BorderRadius = 10;
+            this.guna2GradientButton6.CheckedState.Parent = this.guna2GradientButton6;
+            this.guna2GradientButton6.CustomImages.Parent = this.guna2GradientButton6;
+            this.guna2GradientButton6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientButton6.FillColor = System.Drawing.Color.Tomato;
+            this.guna2GradientButton6.FillColor2 = System.Drawing.Color.DarkSalmon;
+            this.guna2GradientButton6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton6.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton6.HoverState.Parent = this.guna2GradientButton6;
+            this.guna2GradientButton6.Image = global::Apartment_manager_app.Properties.Resources.eco_house;
+            this.guna2GradientButton6.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2GradientButton6.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientButton6.Name = "guna2GradientButton6";
+            this.guna2GradientButton6.ShadowDecoration.Parent = this.guna2GradientButton6;
+            this.guna2GradientButton6.Size = new System.Drawing.Size(88, 86);
+            this.guna2GradientButton6.TabIndex = 22;
             // 
             // label7
             // 
@@ -371,6 +492,26 @@
             this.guna2GradientPanel7.Size = new System.Drawing.Size(88, 86);
             this.guna2GradientPanel7.TabIndex = 24;
             // 
+            // guna2GradientButton7
+            // 
+            this.guna2GradientButton7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton7.BorderRadius = 10;
+            this.guna2GradientButton7.CheckedState.Parent = this.guna2GradientButton7;
+            this.guna2GradientButton7.CustomImages.Parent = this.guna2GradientButton7;
+            this.guna2GradientButton7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientButton7.FillColor = System.Drawing.Color.Cyan;
+            this.guna2GradientButton7.FillColor2 = System.Drawing.Color.Transparent;
+            this.guna2GradientButton7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton7.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton7.HoverState.Parent = this.guna2GradientButton7;
+            this.guna2GradientButton7.Image = global::Apartment_manager_app.Properties.Resources.internet_of_things;
+            this.guna2GradientButton7.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2GradientButton7.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientButton7.Name = "guna2GradientButton7";
+            this.guna2GradientButton7.ShadowDecoration.Parent = this.guna2GradientButton7;
+            this.guna2GradientButton7.Size = new System.Drawing.Size(88, 86);
+            this.guna2GradientButton7.TabIndex = 22;
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -402,6 +543,26 @@
             this.guna2GradientPanel8.ShadowDecoration.Parent = this.guna2GradientPanel8;
             this.guna2GradientPanel8.Size = new System.Drawing.Size(88, 86);
             this.guna2GradientPanel8.TabIndex = 24;
+            // 
+            // guna2GradientButton8
+            // 
+            this.guna2GradientButton8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton8.BorderRadius = 10;
+            this.guna2GradientButton8.CheckedState.Parent = this.guna2GradientButton8;
+            this.guna2GradientButton8.CustomImages.Parent = this.guna2GradientButton8;
+            this.guna2GradientButton8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientButton8.FillColor = System.Drawing.Color.DarkSlateBlue;
+            this.guna2GradientButton8.FillColor2 = System.Drawing.Color.MediumSlateBlue;
+            this.guna2GradientButton8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton8.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton8.HoverState.Parent = this.guna2GradientButton8;
+            this.guna2GradientButton8.Image = global::Apartment_manager_app.Properties.Resources.family;
+            this.guna2GradientButton8.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2GradientButton8.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientButton8.Name = "guna2GradientButton8";
+            this.guna2GradientButton8.ShadowDecoration.Parent = this.guna2GradientButton8;
+            this.guna2GradientButton8.Size = new System.Drawing.Size(88, 86);
+            this.guna2GradientButton8.TabIndex = 22;
             // 
             // label9
             // 
@@ -435,6 +596,26 @@
             this.guna2GradientPanel9.Size = new System.Drawing.Size(88, 86);
             this.guna2GradientPanel9.TabIndex = 24;
             // 
+            // guna2GradientButton9
+            // 
+            this.guna2GradientButton9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton9.BorderRadius = 10;
+            this.guna2GradientButton9.CheckedState.Parent = this.guna2GradientButton9;
+            this.guna2GradientButton9.CustomImages.Parent = this.guna2GradientButton9;
+            this.guna2GradientButton9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientButton9.FillColor = System.Drawing.Color.Yellow;
+            this.guna2GradientButton9.FillColor2 = System.Drawing.Color.YellowGreen;
+            this.guna2GradientButton9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton9.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton9.HoverState.Parent = this.guna2GradientButton9;
+            this.guna2GradientButton9.Image = global::Apartment_manager_app.Properties.Resources.water;
+            this.guna2GradientButton9.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2GradientButton9.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientButton9.Name = "guna2GradientButton9";
+            this.guna2GradientButton9.ShadowDecoration.Parent = this.guna2GradientButton9;
+            this.guna2GradientButton9.Size = new System.Drawing.Size(88, 86);
+            this.guna2GradientButton9.TabIndex = 22;
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -466,6 +647,26 @@
             this.guna2GradientPanel10.ShadowDecoration.Parent = this.guna2GradientPanel10;
             this.guna2GradientPanel10.Size = new System.Drawing.Size(88, 86);
             this.guna2GradientPanel10.TabIndex = 24;
+            // 
+            // guna2GradientButton10
+            // 
+            this.guna2GradientButton10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientButton10.BorderRadius = 10;
+            this.guna2GradientButton10.CheckedState.Parent = this.guna2GradientButton10;
+            this.guna2GradientButton10.CustomImages.Parent = this.guna2GradientButton10;
+            this.guna2GradientButton10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientButton10.FillColor = System.Drawing.Color.Fuchsia;
+            this.guna2GradientButton10.FillColor2 = System.Drawing.Color.MediumVioletRed;
+            this.guna2GradientButton10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton10.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton10.HoverState.Parent = this.guna2GradientButton10;
+            this.guna2GradientButton10.Image = global::Apartment_manager_app.Properties.Resources.online_support;
+            this.guna2GradientButton10.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2GradientButton10.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientButton10.Name = "guna2GradientButton10";
+            this.guna2GradientButton10.ShadowDecoration.Parent = this.guna2GradientButton10;
+            this.guna2GradientButton10.Size = new System.Drawing.Size(88, 86);
+            this.guna2GradientButton10.TabIndex = 22;
             // 
             // label11
             // 
@@ -525,206 +726,6 @@
             this.guna2GradientButton11.TabIndex = 34;
             this.guna2GradientButton11.Click += new System.EventHandler(this.btnClose);
             // 
-            // guna2GradientButton6
-            // 
-            this.guna2GradientButton6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton6.BorderRadius = 10;
-            this.guna2GradientButton6.CheckedState.Parent = this.guna2GradientButton6;
-            this.guna2GradientButton6.CustomImages.Parent = this.guna2GradientButton6;
-            this.guna2GradientButton6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientButton6.FillColor = System.Drawing.Color.Tomato;
-            this.guna2GradientButton6.FillColor2 = System.Drawing.Color.DarkSalmon;
-            this.guna2GradientButton6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton6.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton6.HoverState.Parent = this.guna2GradientButton6;
-            this.guna2GradientButton6.Image = global::Apartment_manager_app.Properties.Resources.eco_house;
-            this.guna2GradientButton6.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2GradientButton6.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientButton6.Name = "guna2GradientButton6";
-            this.guna2GradientButton6.ShadowDecoration.Parent = this.guna2GradientButton6;
-            this.guna2GradientButton6.Size = new System.Drawing.Size(88, 86);
-            this.guna2GradientButton6.TabIndex = 22;
-            // 
-            // guna2GradientButton7
-            // 
-            this.guna2GradientButton7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton7.BorderRadius = 10;
-            this.guna2GradientButton7.CheckedState.Parent = this.guna2GradientButton7;
-            this.guna2GradientButton7.CustomImages.Parent = this.guna2GradientButton7;
-            this.guna2GradientButton7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientButton7.FillColor = System.Drawing.Color.Cyan;
-            this.guna2GradientButton7.FillColor2 = System.Drawing.Color.Transparent;
-            this.guna2GradientButton7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton7.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton7.HoverState.Parent = this.guna2GradientButton7;
-            this.guna2GradientButton7.Image = global::Apartment_manager_app.Properties.Resources.internet_of_things;
-            this.guna2GradientButton7.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2GradientButton7.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientButton7.Name = "guna2GradientButton7";
-            this.guna2GradientButton7.ShadowDecoration.Parent = this.guna2GradientButton7;
-            this.guna2GradientButton7.Size = new System.Drawing.Size(88, 86);
-            this.guna2GradientButton7.TabIndex = 22;
-            // 
-            // guna2GradientButton8
-            // 
-            this.guna2GradientButton8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton8.BorderRadius = 10;
-            this.guna2GradientButton8.CheckedState.Parent = this.guna2GradientButton8;
-            this.guna2GradientButton8.CustomImages.Parent = this.guna2GradientButton8;
-            this.guna2GradientButton8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientButton8.FillColor = System.Drawing.Color.DarkSlateBlue;
-            this.guna2GradientButton8.FillColor2 = System.Drawing.Color.MediumSlateBlue;
-            this.guna2GradientButton8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton8.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton8.HoverState.Parent = this.guna2GradientButton8;
-            this.guna2GradientButton8.Image = global::Apartment_manager_app.Properties.Resources.family;
-            this.guna2GradientButton8.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2GradientButton8.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientButton8.Name = "guna2GradientButton8";
-            this.guna2GradientButton8.ShadowDecoration.Parent = this.guna2GradientButton8;
-            this.guna2GradientButton8.Size = new System.Drawing.Size(88, 86);
-            this.guna2GradientButton8.TabIndex = 22;
-            // 
-            // guna2GradientButton9
-            // 
-            this.guna2GradientButton9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton9.BorderRadius = 10;
-            this.guna2GradientButton9.CheckedState.Parent = this.guna2GradientButton9;
-            this.guna2GradientButton9.CustomImages.Parent = this.guna2GradientButton9;
-            this.guna2GradientButton9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientButton9.FillColor = System.Drawing.Color.Yellow;
-            this.guna2GradientButton9.FillColor2 = System.Drawing.Color.YellowGreen;
-            this.guna2GradientButton9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton9.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton9.HoverState.Parent = this.guna2GradientButton9;
-            this.guna2GradientButton9.Image = global::Apartment_manager_app.Properties.Resources.water;
-            this.guna2GradientButton9.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2GradientButton9.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientButton9.Name = "guna2GradientButton9";
-            this.guna2GradientButton9.ShadowDecoration.Parent = this.guna2GradientButton9;
-            this.guna2GradientButton9.Size = new System.Drawing.Size(88, 86);
-            this.guna2GradientButton9.TabIndex = 22;
-            // 
-            // guna2GradientButton10
-            // 
-            this.guna2GradientButton10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton10.BorderRadius = 10;
-            this.guna2GradientButton10.CheckedState.Parent = this.guna2GradientButton10;
-            this.guna2GradientButton10.CustomImages.Parent = this.guna2GradientButton10;
-            this.guna2GradientButton10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientButton10.FillColor = System.Drawing.Color.Fuchsia;
-            this.guna2GradientButton10.FillColor2 = System.Drawing.Color.MediumVioletRed;
-            this.guna2GradientButton10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton10.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton10.HoverState.Parent = this.guna2GradientButton10;
-            this.guna2GradientButton10.Image = global::Apartment_manager_app.Properties.Resources.online_support;
-            this.guna2GradientButton10.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2GradientButton10.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientButton10.Name = "guna2GradientButton10";
-            this.guna2GradientButton10.ShadowDecoration.Parent = this.guna2GradientButton10;
-            this.guna2GradientButton10.Size = new System.Drawing.Size(88, 86);
-            this.guna2GradientButton10.TabIndex = 22;
-            // 
-            // guna2GradientButton3
-            // 
-            this.guna2GradientButton3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton3.BorderRadius = 10;
-            this.guna2GradientButton3.CheckedState.Parent = this.guna2GradientButton3;
-            this.guna2GradientButton3.CustomImages.Parent = this.guna2GradientButton3;
-            this.guna2GradientButton3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientButton3.FillColor = System.Drawing.Color.IndianRed;
-            this.guna2GradientButton3.FillColor2 = System.Drawing.Color.RosyBrown;
-            this.guna2GradientButton3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton3.HoverState.Parent = this.guna2GradientButton3;
-            this.guna2GradientButton3.Image = global::Apartment_manager_app.Properties.Resources.agreement;
-            this.guna2GradientButton3.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2GradientButton3.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientButton3.Name = "guna2GradientButton3";
-            this.guna2GradientButton3.ShadowDecoration.Parent = this.guna2GradientButton3;
-            this.guna2GradientButton3.Size = new System.Drawing.Size(88, 86);
-            this.guna2GradientButton3.TabIndex = 22;
-            // 
-            // guna2GradientButton5
-            // 
-            this.guna2GradientButton5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton5.BorderRadius = 10;
-            this.guna2GradientButton5.CheckedState.Parent = this.guna2GradientButton5;
-            this.guna2GradientButton5.CustomImages.Parent = this.guna2GradientButton5;
-            this.guna2GradientButton5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientButton5.FillColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2GradientButton5.FillColor2 = System.Drawing.Color.SkyBlue;
-            this.guna2GradientButton5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton5.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton5.HoverState.Parent = this.guna2GradientButton5;
-            this.guna2GradientButton5.Image = global::Apartment_manager_app.Properties.Resources.customer_loyalty;
-            this.guna2GradientButton5.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2GradientButton5.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientButton5.Name = "guna2GradientButton5";
-            this.guna2GradientButton5.ShadowDecoration.Parent = this.guna2GradientButton5;
-            this.guna2GradientButton5.Size = new System.Drawing.Size(88, 86);
-            this.guna2GradientButton5.TabIndex = 22;
-            // 
-            // guna2GradientButton2
-            // 
-            this.guna2GradientButton2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton2.BorderRadius = 10;
-            this.guna2GradientButton2.CheckedState.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.CustomImages.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientButton2.FillColor = System.Drawing.Color.DarkOrange;
-            this.guna2GradientButton2.FillColor2 = System.Drawing.Color.Transparent;
-            this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton2.HoverState.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.Image = global::Apartment_manager_app.Properties.Resources.residential;
-            this.guna2GradientButton2.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2GradientButton2.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientButton2.Name = "guna2GradientButton2";
-            this.guna2GradientButton2.ShadowDecoration.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.Size = new System.Drawing.Size(88, 86);
-            this.guna2GradientButton2.TabIndex = 22;
-            // 
-            // guna2GradientButton4
-            // 
-            this.guna2GradientButton4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton4.BorderRadius = 10;
-            this.guna2GradientButton4.CheckedState.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.CustomImages.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientButton4.FillColor = System.Drawing.Color.LawnGreen;
-            this.guna2GradientButton4.FillColor2 = System.Drawing.Color.DarkSeaGreen;
-            this.guna2GradientButton4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton4.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton4.HoverState.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.Image = global::Apartment_manager_app.Properties.Resources.id_card;
-            this.guna2GradientButton4.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2GradientButton4.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientButton4.Name = "guna2GradientButton4";
-            this.guna2GradientButton4.ShadowDecoration.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.Size = new System.Drawing.Size(88, 86);
-            this.guna2GradientButton4.TabIndex = 22;
-            // 
-            // guna2GradientButton1
-            // 
-            this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.BorderRadius = 10;
-            this.guna2GradientButton1.CheckedState.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.CustomImages.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.HoverState.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Image = global::Apartment_manager_app.Properties.Resources.human;
-            this.guna2GradientButton1.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2GradientButton1.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.ShadowDecoration.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Size = new System.Drawing.Size(88, 86);
-            this.guna2GradientButton1.TabIndex = 22;
-            // 
             // guna2TextBox2
             // 
             this.guna2TextBox2.BackColor = System.Drawing.Color.Transparent;
@@ -752,13 +753,20 @@
             this.guna2TextBox2.PlaceholderText = "Search";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Size = new System.Drawing.Size(374, 35);
+            this.guna2TextBox2.Size = new System.Drawing.Size(374, 40);
             this.guna2TextBox2.TabIndex = 23;
             this.guna2TextBox2.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // btnBackforward
             // 
             this.btnBackforward.BackColor = System.Drawing.Color.Transparent;
+            this.btnBackforward.BorderRadius = 9;
             this.btnBackforward.CheckedState.Parent = this.btnBackforward;
             this.btnBackforward.CustomImages.Parent = this.btnBackforward;
             this.btnBackforward.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
@@ -767,36 +775,38 @@
             this.btnBackforward.ForeColor = System.Drawing.Color.White;
             this.btnBackforward.HoverState.Parent = this.btnBackforward;
             this.btnBackforward.Image = global::Apartment_manager_app.Properties.Resources.icons8_left_96px;
-            this.btnBackforward.Location = new System.Drawing.Point(0, -1);
+            this.btnBackforward.ImageOffset = new System.Drawing.Point(0, 7);
+            this.btnBackforward.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnBackforward.Location = new System.Drawing.Point(-6, -16);
             this.btnBackforward.Name = "btnBackforward";
             this.btnBackforward.ShadowDecoration.Parent = this.btnBackforward;
-            this.btnBackforward.Size = new System.Drawing.Size(116, 35);
+            this.btnBackforward.Size = new System.Drawing.Size(127, 50);
             this.btnBackforward.TabIndex = 21;
             this.btnBackforward.Click += new System.EventHandler(this.btnBackforward_Click);
             // 
-            // guna2PictureBox1
+            // guna2GradientButton13
             // 
-            this.guna2PictureBox1.Image = global::Apartment_manager_app.Properties.Resources.search;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(674, 38);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(32, 28);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 34;
-            this.guna2PictureBox1.TabStop = false;
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 1000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.guna2GradientButton13.BorderRadius = 7;
+            this.guna2GradientButton13.CheckedState.Parent = this.guna2GradientButton13;
+            this.guna2GradientButton13.CustomImages.Parent = this.guna2GradientButton13;
+            this.guna2GradientButton13.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2GradientButton13.FillColor2 = System.Drawing.Color.SkyBlue;
+            this.guna2GradientButton13.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2GradientButton13.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton13.HoverState.Parent = this.guna2GradientButton13;
+            this.guna2GradientButton13.Image = global::Apartment_manager_app.Properties.Resources.search;
+            this.guna2GradientButton13.Location = new System.Drawing.Point(674, 31);
+            this.guna2GradientButton13.Name = "guna2GradientButton13";
+            this.guna2GradientButton13.ShadowDecoration.Parent = this.guna2GradientButton13;
+            this.guna2GradientButton13.Size = new System.Drawing.Size(54, 40);
+            this.guna2GradientButton13.TabIndex = 34;
             // 
             // FrmMenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1057, 530);
-            this.Controls.Add(this.guna2PictureBox1);
+            this.Controls.Add(this.guna2GradientButton13);
             this.Controls.Add(this.guna2GradientPanel11);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel6);
@@ -809,6 +819,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmMenu";
             this.Load += new System.EventHandler(this.FrmMenu_Load);
+            this.BackColorChanged += new System.EventHandler(this.FrmMenu_BackColorChanged);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -842,7 +853,6 @@
             this.panel12.PerformLayout();
             this.guna2GradientPanel10.ResumeLayout(false);
             this.guna2GradientPanel11.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -899,7 +909,7 @@
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel11;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton12;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton11;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Timer timer1;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton13;
     }
 }

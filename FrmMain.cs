@@ -44,6 +44,8 @@ namespace Apartment_manager_app
             }
             BtnMenu.Checked = false;
             BtnHome.Checked = true;
+            btnSetting.Checked = false;
+
         }
 
         private void btnApp_Click(object sender, EventArgs e)
@@ -67,6 +69,7 @@ namespace Apartment_manager_app
             }
             BtnHome.Checked = false;
             BtnMenu.Checked = true;    
+            btnSetting.Checked = false;
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
@@ -77,9 +80,14 @@ namespace Apartment_manager_app
         private void FrmMain_Load(object sender, EventArgs e)
         {
             FrmSideMain frm = new FrmSideMain();
+            FrmMenu fmn = new FrmMenu();
+            fmn.MdiParent = this;
+            fmn.Dock = DockStyle.Fill;
             frm.MdiParent = this;
             frm.Dock = DockStyle.Fill;
+            fmn.Show();
             frm.Show();
+            BtnMenu.Checked = false;
             BtnHome.Checked = true;
         }
 
@@ -87,7 +95,7 @@ namespace Apartment_manager_app
         {
             foreach (Form f in this.MdiChildren)
             {
-                
+
                 if (f.Name == "FrmSideMain")
                 {
                     BtnMenu.Checked = false;
@@ -103,6 +111,77 @@ namespace Apartment_manager_app
                     break;
                 }
             }
+        }
+
+        private void btnLogoClick(object sender, EventArgs e)
+        {
+            bool isExits = false;
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "FrmSideMain")
+                {
+                    f.Activate();
+                    isExits = true;
+                    break;
+                }
+            }
+            if (!isExits)
+            {
+                FrmSideMain frm = new FrmSideMain();
+                frm.MdiParent = this.MdiParent;
+                frm.Dock = DockStyle.Fill;
+                frm.Show();
+            }
+        }
+
+        private void eventKey(object sender, KeyPressEventArgs e)
+        {
+            
+        }
+
+        private void keydown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                FrmClose frm = new FrmClose();
+                frm.Show();
+            }
+            else if(e.KeyCode == Keys.H)
+            {
+                FrmMain_Load(sender, e);
+            }
+            else if (e.KeyCode == Keys.A)
+            {
+                btnApp_Click(sender, e);
+            }
+            else if (e.KeyCode == Keys.S)
+            {
+                btnSettingClick(sender, e);
+            }
+        }
+
+        private void btnSettingClick(object sender, EventArgs e)
+        {
+            bool isExits = false;
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "FrmSetting")
+                {
+                    f.Activate();
+                    isExits = true;
+                    break;
+                }
+            }
+            if (!isExits)
+            {
+                FrmSetting frm = new FrmSetting();
+                frm.MdiParent = this;
+                frm.Dock = DockStyle.Fill;
+                frm.Show();
+            }
+            BtnHome.Checked = false;
+            BtnMenu.Checked = false;
+            btnSetting.Checked = true;   
         }
     }
 }
