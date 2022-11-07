@@ -71,10 +71,16 @@ namespace Apartment_manager_app
                 frm.MdiParent = this.MdiParent;
                 frm.Dock = DockStyle.Fill;
                 frm.Show();
+                frm.BackColor = this.BackColor;
             }
             
             
 
+        }
+
+        private void FrmMenu_BackColorChanged(object sender, EventArgs e)
+        {
+            LbDate.ForeColor = System.Drawing.Color.White;
         }
     }
 }

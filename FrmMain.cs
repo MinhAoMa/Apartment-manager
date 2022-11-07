@@ -80,9 +80,14 @@ namespace Apartment_manager_app
         private void FrmMain_Load(object sender, EventArgs e)
         {
             FrmSideMain frm = new FrmSideMain();
+            FrmMenu fmn = new FrmMenu();
+            fmn.MdiParent = this;
+            fmn.Dock = DockStyle.Fill;
             frm.MdiParent = this;
             frm.Dock = DockStyle.Fill;
+            fmn.Show();
             frm.Show();
+            BtnMenu.Checked = false;
             BtnHome.Checked = true;
         }
 

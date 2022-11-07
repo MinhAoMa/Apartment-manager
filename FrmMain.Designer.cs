@@ -37,6 +37,7 @@
             this.btnSetting = new Guna.UI2.WinForms.Guna2Button();
             this.BtnMenu = new Guna.UI2.WinForms.Guna2Button();
             this.BtnHome = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -145,6 +146,10 @@
             this.BtnHome.TabIndex = 4;
             this.BtnHome.Click += new System.EventHandler(this.btnHome_click);
             // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.TargetControl = this.panel1;
+            // 
             // FrmMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -175,5 +180,6 @@
         private Guna.UI2.WinForms.Guna2Button BtnMenu;
         private Guna.UI2.WinForms.Guna2Button BtnHome;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        public Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
     }
 }

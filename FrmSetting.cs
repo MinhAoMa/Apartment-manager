@@ -14,6 +14,7 @@ namespace Apartment_manager_app
     {
         public FrmSetting()
         {
+            
             InitializeComponent();
         }
 
@@ -64,10 +65,14 @@ namespace Apartment_manager_app
         {
             if(ToogleBackGround.Checked == false)
             {
-                this.BackColor = System.Drawing.Color.Black;
+                this.BackColor = System.Drawing.Color.FromArgb(60,60,60);
                 foreach (Form frm in Application.OpenForms)
                 {
-                    frm.BackColor = System.Drawing.Color.Black;
+                    frm.BackColor = System.Drawing.Color.FromArgb(60, 60, 60);
+                    frm.ForeColor = System.Drawing.Color.White;
+                    LbDarkMode.Text = "Tối";
+
+
                 }
             }
             else if(ToogleBackGround.Checked == true)
@@ -76,10 +81,17 @@ namespace Apartment_manager_app
                 //System.Windows.Forms = System.Drawing.Color.White;
                 foreach (Form frm in Application.OpenForms)
                 {
+                    LbDarkMode.Text = "Sáng";
                     frm.BackColor = System.Drawing.Color.White;
+                    frm.ForeColor = System.Drawing.Color.Black;
                 }
 
             }
+        }
+
+        private void FrmSetting_BackColorChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
