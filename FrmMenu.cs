@@ -54,8 +54,7 @@ namespace Apartment_manager_app
         }
 
         private void btnBackforward_Click(object sender, EventArgs e)
-        {
-            
+        {          
             bool isExits = false;
             foreach (Form f in this.MdiChildren)
             {

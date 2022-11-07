@@ -34,7 +34,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSetting = new Guna.UI2.WinForms.Guna2Button();
             this.BtnMenu = new Guna.UI2.WinForms.Guna2Button();
             this.BtnHome = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
@@ -51,7 +51,7 @@
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.guna2PictureBox1);
             this.panel1.Controls.Add(this.guna2Button4);
-            this.panel1.Controls.Add(this.guna2Button3);
+            this.panel1.Controls.Add(this.btnSetting);
             this.panel1.Controls.Add(this.BtnMenu);
             this.panel1.Controls.Add(this.BtnHome);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -70,6 +70,7 @@
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 5;
             this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.Click += new System.EventHandler(this.btnLogoClick);
             // 
             // guna2Button4
             // 
@@ -88,23 +89,23 @@
             this.guna2Button4.Size = new System.Drawing.Size(59, 45);
             this.guna2Button4.TabIndex = 1;
             // 
-            // guna2Button3
+            // btnSetting
             // 
-            this.guna2Button3.CheckedState.Parent = this.guna2Button3;
-            this.guna2Button3.CustomImages.Parent = this.guna2Button3;
-            this.guna2Button3.FillColor = System.Drawing.Color.White;
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.HoverState.Image")));
-            this.guna2Button3.HoverState.Parent = this.guna2Button3;
-            this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
-            this.guna2Button3.ImageSize = new System.Drawing.Size(24, 24);
-            this.guna2Button3.Location = new System.Drawing.Point(7, 260);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
-            this.guna2Button3.Size = new System.Drawing.Size(59, 45);
-            this.guna2Button3.TabIndex = 2;
-            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
+            this.btnSetting.CheckedState.Parent = this.btnSetting;
+            this.btnSetting.CustomImages.Parent = this.btnSetting;
+            this.btnSetting.FillColor = System.Drawing.Color.White;
+            this.btnSetting.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSetting.ForeColor = System.Drawing.Color.White;
+            this.btnSetting.HoverState.Image = global::Apartment_manager_app.Properties.Resources.icons8_settings_96px_2;
+            this.btnSetting.HoverState.Parent = this.btnSetting;
+            this.btnSetting.Image = ((System.Drawing.Image)(resources.GetObject("btnSetting.Image")));
+            this.btnSetting.ImageSize = new System.Drawing.Size(24, 24);
+            this.btnSetting.Location = new System.Drawing.Point(7, 260);
+            this.btnSetting.Name = "btnSetting";
+            this.btnSetting.ShadowDecoration.Parent = this.btnSetting;
+            this.btnSetting.Size = new System.Drawing.Size(59, 45);
+            this.btnSetting.TabIndex = 2;
+            this.btnSetting.Click += new System.EventHandler(this.btnSettingClick);
             // 
             // BtnMenu
             // 
@@ -113,7 +114,8 @@
             this.BtnMenu.FillColor = System.Drawing.Color.White;
             this.BtnMenu.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.BtnMenu.ForeColor = System.Drawing.Color.White;
-            this.BtnMenu.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("BtnMenu.HoverState.Image")));
+            this.BtnMenu.HoverState.FillColor = System.Drawing.Color.White;
+            this.BtnMenu.HoverState.Image = global::Apartment_manager_app.Properties.Resources.icons8_squared_menu_96px;
             this.BtnMenu.HoverState.Parent = this.BtnMenu;
             this.BtnMenu.Image = ((System.Drawing.Image)(resources.GetObject("BtnMenu.Image")));
             this.BtnMenu.ImageSize = new System.Drawing.Size(24, 24);
@@ -131,9 +133,10 @@
             this.BtnHome.FillColor = System.Drawing.Color.White;
             this.BtnHome.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.BtnHome.ForeColor = System.Drawing.Color.White;
-            this.BtnHome.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.HoverState.Image")));
+            this.BtnHome.HoverState.FillColor = System.Drawing.Color.White;
+            this.BtnHome.HoverState.Image = global::Apartment_manager_app.Properties.Resources.icons8_home_96px_31;
             this.BtnHome.HoverState.Parent = this.BtnHome;
-            this.BtnHome.Image = ((System.Drawing.Image)(resources.GetObject("BtnHome.Image")));
+            this.BtnHome.Image = global::Apartment_manager_app.Properties.Resources.icons8_home_24px;
             this.BtnHome.ImageSize = new System.Drawing.Size(24, 24);
             this.BtnHome.Location = new System.Drawing.Point(7, 106);
             this.BtnHome.Name = "BtnHome";
@@ -149,11 +152,14 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
+            this.KeyPreview = true;
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmMain";
             this.Load += new System.EventHandler(this.FrmMain_Load);
             this.MdiChildActivate += new System.EventHandler(this.FrmMain_MdiChildActivate);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keydown);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.eventKey);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -165,7 +171,7 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button btnSetting;
         private Guna.UI2.WinForms.Guna2Button BtnMenu;
         private Guna.UI2.WinForms.Guna2Button BtnHome;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
