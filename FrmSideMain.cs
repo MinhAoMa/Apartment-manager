@@ -34,10 +34,25 @@ namespace Apartment_manager_app
             LbDate.Text = DateTime.Now.ToString();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+
+        private void timer1_Tick_1(object sender, EventArgs e)
         {
-            
             LbDate.Text = DateTime.Now.ToString();
+        }
+
+
+        private void FrmSideMain_BackColorChanged(object sender, EventArgs e)
+        {
+            LbOverview.ForeColor = System.Drawing.Color.White;
+            LbDashboard.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            LbUsername.ForeColor = System.Drawing.Color.White;
+            LbDate.ForeColor = System.Drawing.Color.White;
+            
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
