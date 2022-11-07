@@ -241,5 +241,8 @@
   <ItemGroup>
     <None Include="Resources\icons8_settings_96px_2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vinhomes-golden-river-21.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

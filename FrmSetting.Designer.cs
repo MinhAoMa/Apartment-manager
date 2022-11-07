@@ -28,11 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.btnkeyboard = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.btnLanguage = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -57,94 +52,10 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
             this.guna2GradientPanel3.SuspendLayout();
             this.guna2GradientPanel4.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // guna2GradientPanel1
-            // 
-            this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel1.Controls.Add(this.guna2GradientButton4);
-            this.guna2GradientPanel1.Controls.Add(this.guna2GradientButton3);
-            this.guna2GradientPanel1.Controls.Add(this.btnkeyboard);
-            this.guna2GradientPanel1.Controls.Add(this.btnLanguage);
-            this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(175, 530);
-            this.guna2GradientPanel1.TabIndex = 0;
-            // 
-            // guna2GradientButton4
-            // 
-            this.guna2GradientButton4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton4.CheckedState.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.CustomImages.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
-            this.guna2GradientButton4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
-            this.guna2GradientButton4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton4.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton4.HoverState.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.Location = new System.Drawing.Point(12, 312);
-            this.guna2GradientButton4.Name = "guna2GradientButton4";
-            this.guna2GradientButton4.ShadowDecoration.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.Size = new System.Drawing.Size(143, 35);
-            this.guna2GradientButton4.TabIndex = 23;
-            this.guna2GradientButton4.Text = "Tài khoản";
-            // 
-            // guna2GradientButton3
-            // 
-            this.guna2GradientButton3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton3.CheckedState.Parent = this.guna2GradientButton3;
-            this.guna2GradientButton3.CustomImages.Parent = this.guna2GradientButton3;
-            this.guna2GradientButton3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
-            this.guna2GradientButton3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
-            this.guna2GradientButton3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton3.HoverState.Parent = this.guna2GradientButton3;
-            this.guna2GradientButton3.Location = new System.Drawing.Point(12, 231);
-            this.guna2GradientButton3.Name = "guna2GradientButton3";
-            this.guna2GradientButton3.ShadowDecoration.Parent = this.guna2GradientButton3;
-            this.guna2GradientButton3.Size = new System.Drawing.Size(143, 35);
-            this.guna2GradientButton3.TabIndex = 22;
-            this.guna2GradientButton3.Text = "Chế độ sáng";
-            // 
-            // btnkeyboard
-            // 
-            this.btnkeyboard.BackColor = System.Drawing.Color.Transparent;
-            this.btnkeyboard.CheckedState.Parent = this.btnkeyboard;
-            this.btnkeyboard.CustomImages.Parent = this.btnkeyboard;
-            this.btnkeyboard.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
-            this.btnkeyboard.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
-            this.btnkeyboard.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnkeyboard.ForeColor = System.Drawing.Color.White;
-            this.btnkeyboard.HoverState.Parent = this.btnkeyboard;
-            this.btnkeyboard.Location = new System.Drawing.Point(12, 155);
-            this.btnkeyboard.Name = "btnkeyboard";
-            this.btnkeyboard.ShadowDecoration.Parent = this.btnkeyboard;
-            this.btnkeyboard.Size = new System.Drawing.Size(143, 35);
-            this.btnkeyboard.TabIndex = 22;
-            this.btnkeyboard.Text = "Phím tắt ";
-            this.btnkeyboard.Click += new System.EventHandler(this.btnkeyboard_Click);
-            // 
-            // btnLanguage
-            // 
-            this.btnLanguage.BackColor = System.Drawing.Color.Transparent;
-            this.btnLanguage.CheckedState.Parent = this.btnLanguage;
-            this.btnLanguage.CustomImages.Parent = this.btnLanguage;
-            this.btnLanguage.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
-            this.btnLanguage.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
-            this.btnLanguage.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLanguage.ForeColor = System.Drawing.Color.White;
-            this.btnLanguage.HoverState.Parent = this.btnLanguage;
-            this.btnLanguage.Location = new System.Drawing.Point(12, 78);
-            this.btnLanguage.Name = "btnLanguage";
-            this.btnLanguage.ShadowDecoration.Parent = this.btnLanguage;
-            this.btnLanguage.Size = new System.Drawing.Size(143, 35);
-            this.btnLanguage.TabIndex = 22;
-            this.btnLanguage.Text = "Ngôn ngữ";
             // 
             // label8
             // 
@@ -238,10 +149,10 @@
             this.guna2GradientPanel2.Controls.Add(this.label4);
             this.guna2GradientPanel2.Controls.Add(this.label5);
             this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(795, 0);
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(746, 0);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(262, 530);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(311, 530);
             this.guna2GradientPanel2.TabIndex = 16;
             // 
             // guna2GradientPanel3
@@ -254,10 +165,10 @@
             this.guna2GradientPanel3.Controls.Add(this.guna2CustomRadioButton2);
             this.guna2GradientPanel3.Controls.Add(this.guna2CustomRadioButton1);
             this.guna2GradientPanel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2GradientPanel3.Location = new System.Drawing.Point(175, 0);
+            this.guna2GradientPanel3.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel3.Name = "guna2GradientPanel3";
             this.guna2GradientPanel3.ShadowDecoration.Parent = this.guna2GradientPanel3;
-            this.guna2GradientPanel3.Size = new System.Drawing.Size(221, 530);
+            this.guna2GradientPanel3.Size = new System.Drawing.Size(324, 530);
             this.guna2GradientPanel3.TabIndex = 17;
             // 
             // LbDarkMode
@@ -358,16 +269,17 @@
             this.guna2GradientPanel4.Controls.Add(this.label13);
             this.guna2GradientPanel4.Controls.Add(this.label12);
             this.guna2GradientPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel4.Location = new System.Drawing.Point(396, 0);
+            this.guna2GradientPanel4.Location = new System.Drawing.Point(324, 0);
             this.guna2GradientPanel4.Name = "guna2GradientPanel4";
             this.guna2GradientPanel4.ShadowDecoration.Parent = this.guna2GradientPanel4;
-            this.guna2GradientPanel4.Size = new System.Drawing.Size(399, 530);
+            this.guna2GradientPanel4.Size = new System.Drawing.Size(422, 530);
             this.guna2GradientPanel4.TabIndex = 18;
             this.guna2GradientPanel4.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel4_Paint);
             // 
             // btnChangePass
             // 
             this.btnChangePass.BackColor = System.Drawing.Color.Transparent;
+            this.btnChangePass.BorderRadius = 30;
             this.btnChangePass.CheckedState.Parent = this.btnChangePass;
             this.btnChangePass.CustomImages.Parent = this.btnChangePass;
             this.btnChangePass.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
@@ -378,7 +290,7 @@
             this.btnChangePass.Location = new System.Drawing.Point(35, 180);
             this.btnChangePass.Name = "btnChangePass";
             this.btnChangePass.ShadowDecoration.Parent = this.btnChangePass;
-            this.btnChangePass.Size = new System.Drawing.Size(143, 35);
+            this.btnChangePass.Size = new System.Drawing.Size(157, 54);
             this.btnChangePass.TabIndex = 23;
             this.btnChangePass.Text = "Đổi mật khẩu";
             this.btnChangePass.Click += new System.EventHandler(this.btnChangePass_Click);
@@ -450,13 +362,11 @@
             this.Controls.Add(this.guna2GradientPanel4);
             this.Controls.Add(this.guna2GradientPanel3);
             this.Controls.Add(this.guna2GradientPanel2);
-            this.Controls.Add(this.guna2GradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmSetting";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmSetting";
             this.BackColorChanged += new System.EventHandler(this.FrmSetting_BackColorChanged);
-            this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel2.ResumeLayout(false);
             this.guna2GradientPanel2.PerformLayout();
             this.guna2GradientPanel3.ResumeLayout(false);
@@ -468,12 +378,6 @@
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton4;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton3;
-        private Guna.UI2.WinForms.Guna2GradientButton btnkeyboard;
-        private Guna.UI2.WinForms.Guna2GradientButton btnLanguage;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
