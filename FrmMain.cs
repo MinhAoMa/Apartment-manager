@@ -88,30 +88,9 @@ namespace Apartment_manager_app
             fmn.Show();
             frm.Show();
             BtnMenu.Checked = false;
-            BtnHome.Checked = true;
+            BtnHome.Checked = true; 
         }
 
-        private void FrmMain_MdiChildActivate(object sender, EventArgs e)
-        {
-            foreach (Form f in this.MdiChildren)
-            {
-
-                if (f.Name == "FrmSideMain")
-                {
-                    BtnMenu.Checked = false;
-                    BtnHome.Checked = true;
-                    f.Show();
-                    break;
-                }
-                if (f.Name == "FrmMenu")
-                {
-                    BtnHome.Checked = false;
-                    BtnMenu.Checked = true;
-                    f.Show();
-                    break;
-                }
-            }
-        }
 
         private void btnLogoClick(object sender, EventArgs e)
         {
@@ -132,6 +111,9 @@ namespace Apartment_manager_app
                 frm.Dock = DockStyle.Fill;
                 frm.Show();
             }
+            BtnMenu.Checked = false;
+            BtnHome.Checked = true;
+            btnSetting.Checked = false;
         }
 
         private void eventKey(object sender, KeyPressEventArgs e)
@@ -146,15 +128,15 @@ namespace Apartment_manager_app
                 FrmClose frm = new FrmClose();
                 frm.Show();
             }
-            else if(e.KeyCode == Keys.H)
+            else if(e.KeyCode ==  Keys.F1)
             {
                 FrmMain_Load(sender, e);
             }
-            else if (e.KeyCode == Keys.A)
+            else if (e.KeyCode == Keys.F2)
             {
                 btnApp_Click(sender, e);
             }
-            else if (e.KeyCode == Keys.S)
+            else if (e.KeyCode == Keys.F3)
             {
                 btnSettingClick(sender, e);
             }

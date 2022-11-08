@@ -16,5 +16,15 @@ namespace Apartment_manager_app
         {
             InitializeComponent();
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void guna2VSeparator2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

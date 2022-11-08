@@ -63,9 +63,9 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(198, 181);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(18, 17);
+            this.label8.Size = new System.Drawing.Size(26, 17);
             this.label8.TabIndex = 15;
-            this.label8.Text = "S";
+            this.label8.Text = "F3";
             // 
             // label7
             // 
@@ -83,9 +83,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(199, 134);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(18, 17);
+            this.label6.Size = new System.Drawing.Size(26, 17);
             this.label6.TabIndex = 13;
-            this.label6.Text = "A";
+            this.label6.Text = "F2";
             // 
             // label5
             // 
@@ -103,9 +103,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(198, 89);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(19, 17);
+            this.label4.Size = new System.Drawing.Size(26, 17);
             this.label4.TabIndex = 11;
-            this.label4.Text = "H";
+            this.label4.Text = "F1";
             // 
             // label3
             // 

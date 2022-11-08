@@ -36,10 +36,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2GradientPanel11 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2GradientButton12 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnExit = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnkeyboard = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2GradientButton12 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton11 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
+            this.guna2VSeparator2 = new Guna.UI2.WinForms.Guna2VSeparator();
             this.guna2GradientPanel11.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -170,36 +172,13 @@
             // 
             this.guna2GradientPanel11.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel11.Controls.Add(this.guna2GradientButton12);
-            this.guna2GradientPanel11.Controls.Add(this.guna2GradientButton11);
-            this.guna2GradientPanel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2GradientPanel11.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientPanel11.Controls.Add(this.btnExit);
+            this.guna2GradientPanel11.Location = new System.Drawing.Point(383, 0);
             this.guna2GradientPanel11.Margin = new System.Windows.Forms.Padding(2);
             this.guna2GradientPanel11.Name = "guna2GradientPanel11";
             this.guna2GradientPanel11.ShadowDecoration.Parent = this.guna2GradientPanel11;
-            this.guna2GradientPanel11.Size = new System.Drawing.Size(508, 23);
+            this.guna2GradientPanel11.Size = new System.Drawing.Size(114, 23);
             this.guna2GradientPanel11.TabIndex = 34;
-            // 
-            // btnkeyboard
-            // 
-            this.btnkeyboard.BackColor = System.Drawing.Color.Transparent;
-            this.btnkeyboard.CheckedState.Parent = this.btnkeyboard;
-            this.btnkeyboard.CustomImages.Parent = this.btnkeyboard;
-            this.btnkeyboard.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
-            this.btnkeyboard.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
-            this.btnkeyboard.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnkeyboard.ForeColor = System.Drawing.Color.White;
-            this.btnkeyboard.HoverState.Parent = this.btnkeyboard;
-            this.btnkeyboard.Location = new System.Drawing.Point(181, 163);
-            this.btnkeyboard.Margin = new System.Windows.Forms.Padding(2);
-            this.btnkeyboard.Name = "btnkeyboard";
-            this.btnkeyboard.ShadowDecoration.Parent = this.btnkeyboard;
-            this.btnkeyboard.Size = new System.Drawing.Size(138, 34);
-            this.btnkeyboard.TabIndex = 35;
-            this.btnkeyboard.Text = "Đổi";
-            // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.TargetControl = this;
             // 
             // guna2GradientButton12
             // 
@@ -213,38 +192,80 @@
             this.guna2GradientButton12.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton12.HoverState.Parent = this.guna2GradientButton12;
             this.guna2GradientButton12.Image = global::Apartment_manager_app.Properties.Resources.icons8_minus_96px;
-            this.guna2GradientButton12.Location = new System.Drawing.Point(436, 0);
+            this.guna2GradientButton12.Location = new System.Drawing.Point(42, 0);
             this.guna2GradientButton12.Margin = new System.Windows.Forms.Padding(2);
             this.guna2GradientButton12.Name = "guna2GradientButton12";
             this.guna2GradientButton12.ShadowDecoration.Parent = this.guna2GradientButton12;
             this.guna2GradientButton12.Size = new System.Drawing.Size(36, 23);
             this.guna2GradientButton12.TabIndex = 35;
             // 
-            // guna2GradientButton11
+            // btnExit
             // 
-            this.guna2GradientButton11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton11.CheckedState.Parent = this.guna2GradientButton11;
-            this.guna2GradientButton11.CustomImages.Parent = this.guna2GradientButton11;
-            this.guna2GradientButton11.Dock = System.Windows.Forms.DockStyle.Right;
-            this.guna2GradientButton11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
-            this.guna2GradientButton11.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
-            this.guna2GradientButton11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton11.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton11.HoverState.Parent = this.guna2GradientButton11;
-            this.guna2GradientButton11.Image = global::Apartment_manager_app.Properties.Resources.error__1_;
-            this.guna2GradientButton11.Location = new System.Drawing.Point(472, 0);
-            this.guna2GradientButton11.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2GradientButton11.Name = "guna2GradientButton11";
-            this.guna2GradientButton11.ShadowDecoration.Parent = this.guna2GradientButton11;
-            this.guna2GradientButton11.Size = new System.Drawing.Size(36, 23);
-            this.guna2GradientButton11.TabIndex = 34;
+            this.btnExit.BackColor = System.Drawing.Color.Transparent;
+            this.btnExit.CheckedState.Parent = this.btnExit;
+            this.btnExit.CustomImages.Parent = this.btnExit;
+            this.btnExit.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnExit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
+            this.btnExit.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
+            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.ForeColor = System.Drawing.Color.White;
+            this.btnExit.HoverState.Parent = this.btnExit;
+            this.btnExit.Image = global::Apartment_manager_app.Properties.Resources.error__1_;
+            this.btnExit.Location = new System.Drawing.Point(78, 0);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.ShadowDecoration.Parent = this.btnExit;
+            this.btnExit.Size = new System.Drawing.Size(36, 23);
+            this.btnExit.TabIndex = 34;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnkeyboard
+            // 
+            this.btnkeyboard.BackColor = System.Drawing.Color.Transparent;
+            this.btnkeyboard.CheckedState.Parent = this.btnkeyboard;
+            this.btnkeyboard.CustomImages.Parent = this.btnkeyboard;
+            this.btnkeyboard.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
+            this.btnkeyboard.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
+            this.btnkeyboard.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnkeyboard.ForeColor = System.Drawing.Color.White;
+            this.btnkeyboard.HoverState.Parent = this.btnkeyboard;
+            this.btnkeyboard.Location = new System.Drawing.Point(171, 160);
+            this.btnkeyboard.Margin = new System.Windows.Forms.Padding(2);
+            this.btnkeyboard.Name = "btnkeyboard";
+            this.btnkeyboard.ShadowDecoration.Parent = this.btnkeyboard;
+            this.btnkeyboard.Size = new System.Drawing.Size(138, 34);
+            this.btnkeyboard.TabIndex = 35;
+            this.btnkeyboard.Text = "Đổi";
+            // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.TargetControl = this;
+            // 
+            // guna2VSeparator1
+            // 
+            this.guna2VSeparator1.FillThickness = 3;
+            this.guna2VSeparator1.Location = new System.Drawing.Point(497, 0);
+            this.guna2VSeparator1.Name = "guna2VSeparator1";
+            this.guna2VSeparator1.Size = new System.Drawing.Size(10, 204);
+            this.guna2VSeparator1.TabIndex = 36;
+            // 
+            // guna2VSeparator2
+            // 
+            this.guna2VSeparator2.FillThickness = 3;
+            this.guna2VSeparator2.Location = new System.Drawing.Point(-1, 0);
+            this.guna2VSeparator2.Name = "guna2VSeparator2";
+            this.guna2VSeparator2.Size = new System.Drawing.Size(10, 204);
+            this.guna2VSeparator2.TabIndex = 37;
+            this.guna2VSeparator2.Click += new System.EventHandler(this.guna2VSeparator2_Click);
             // 
             // FrmChangePassword
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(508, 205);
+            this.Controls.Add(this.guna2VSeparator2);
+            this.Controls.Add(this.guna2VSeparator1);
             this.Controls.Add(this.btnkeyboard);
             this.Controls.Add(this.guna2GradientPanel11);
             this.Controls.Add(this.guna2TextBox3);
@@ -274,8 +295,10 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel11;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton12;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton11;
+        private Guna.UI2.WinForms.Guna2GradientButton btnExit;
         private Guna.UI2.WinForms.Guna2GradientButton btnkeyboard;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
+        private Guna.UI2.WinForms.Guna2VSeparator guna2VSeparator2;
+        private Guna.UI2.WinForms.Guna2VSeparator guna2VSeparator1;
     }
 }
