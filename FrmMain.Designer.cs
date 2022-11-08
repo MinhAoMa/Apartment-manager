@@ -162,7 +162,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmMain";
             this.Load += new System.EventHandler(this.FrmMain_Load);
-            this.MdiChildActivate += new System.EventHandler(this.FrmMain_MdiChildActivate);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keydown);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.eventKey);
             this.panel1.ResumeLayout(false);
