@@ -55,3 +55,22 @@ D:\last clone\Apartment-manager\obj\Debug\Apartment manager app.csproj.CopyCompl
 D:\last clone\Apartment-manager\obj\Debug\Apartment manager app.exe
 D:\last clone\Apartment-manager\obj\Debug\Apartment manager app.pdb
 D:\last clone\Apartment-manager\obj\Debug\Apartment_manager_app.FrmPerson.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\bin\Debug\Apartment manager app.exe.config
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\bin\Debug\Apartment manager app.exe
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\bin\Debug\Apartment manager app.pdb
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment manager app.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment manager app.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmChangePassword.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmClose.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmLogin.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmMain.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmMenu.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmPerson.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmSetting.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmSideMain.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.Properties.Resources.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment manager app.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment manager app.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment manager app.csproj.CopyComplete
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment manager app.exe
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment manager app.pdb

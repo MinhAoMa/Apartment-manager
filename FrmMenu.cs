@@ -54,33 +54,26 @@ namespace Apartment_manager_app
         }
 
         private void btnBackforward_Click(object sender, EventArgs e)
-        {          
-            bool isExits = false;
-            foreach (Form f in this.MdiChildren)
-            {
-                if (f.Name == "FrmSideMain")
-                {
-                    f.Activate();
-                    isExits = true;
-                    break;
-                }
-            }
-            if (!isExits)
-            {
-                FrmSideMain frm = new FrmSideMain();
-                frm.MdiParent = this.MdiParent;
-                frm.Dock = DockStyle.Fill;
-                frm.Show();
-                frm.BackColor = this.BackColor;
-            }
-            
-            
+        {
+            FrmSideMain frm = new FrmSideMain();
+            frm.MdiParent = this.MdiParent;
+            frm.Dock = DockStyle.Fill;
+            frm.Show();
+            frm.BackColor = this.BackColor;
 
         }
 
         private void FrmMenu_BackColorChanged(object sender, EventArgs e)
         {
-            LbDate.ForeColor = System.Drawing.Color.White;
+            if (this.BackColor == Color.FromArgb(60, 60, 60))
+            {
+                LbDate.ForeColor = System.Drawing.Color.White;
+            }
+            else
+            {
+                LbDate.ForeColor = System.Drawing.Color.Black;
+            }
+            
         }
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)

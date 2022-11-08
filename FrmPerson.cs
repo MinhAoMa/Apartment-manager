@@ -17,11 +17,6 @@ namespace Apartment_manager_app
             InitializeComponent();
         }
 
-        private void btnbackmenu_Click(object sender, EventArgs e)
-        {
-            this.Close();          
-        }
-
         private void FrmPerson_Load(object sender, EventArgs e)
         {
             ContainerData.Hide();
@@ -36,6 +31,11 @@ namespace Apartment_manager_app
         private void guna2ComboBox1_MouseHover(object sender, EventArgs e)
         {
             guna2HtmlToolTip1.SetToolTip(cbbOption,"Click vào đề xem");
+        }
+
+        private void btnBacktomenu_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -113,7 +113,7 @@
             this.LbDate.ForeColor = System.Drawing.Color.Gray;
             this.LbDate.Location = new System.Drawing.Point(769, 52);
             this.LbDate.Name = "LbDate";
-            this.LbDate.Size = new System.Drawing.Size(223, 23);
+            this.LbDate.Size = new System.Drawing.Size(163, 19);
             this.LbDate.TabIndex = 8;
             this.LbDate.Text = "15:46 5 tháng 11, 2022";
             // 
@@ -157,7 +157,7 @@
             this.label1.Font = new System.Drawing.Font("Asap", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(36, 101);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 30);
+            this.label1.Size = new System.Drawing.Size(54, 20);
             this.label1.TabIndex = 25;
             this.label1.Text = "Dân cư";
             // 
@@ -230,7 +230,7 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(31, 100);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 31);
+            this.label3.Size = new System.Drawing.Size(57, 20);
             this.label3.TabIndex = 25;
             this.label3.Text = "Căn hộ";
             // 
@@ -282,7 +282,7 @@
             this.label4.Font = new System.Drawing.Font("Asap", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(26, 98);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(114, 30);
+            this.label4.Size = new System.Drawing.Size(75, 20);
             this.label4.TabIndex = 25;
             this.label4.Text = "Hợp đồng";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -335,7 +335,7 @@
             this.label5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(22, 96);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(123, 31);
+            this.label5.Size = new System.Drawing.Size(80, 20);
             this.label5.TabIndex = 25;
             this.label5.Text = "Nhân viên";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -388,7 +388,7 @@
             this.label6.Font = new System.Drawing.Font("Asap", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(20, 100);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(134, 30);
+            this.label6.Size = new System.Drawing.Size(85, 20);
             this.label6.TabIndex = 25;
             this.label6.Text = "Khách hàng";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -467,7 +467,7 @@
             this.label7.Font = new System.Drawing.Font("Asap", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(43, 99);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(60, 30);
+            this.label7.Size = new System.Drawing.Size(39, 20);
             this.label7.TabIndex = 25;
             this.label7.Text = "Điện";
             // 
@@ -519,7 +519,7 @@
             this.label8.Font = new System.Drawing.Font("Asap", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(20, 100);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(136, 30);
+            this.label8.Size = new System.Drawing.Size(88, 20);
             this.label8.TabIndex = 25;
             this.label8.Text = "Phương tiện";
             // 
@@ -571,7 +571,7 @@
             this.label9.Font = new System.Drawing.Font("Asap", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(20, 99);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(132, 30);
+            this.label9.Size = new System.Drawing.Size(85, 20);
             this.label9.TabIndex = 25;
             this.label9.Text = "Hộ gia đình";
             // 
@@ -623,7 +623,7 @@
             this.label10.Font = new System.Drawing.Font("Asap", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(40, 100);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(67, 30);
+            this.label10.Size = new System.Drawing.Size(44, 20);
             this.label10.TabIndex = 25;
             this.label10.Text = "Nước";
             // 
@@ -675,7 +675,7 @@
             this.label11.Font = new System.Drawing.Font("Asap", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(32, 101);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(89, 30);
+            this.label11.Size = new System.Drawing.Size(57, 20);
             this.label11.TabIndex = 25;
             this.label11.Text = "Dịch vụ";
             // 
@@ -795,7 +795,7 @@
             this.btnBackforward.Image = global::Apartment_manager_app.Properties.Resources.icons8_left_96px;
             this.btnBackforward.ImageOffset = new System.Drawing.Point(0, 7);
             this.btnBackforward.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnBackforward.Location = new System.Drawing.Point(-6, -16);
+            this.btnBackforward.Location = new System.Drawing.Point(-4, -16);
             this.btnBackforward.Name = "btnBackforward";
             this.btnBackforward.ShadowDecoration.Parent = this.btnBackforward;
             this.btnBackforward.Size = new System.Drawing.Size(127, 50);
