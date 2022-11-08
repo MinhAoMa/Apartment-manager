@@ -82,5 +82,27 @@ namespace Apartment_manager_app
         {
             LbDate.ForeColor = System.Drawing.Color.White;
         }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+            bool isExits = false;
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "FrmPerson")
+                {
+                    f.Activate();
+                    isExits = true;
+                    break;
+                }
+            }
+            if (!isExits)
+            {
+                FrmPerson frm = new FrmPerson();
+                frm.MdiParent = this.MdiParent;
+                frm.Dock = DockStyle.Fill;
+                frm.Show();
+                frm.BackColor = this.BackColor;
+            }
+        }
     }
 }

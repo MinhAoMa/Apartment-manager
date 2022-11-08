@@ -87,6 +87,12 @@
     <Compile Include="FrmMenu.Designer.cs">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPerson.Designer.cs">
+      <DependentUpon>FrmPerson.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmSetting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPerson.resx">
+      <DependentUpon>FrmPerson.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSetting.resx">
       <DependentUpon>FrmSetting.cs</DependentUpon>
@@ -243,6 +252,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\vinhomes-golden-river-21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_left_96px1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
