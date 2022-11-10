@@ -70,18 +70,20 @@
             // 
             // guna2GradientButton5
             // 
+            resources.ApplyResources(this.guna2GradientButton5, "guna2GradientButton5");
             this.guna2GradientButton5.CheckedState.Parent = this.guna2GradientButton5;
             this.guna2GradientButton5.CustomImages.Parent = this.guna2GradientButton5;
             this.guna2GradientButton5.FillColor = System.Drawing.Color.DeepSkyBlue;
             this.guna2GradientButton5.FillColor2 = System.Drawing.Color.SkyBlue;
-            resources.ApplyResources(this.guna2GradientButton5, "guna2GradientButton5");
             this.guna2GradientButton5.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton5.HoverState.Parent = this.guna2GradientButton5;
             this.guna2GradientButton5.Name = "guna2GradientButton5";
             this.guna2GradientButton5.ShadowDecoration.Parent = this.guna2GradientButton5;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2GradientButton5, resources.GetString("guna2GradientButton5.ToolTip"));
             // 
             // guna2TextBox1
             // 
+            resources.ApplyResources(this.guna2TextBox1, "guna2TextBox1");
             this.guna2TextBox1.BorderColor = System.Drawing.Color.Silver;
             this.guna2TextBox1.BorderThickness = 3;
             this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -95,71 +97,76 @@
             this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            resources.ApplyResources(this.guna2TextBox1, "guna2TextBox1");
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2TextBox1, resources.GetString("guna2TextBox1.ToolTip"));
             // 
             // guna2GradientButton4
             // 
+            resources.ApplyResources(this.guna2GradientButton4, "guna2GradientButton4");
             this.guna2GradientButton4.BorderRadius = 10;
             this.guna2GradientButton4.CheckedState.Parent = this.guna2GradientButton4;
             this.guna2GradientButton4.CustomImages.Parent = this.guna2GradientButton4;
             this.guna2GradientButton4.FillColor = System.Drawing.Color.DeepSkyBlue;
             this.guna2GradientButton4.FillColor2 = System.Drawing.Color.SkyBlue;
-            resources.ApplyResources(this.guna2GradientButton4, "guna2GradientButton4");
             this.guna2GradientButton4.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton4.HoverState.Parent = this.guna2GradientButton4;
             this.guna2GradientButton4.Name = "guna2GradientButton4";
             this.guna2GradientButton4.ShadowDecoration.Parent = this.guna2GradientButton4;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2GradientButton4, resources.GetString("guna2GradientButton4.ToolTip"));
             // 
             // guna2GradientButton3
             // 
+            resources.ApplyResources(this.guna2GradientButton3, "guna2GradientButton3");
             this.guna2GradientButton3.BorderRadius = 10;
             this.guna2GradientButton3.CheckedState.Parent = this.guna2GradientButton3;
             this.guna2GradientButton3.CustomImages.Parent = this.guna2GradientButton3;
             this.guna2GradientButton3.FillColor = System.Drawing.Color.DeepSkyBlue;
             this.guna2GradientButton3.FillColor2 = System.Drawing.Color.SkyBlue;
-            resources.ApplyResources(this.guna2GradientButton3, "guna2GradientButton3");
             this.guna2GradientButton3.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton3.HoverState.Parent = this.guna2GradientButton3;
             this.guna2GradientButton3.Name = "guna2GradientButton3";
             this.guna2GradientButton3.ShadowDecoration.Parent = this.guna2GradientButton3;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2GradientButton3, resources.GetString("guna2GradientButton3.ToolTip"));
             // 
             // guna2GradientButton2
             // 
+            resources.ApplyResources(this.guna2GradientButton2, "guna2GradientButton2");
             this.guna2GradientButton2.BorderRadius = 10;
             this.guna2GradientButton2.CheckedState.Parent = this.guna2GradientButton2;
             this.guna2GradientButton2.CustomImages.Parent = this.guna2GradientButton2;
             this.guna2GradientButton2.FillColor = System.Drawing.Color.DeepSkyBlue;
             this.guna2GradientButton2.FillColor2 = System.Drawing.Color.SkyBlue;
-            resources.ApplyResources(this.guna2GradientButton2, "guna2GradientButton2");
             this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton2.HoverState.Parent = this.guna2GradientButton2;
             this.guna2GradientButton2.Name = "guna2GradientButton2";
             this.guna2GradientButton2.ShadowDecoration.Parent = this.guna2GradientButton2;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2GradientButton2, resources.GetString("guna2GradientButton2.ToolTip"));
             // 
             // BtnCreateNew
             // 
+            resources.ApplyResources(this.BtnCreateNew, "BtnCreateNew");
             this.BtnCreateNew.BackColor = System.Drawing.Color.Transparent;
             this.BtnCreateNew.BorderRadius = 10;
             this.BtnCreateNew.CheckedState.Parent = this.BtnCreateNew;
             this.BtnCreateNew.CustomImages.Parent = this.BtnCreateNew;
             this.BtnCreateNew.FillColor = System.Drawing.Color.DeepSkyBlue;
             this.BtnCreateNew.FillColor2 = System.Drawing.Color.SkyBlue;
-            resources.ApplyResources(this.BtnCreateNew, "BtnCreateNew");
             this.BtnCreateNew.ForeColor = System.Drawing.Color.White;
             this.BtnCreateNew.HoverState.Parent = this.BtnCreateNew;
             this.BtnCreateNew.Name = "BtnCreateNew";
             this.BtnCreateNew.ShadowDecoration.Color = System.Drawing.Color.DimGray;
             this.BtnCreateNew.ShadowDecoration.Depth = 50;
             this.BtnCreateNew.ShadowDecoration.Parent = this.BtnCreateNew;
+            this.guna2HtmlToolTip1.SetToolTip(this.BtnCreateNew, resources.GetString("BtnCreateNew.ToolTip"));
             this.BtnCreateNew.Click += new System.EventHandler(this.BtnCreateNew_Click);
             // 
             // ContainerData
             // 
+            resources.ApplyResources(this.ContainerData, "ContainerData");
             this.ContainerData.Controls.Add(this.guna2TextBox5);
             this.ContainerData.Controls.Add(this.guna2TextBox6);
             this.ContainerData.Controls.Add(this.guna2TextBox7);
@@ -172,12 +179,13 @@
             this.ContainerData.Controls.Add(this.label3);
             this.ContainerData.Controls.Add(this.label2);
             this.ContainerData.Controls.Add(this.label1);
-            resources.ApplyResources(this.ContainerData, "ContainerData");
             this.ContainerData.Name = "ContainerData";
             this.ContainerData.ShadowDecoration.Parent = this.ContainerData;
+            this.guna2HtmlToolTip1.SetToolTip(this.ContainerData, resources.GetString("ContainerData.ToolTip"));
             // 
             // guna2TextBox5
             // 
+            resources.ApplyResources(this.guna2TextBox5, "guna2TextBox5");
             this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox5.DefaultText = "";
             this.guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -189,15 +197,16 @@
             this.guna2TextBox5.FocusedState.Parent = this.guna2TextBox5;
             this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox5.HoverState.Parent = this.guna2TextBox5;
-            resources.ApplyResources(this.guna2TextBox5, "guna2TextBox5");
             this.guna2TextBox5.Name = "guna2TextBox5";
             this.guna2TextBox5.PasswordChar = '\0';
             this.guna2TextBox5.PlaceholderText = "";
             this.guna2TextBox5.SelectedText = "";
             this.guna2TextBox5.ShadowDecoration.Parent = this.guna2TextBox5;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2TextBox5, resources.GetString("guna2TextBox5.ToolTip"));
             // 
             // guna2TextBox6
             // 
+            resources.ApplyResources(this.guna2TextBox6, "guna2TextBox6");
             this.guna2TextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox6.DefaultText = "";
             this.guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -209,15 +218,16 @@
             this.guna2TextBox6.FocusedState.Parent = this.guna2TextBox6;
             this.guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox6.HoverState.Parent = this.guna2TextBox6;
-            resources.ApplyResources(this.guna2TextBox6, "guna2TextBox6");
             this.guna2TextBox6.Name = "guna2TextBox6";
             this.guna2TextBox6.PasswordChar = '\0';
             this.guna2TextBox6.PlaceholderText = "";
             this.guna2TextBox6.SelectedText = "";
             this.guna2TextBox6.ShadowDecoration.Parent = this.guna2TextBox6;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2TextBox6, resources.GetString("guna2TextBox6.ToolTip"));
             // 
             // guna2TextBox7
             // 
+            resources.ApplyResources(this.guna2TextBox7, "guna2TextBox7");
             this.guna2TextBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox7.DefaultText = "";
             this.guna2TextBox7.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -229,30 +239,34 @@
             this.guna2TextBox7.FocusedState.Parent = this.guna2TextBox7;
             this.guna2TextBox7.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox7.HoverState.Parent = this.guna2TextBox7;
-            resources.ApplyResources(this.guna2TextBox7, "guna2TextBox7");
             this.guna2TextBox7.Name = "guna2TextBox7";
             this.guna2TextBox7.PasswordChar = '\0';
             this.guna2TextBox7.PlaceholderText = "";
             this.guna2TextBox7.SelectedText = "";
             this.guna2TextBox7.ShadowDecoration.Parent = this.guna2TextBox7;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2TextBox7, resources.GetString("guna2TextBox7.ToolTip"));
             // 
             // label4
             // 
             resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
+            this.guna2HtmlToolTip1.SetToolTip(this.label4, resources.GetString("label4.ToolTip"));
             // 
             // label5
             // 
             resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
+            this.guna2HtmlToolTip1.SetToolTip(this.label5, resources.GetString("label5.ToolTip"));
             // 
             // label6
             // 
             resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
+            this.guna2HtmlToolTip1.SetToolTip(this.label6, resources.GetString("label6.ToolTip"));
             // 
             // guna2TextBox4
             // 
+            resources.ApplyResources(this.guna2TextBox4, "guna2TextBox4");
             this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox4.DefaultText = "";
             this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -264,15 +278,16 @@
             this.guna2TextBox4.FocusedState.Parent = this.guna2TextBox4;
             this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox4.HoverState.Parent = this.guna2TextBox4;
-            resources.ApplyResources(this.guna2TextBox4, "guna2TextBox4");
             this.guna2TextBox4.Name = "guna2TextBox4";
             this.guna2TextBox4.PasswordChar = '\0';
             this.guna2TextBox4.PlaceholderText = "";
             this.guna2TextBox4.SelectedText = "";
             this.guna2TextBox4.ShadowDecoration.Parent = this.guna2TextBox4;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2TextBox4, resources.GetString("guna2TextBox4.ToolTip"));
             // 
             // guna2TextBox3
             // 
+            resources.ApplyResources(this.guna2TextBox3, "guna2TextBox3");
             this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox3.DefaultText = "";
             this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -284,15 +299,16 @@
             this.guna2TextBox3.FocusedState.Parent = this.guna2TextBox3;
             this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox3.HoverState.Parent = this.guna2TextBox3;
-            resources.ApplyResources(this.guna2TextBox3, "guna2TextBox3");
             this.guna2TextBox3.Name = "guna2TextBox3";
             this.guna2TextBox3.PasswordChar = '\0';
             this.guna2TextBox3.PlaceholderText = "";
             this.guna2TextBox3.SelectedText = "";
             this.guna2TextBox3.ShadowDecoration.Parent = this.guna2TextBox3;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2TextBox3, resources.GetString("guna2TextBox3.ToolTip"));
             // 
             // guna2TextBox2
             // 
+            resources.ApplyResources(this.guna2TextBox2, "guna2TextBox2");
             this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox2.DefaultText = "";
             this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -304,48 +320,54 @@
             this.guna2TextBox2.FocusedState.Parent = this.guna2TextBox2;
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
-            resources.ApplyResources(this.guna2TextBox2, "guna2TextBox2");
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2TextBox2, resources.GetString("guna2TextBox2.ToolTip"));
             // 
             // label3
             // 
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
+            this.guna2HtmlToolTip1.SetToolTip(this.label3, resources.GetString("label3.ToolTip"));
             // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
+            this.guna2HtmlToolTip1.SetToolTip(this.label2, resources.GetString("label2.ToolTip"));
             // 
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
+            this.guna2HtmlToolTip1.SetToolTip(this.label1, resources.GetString("label1.ToolTip"));
             // 
             // guna2GradientPanel1
             // 
-            this.guna2GradientPanel1.Controls.Add(this.guna2GroupBox1);
             resources.ApplyResources(this.guna2GradientPanel1, "guna2GradientPanel1");
+            this.guna2GradientPanel1.Controls.Add(this.guna2GroupBox1);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2GradientPanel1, resources.GetString("guna2GradientPanel1.ToolTip"));
             // 
             // guna2GroupBox1
             // 
+            resources.ApplyResources(this.guna2GroupBox1, "guna2GroupBox1");
             this.guna2GroupBox1.BorderColor = System.Drawing.Color.Silver;
             this.guna2GroupBox1.Controls.Add(this.guna2DataGridView1);
             this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.guna2GroupBox1, "guna2GroupBox1");
             this.guna2GroupBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2GroupBox1.Name = "guna2GroupBox1";
             this.guna2GroupBox1.ShadowDecoration.Parent = this.guna2GroupBox1;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2GroupBox1, resources.GetString("guna2GroupBox1.ToolTip"));
             // 
             // guna2DataGridView1
             // 
+            resources.ApplyResources(this.guna2DataGridView1, "guna2DataGridView1");
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -361,7 +383,6 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            resources.ApplyResources(this.guna2DataGridView1, "guna2DataGridView1");
             this.guna2DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
@@ -402,6 +423,7 @@
             this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 28;
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2DataGridView1, resources.GetString("guna2DataGridView1.ToolTip"));
             // 
             // Column1
             // 
@@ -422,14 +444,17 @@
             // 
             resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
+            this.guna2HtmlToolTip1.SetToolTip(this.label7, resources.GetString("label7.ToolTip"));
             // 
             // label8
             // 
             resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
+            this.guna2HtmlToolTip1.SetToolTip(this.label8, resources.GetString("label8.ToolTip"));
             // 
             // cbbOption
             // 
+            resources.ApplyResources(this.cbbOption, "cbbOption");
             this.cbbOption.BackColor = System.Drawing.Color.Transparent;
             this.cbbOption.BorderColor = System.Drawing.Color.Silver;
             this.cbbOption.BorderThickness = 3;
@@ -437,7 +462,6 @@
             this.cbbOption.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbbOption.FocusedColor = System.Drawing.Color.Empty;
             this.cbbOption.FocusedState.Parent = this.cbbOption;
-            resources.ApplyResources(this.cbbOption, "cbbOption");
             this.cbbOption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cbbOption.FormattingEnabled = true;
             this.cbbOption.HoverState.Parent = this.cbbOption;
@@ -452,6 +476,7 @@
             this.cbbOption.ItemsAppearance.Parent = this.cbbOption;
             this.cbbOption.Name = "cbbOption";
             this.cbbOption.ShadowDecoration.Parent = this.cbbOption;
+            this.guna2HtmlToolTip1.SetToolTip(this.cbbOption, resources.GetString("cbbOption.ToolTip"));
             this.cbbOption.MouseHover += new System.EventHandler(this.guna2ComboBox1_MouseHover);
             // 
             // guna2HtmlToolTip1
@@ -462,12 +487,12 @@
             // 
             // btnBacktomenu
             // 
+            resources.ApplyResources(this.btnBacktomenu, "btnBacktomenu");
             this.btnBacktomenu.BorderRadius = 9;
             this.btnBacktomenu.CheckedState.Parent = this.btnBacktomenu;
             this.btnBacktomenu.CustomImages.Parent = this.btnBacktomenu;
             this.btnBacktomenu.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
             this.btnBacktomenu.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
-            resources.ApplyResources(this.btnBacktomenu, "btnBacktomenu");
             this.btnBacktomenu.ForeColor = System.Drawing.Color.White;
             this.btnBacktomenu.HoverState.Parent = this.btnBacktomenu;
             this.btnBacktomenu.Image = global::Apartment_manager_app.Properties.Resources.icons8_left_96px;
@@ -475,13 +500,14 @@
             this.btnBacktomenu.ImageSize = new System.Drawing.Size(30, 30);
             this.btnBacktomenu.Name = "btnBacktomenu";
             this.btnBacktomenu.ShadowDecoration.Parent = this.btnBacktomenu;
+            this.guna2HtmlToolTip1.SetToolTip(this.btnBacktomenu, resources.GetString("btnBacktomenu.ToolTip"));
             this.btnBacktomenu.Click += new System.EventHandler(this.btnBacktomenu_Click);
             // 
             // FrmPerson
             // 
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(219)))), ((int)(((byte)(245)))));
-            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.btnBacktomenu);
             this.Controls.Add(this.cbbOption);
             this.Controls.Add(this.label8);
@@ -496,6 +522,7 @@
             this.Controls.Add(this.BtnCreateNew);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmPerson";
+            this.guna2HtmlToolTip1.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.Load += new System.EventHandler(this.FrmPerson_Load);
             this.ContainerData.ResumeLayout(false);
             this.ContainerData.PerformLayout();

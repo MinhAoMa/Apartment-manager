@@ -68,11 +68,13 @@ namespace Apartment_manager_app
         {
             if(ToogleBackGround.Checked == false)
             {
-                _Darkmode = 1;
+                
                 this.BackColor = System.Drawing.Color.FromArgb(60,60,60);
                 this.MdiParent.BackColor = System.Drawing.Color.FromArgb(60, 60, 60);
                 this.MdiParent.ForeColor = System.Drawing.Color.White;
                 
+                _Darkmode = 1;
+
                 if (_Language == 0)
                 {
                     LbDarkMode.Text = "Tối";
@@ -84,11 +86,12 @@ namespace Apartment_manager_app
             }
             else if(ToogleBackGround.Checked == true)
             {
-                _Darkmode = 0;
+                
                 this.BackColor = System.Drawing.Color.White;
                 this.MdiParent.BackColor = System.Drawing.Color.White;
                 this.MdiParent.ForeColor = System.Drawing.Color.Black;
-                
+
+                _Darkmode = 0;
                 if (_Language == 0)
                 {
                     LbDarkMode.Text = "Sáng";
@@ -127,11 +130,16 @@ namespace Apartment_manager_app
             if(_Darkmode == 0)
             {
                 this.BackColor = System.Drawing.Color.White;
+                this.MdiParent.BackColor = System.Drawing.Color.White;
+                this.MdiParent.ForeColor = System.Drawing.Color.Black;
                 ToogleBackGround.Checked = true;
             }
             else
             {
                 this.BackColor = System.Drawing.Color.FromArgb(60, 60, 60);
+                this.MdiParent.BackColor = System.Drawing.Color.FromArgb(60, 60, 60);
+                this.MdiParent.ForeColor = System.Drawing.Color.White;
+                
                 ToogleBackGround.Checked = false;
             }
 

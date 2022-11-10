@@ -192,7 +192,7 @@ namespace Apartment_manager_app
                 f.ForeColor = this.ForeColor;
 
             }
-            
+
         }
     }
 }
