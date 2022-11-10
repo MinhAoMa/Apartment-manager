@@ -82,3 +82,7 @@ C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manag
 C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmSideMain.en.resources
 C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\en\Apartment manager app.resources.dll
 C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmClose.en.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\bin\Debug\vi\Apartment manager app.resources.dll
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmPerson.vi.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmSideMain.vi.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\vi\Apartment manager app.resources.dll

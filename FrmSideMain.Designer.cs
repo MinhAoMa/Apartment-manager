@@ -676,6 +676,7 @@
             this.Name = "FrmSideMain";
             this.Load += new System.EventHandler(this.FrmSideMain_Load);
             this.BackColorChanged += new System.EventHandler(this.FrmSideMain_BackColorChanged);
+            this.ForeColorChanged += new System.EventHandler(this.FrmSideMain_ForeColorChanged);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
             this.guna2GradientPanel11.ResumeLayout(false);

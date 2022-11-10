@@ -156,7 +156,13 @@ namespace Apartment_manager_app
                     break;
                 }
             }
-            
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name != "FrmSetting")
+                {
+                    f.Close();
+                }
+            }
             if (!isExits)
             {
                 FrmSetting frm = new FrmSetting();
@@ -185,7 +191,7 @@ namespace Apartment_manager_app
                 f.ForeColor = this.ForeColor;
 
             }
-            
+
         }
     }
 }

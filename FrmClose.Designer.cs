@@ -39,16 +39,16 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.guna2GradientButton11);
             resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Controls.Add(this.guna2GradientButton11);
             this.panel1.Name = "panel1";
             // 
             // guna2GradientButton11
             // 
+            resources.ApplyResources(this.guna2GradientButton11, "guna2GradientButton11");
             this.guna2GradientButton11.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientButton11.CheckedState.Parent = this.guna2GradientButton11;
             this.guna2GradientButton11.CustomImages.Parent = this.guna2GradientButton11;
-            resources.ApplyResources(this.guna2GradientButton11, "guna2GradientButton11");
             this.guna2GradientButton11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
             this.guna2GradientButton11.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
             this.guna2GradientButton11.ForeColor = System.Drawing.Color.White;
@@ -60,18 +60,18 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.label2, "label2");
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Name = "label2";
             // 
             // guna2Button1
             // 
+            resources.ApplyResources(this.guna2Button1, "guna2Button1");
             this.guna2Button1.BorderRadius = 10;
             this.guna2Button1.CheckedState.Parent = this.guna2Button1;
             this.guna2Button1.CustomImages.Parent = this.guna2Button1;
             this.guna2Button1.FillColor = System.Drawing.Color.DeepSkyBlue;
-            resources.ApplyResources(this.guna2Button1, "guna2Button1");
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Name = "guna2Button1";
@@ -80,11 +80,11 @@
             // 
             // guna2Button2
             // 
+            resources.ApplyResources(this.guna2Button2, "guna2Button2");
             this.guna2Button2.BorderRadius = 10;
             this.guna2Button2.CheckedState.Parent = this.guna2Button2;
             this.guna2Button2.CustomImages.Parent = this.guna2Button2;
             this.guna2Button2.FillColor = System.Drawing.Color.DeepSkyBlue;
-            resources.ApplyResources(this.guna2Button2, "guna2Button2");
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.HoverState.Parent = this.guna2Button2;
             this.guna2Button2.Name = "guna2Button2";
@@ -93,8 +93,8 @@
             // 
             // FrmClose
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.label2);

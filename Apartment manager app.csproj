@@ -137,6 +137,9 @@
     <EmbeddedResource Include="FrmPerson.resx">
       <DependentUpon>FrmPerson.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmPerson.vi.resx">
+      <DependentUpon>FrmPerson.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmSetting.en.resx">
       <DependentUpon>FrmSetting.cs</DependentUpon>
     </EmbeddedResource>
@@ -147,6 +150,9 @@
       <DependentUpon>FrmSideMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSideMain.resx">
+      <DependentUpon>FrmSideMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSideMain.vi.resx">
       <DependentUpon>FrmSideMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

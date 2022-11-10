@@ -100,7 +100,6 @@
             // 
             // guna2GradientPanel2
             // 
-            resources.ApplyResources(this.guna2GradientPanel2, "guna2GradientPanel2");
             this.guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel2.Controls.Add(this.label1);
             this.guna2GradientPanel2.Controls.Add(this.label8);
@@ -110,37 +109,38 @@
             this.guna2GradientPanel2.Controls.Add(this.label6);
             this.guna2GradientPanel2.Controls.Add(this.label4);
             this.guna2GradientPanel2.Controls.Add(this.label5);
+            resources.ApplyResources(this.guna2GradientPanel2, "guna2GradientPanel2");
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
             // 
             // guna2GradientPanel3
             // 
-            resources.ApplyResources(this.guna2GradientPanel3, "guna2GradientPanel3");
             this.guna2GradientPanel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel3.Controls.Add(this.PicFlag);
             this.guna2GradientPanel3.Controls.Add(this.CbbLanguages);
             this.guna2GradientPanel3.Controls.Add(this.LbDarkMode);
             this.guna2GradientPanel3.Controls.Add(this.ToogleBackGround);
             this.guna2GradientPanel3.Controls.Add(this.label9);
+            resources.ApplyResources(this.guna2GradientPanel3, "guna2GradientPanel3");
             this.guna2GradientPanel3.Name = "guna2GradientPanel3";
             this.guna2GradientPanel3.ShadowDecoration.Parent = this.guna2GradientPanel3;
             // 
             // PicFlag
             // 
-            resources.ApplyResources(this.PicFlag, "PicFlag");
             this.PicFlag.Image = global::Apartment_manager_app.Properties.Resources.united_kingdom;
+            resources.ApplyResources(this.PicFlag, "PicFlag");
             this.PicFlag.Name = "PicFlag";
             this.PicFlag.ShadowDecoration.Parent = this.PicFlag;
             this.PicFlag.TabStop = false;
             // 
             // CbbLanguages
             // 
-            resources.ApplyResources(this.CbbLanguages, "CbbLanguages");
             this.CbbLanguages.BackColor = System.Drawing.Color.Transparent;
             this.CbbLanguages.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.CbbLanguages.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CbbLanguages.FocusedColor = System.Drawing.Color.Empty;
             this.CbbLanguages.FocusedState.Parent = this.CbbLanguages;
+            resources.ApplyResources(this.CbbLanguages, "CbbLanguages");
             this.CbbLanguages.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.CbbLanguages.FormattingEnabled = true;
             this.CbbLanguages.HoverState.Parent = this.CbbLanguages;
@@ -159,13 +159,13 @@
             // 
             // ToogleBackGround
             // 
-            resources.ApplyResources(this.ToogleBackGround, "ToogleBackGround");
             this.ToogleBackGround.Checked = true;
             this.ToogleBackGround.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ToogleBackGround.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ToogleBackGround.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.ToogleBackGround.CheckedState.InnerColor = System.Drawing.Color.White;
             this.ToogleBackGround.CheckedState.Parent = this.ToogleBackGround;
+            resources.ApplyResources(this.ToogleBackGround, "ToogleBackGround");
             this.ToogleBackGround.Name = "ToogleBackGround";
             this.ToogleBackGround.ShadowDecoration.Parent = this.ToogleBackGround;
             this.ToogleBackGround.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -182,7 +182,6 @@
             // 
             // guna2GradientPanel4
             // 
-            resources.ApplyResources(this.guna2GradientPanel4, "guna2GradientPanel4");
             this.guna2GradientPanel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel4.Controls.Add(this.btnChangePass);
             this.guna2GradientPanel4.Controls.Add(this.label17);
@@ -191,19 +190,20 @@
             this.guna2GradientPanel4.Controls.Add(this.label14);
             this.guna2GradientPanel4.Controls.Add(this.label13);
             this.guna2GradientPanel4.Controls.Add(this.label12);
+            resources.ApplyResources(this.guna2GradientPanel4, "guna2GradientPanel4");
             this.guna2GradientPanel4.Name = "guna2GradientPanel4";
             this.guna2GradientPanel4.ShadowDecoration.Parent = this.guna2GradientPanel4;
             this.guna2GradientPanel4.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel4_Paint);
             // 
             // btnChangePass
             // 
-            resources.ApplyResources(this.btnChangePass, "btnChangePass");
             this.btnChangePass.BackColor = System.Drawing.Color.Transparent;
             this.btnChangePass.BorderRadius = 30;
             this.btnChangePass.CheckedState.Parent = this.btnChangePass;
             this.btnChangePass.CustomImages.Parent = this.btnChangePass;
             this.btnChangePass.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
             this.btnChangePass.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
+            resources.ApplyResources(this.btnChangePass, "btnChangePass");
             this.btnChangePass.ForeColor = System.Drawing.Color.White;
             this.btnChangePass.HoverState.Parent = this.btnChangePass;
             this.btnChangePass.Name = "btnChangePass";
@@ -242,14 +242,15 @@
             // 
             // FrmSetting
             // 
-            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.guna2GradientPanel4);
             this.Controls.Add(this.guna2GradientPanel3);
             this.Controls.Add(this.guna2GradientPanel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmSetting";
+            this.Load += new System.EventHandler(this.FrmSetting_Load);
             this.BackColorChanged += new System.EventHandler(this.FrmSetting_BackColorChanged);
             this.guna2GradientPanel2.ResumeLayout(false);
             this.guna2GradientPanel2.PerformLayout();

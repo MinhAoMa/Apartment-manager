@@ -642,6 +642,7 @@
             // FrmMenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this, "$this");
             this.Controls.Add(this.guna2GradientButton13);
@@ -656,6 +657,7 @@
             this.Name = "FrmMenu";
             this.Load += new System.EventHandler(this.FrmMenu_Load);
             this.BackColorChanged += new System.EventHandler(this.FrmMenu_BackColorChanged);
+            this.ForeColorChanged += new System.EventHandler(this.FrmMenu_ForeColorChanged);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

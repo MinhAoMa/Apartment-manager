@@ -76,5 +76,10 @@ namespace Apartment_manager_app
         {
 
         }
+
+        private void FrmSideMain_ForeColorChanged(object sender, EventArgs e)
+        {
+            this.BackColor = this.MdiParent.BackColor;
+        }
     }
 }
