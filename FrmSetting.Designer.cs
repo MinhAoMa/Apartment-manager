@@ -250,7 +250,6 @@
             this.Controls.Add(this.guna2GradientPanel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmSetting";
-            this.Load += new System.EventHandler(this.FrmSetting_Load);
             this.BackColorChanged += new System.EventHandler(this.FrmSetting_BackColorChanged);
             this.guna2GradientPanel2.ResumeLayout(false);
             this.guna2GradientPanel2.PerformLayout();

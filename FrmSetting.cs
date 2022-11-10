@@ -153,10 +153,5 @@ namespace Apartment_manager_app
                 this.PicFlag.Image = System.Drawing.Image.FromFile("C:\\Users\\Acer\\source\\repos\\test quan ly\\Apartment-manager\\Resources\\united-kingdom.png");
             }
         }
-
-        private void FrmSetting_Load(object sender, EventArgs e)
-        {
-            
-        }
     }
 }
