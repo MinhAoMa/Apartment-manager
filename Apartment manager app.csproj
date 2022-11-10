@@ -107,8 +107,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmChangePassword.en.resx">
+      <DependentUpon>FrmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmChangePassword.resx">
       <DependentUpon>FrmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmClose.en.resx">
+      <DependentUpon>FrmClose.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmClose.resx">
       <DependentUpon>FrmClose.cs</DependentUpon>
@@ -119,14 +125,26 @@
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenu.en.resx">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPerson.en.resx">
+      <DependentUpon>FrmPerson.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPerson.resx">
       <DependentUpon>FrmPerson.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmSetting.en.resx">
+      <DependentUpon>FrmSetting.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmSetting.resx">
       <DependentUpon>FrmSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSideMain.en.resx">
+      <DependentUpon>FrmSideMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSideMain.resx">
       <DependentUpon>FrmSideMain.cs</DependentUpon>
@@ -255,6 +273,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8_left_96px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\united-kingdom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vietnam.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

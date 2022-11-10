@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmChangePassword));
             this.label12 = new System.Windows.Forms.Label();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -47,17 +48,12 @@
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(41, 46);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label12, "label12");
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(90, 19);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "Mật khẩu cũ";
             // 
             // guna2TextBox2
             // 
+            resources.ApplyResources(this.guna2TextBox2, "guna2TextBox2");
             this.guna2TextBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2TextBox2.BorderColor = System.Drawing.Color.Silver;
             this.guna2TextBox2.BorderRadius = 10;
@@ -75,30 +71,21 @@
             this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
             this.guna2TextBox2.IconLeftOffset = new System.Drawing.Point(10, 0);
             this.guna2TextBox2.IconLeftSize = new System.Drawing.Size(24, 24);
-            this.guna2TextBox2.Location = new System.Drawing.Point(221, 46);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.Gray;
-            this.guna2TextBox2.PlaceholderText = "Nhập mật khẩu cũ";
+            this.guna2TextBox2.PlaceholderText = "Old Password";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Size = new System.Drawing.Size(169, 23);
-            this.guna2TextBox2.TabIndex = 24;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(41, 83);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 19);
-            this.label1.TabIndex = 25;
-            this.label1.Text = "Mật khẩu mới";
             // 
             // guna2TextBox1
             // 
+            resources.ApplyResources(this.guna2TextBox1, "guna2TextBox1");
             this.guna2TextBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2TextBox1.BorderColor = System.Drawing.Color.Silver;
             this.guna2TextBox1.BorderRadius = 10;
@@ -116,30 +103,21 @@
             this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
             this.guna2TextBox1.IconLeftOffset = new System.Drawing.Point(10, 0);
             this.guna2TextBox1.IconLeftSize = new System.Drawing.Size(24, 24);
-            this.guna2TextBox1.Location = new System.Drawing.Point(221, 79);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Gray;
-            this.guna2TextBox1.PlaceholderText = "Nhập mật khẩu cũ";
+            this.guna2TextBox1.PlaceholderText = "New password";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(169, 23);
-            this.guna2TextBox1.TabIndex = 26;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(41, 123);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(141, 19);
-            this.label2.TabIndex = 27;
-            this.label2.Text = "Nhập mật khẩu mới";
             // 
             // guna2TextBox3
             // 
+            resources.ApplyResources(this.guna2TextBox3, "guna2TextBox3");
             this.guna2TextBox3.BackColor = System.Drawing.Color.Transparent;
             this.guna2TextBox3.BorderColor = System.Drawing.Color.Silver;
             this.guna2TextBox3.BorderRadius = 10;
@@ -157,85 +135,63 @@
             this.guna2TextBox3.HoverState.Parent = this.guna2TextBox3;
             this.guna2TextBox3.IconLeftOffset = new System.Drawing.Point(10, 0);
             this.guna2TextBox3.IconLeftSize = new System.Drawing.Size(24, 24);
-            this.guna2TextBox3.Location = new System.Drawing.Point(221, 119);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox3.Name = "guna2TextBox3";
             this.guna2TextBox3.PasswordChar = '\0';
             this.guna2TextBox3.PlaceholderForeColor = System.Drawing.Color.Gray;
-            this.guna2TextBox3.PlaceholderText = "Nhập mật khẩu cũ";
+            this.guna2TextBox3.PlaceholderText = "Enter new password";
             this.guna2TextBox3.SelectedText = "";
             this.guna2TextBox3.ShadowDecoration.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Size = new System.Drawing.Size(169, 23);
-            this.guna2TextBox3.TabIndex = 28;
             // 
             // guna2GradientPanel11
             // 
+            resources.ApplyResources(this.guna2GradientPanel11, "guna2GradientPanel11");
             this.guna2GradientPanel11.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel11.Controls.Add(this.guna2GradientButton12);
             this.guna2GradientPanel11.Controls.Add(this.btnExit);
-            this.guna2GradientPanel11.Location = new System.Drawing.Point(383, 0);
-            this.guna2GradientPanel11.Margin = new System.Windows.Forms.Padding(2);
             this.guna2GradientPanel11.Name = "guna2GradientPanel11";
             this.guna2GradientPanel11.ShadowDecoration.Parent = this.guna2GradientPanel11;
-            this.guna2GradientPanel11.Size = new System.Drawing.Size(114, 23);
-            this.guna2GradientPanel11.TabIndex = 34;
             // 
             // guna2GradientButton12
             // 
+            resources.ApplyResources(this.guna2GradientButton12, "guna2GradientButton12");
             this.guna2GradientButton12.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientButton12.CheckedState.Parent = this.guna2GradientButton12;
             this.guna2GradientButton12.CustomImages.Parent = this.guna2GradientButton12;
-            this.guna2GradientButton12.Dock = System.Windows.Forms.DockStyle.Right;
             this.guna2GradientButton12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
             this.guna2GradientButton12.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
-            this.guna2GradientButton12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientButton12.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton12.HoverState.Parent = this.guna2GradientButton12;
             this.guna2GradientButton12.Image = global::Apartment_manager_app.Properties.Resources.icons8_minus_96px;
-            this.guna2GradientButton12.Location = new System.Drawing.Point(42, 0);
-            this.guna2GradientButton12.Margin = new System.Windows.Forms.Padding(2);
             this.guna2GradientButton12.Name = "guna2GradientButton12";
             this.guna2GradientButton12.ShadowDecoration.Parent = this.guna2GradientButton12;
-            this.guna2GradientButton12.Size = new System.Drawing.Size(36, 23);
-            this.guna2GradientButton12.TabIndex = 35;
             // 
             // btnExit
             // 
+            resources.ApplyResources(this.btnExit, "btnExit");
             this.btnExit.BackColor = System.Drawing.Color.Transparent;
             this.btnExit.CheckedState.Parent = this.btnExit;
             this.btnExit.CustomImages.Parent = this.btnExit;
-            this.btnExit.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnExit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
             this.btnExit.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
-            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.White;
             this.btnExit.HoverState.Parent = this.btnExit;
             this.btnExit.Image = global::Apartment_manager_app.Properties.Resources.error__1_;
-            this.btnExit.Location = new System.Drawing.Point(78, 0);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
             this.btnExit.ShadowDecoration.Parent = this.btnExit;
-            this.btnExit.Size = new System.Drawing.Size(36, 23);
-            this.btnExit.TabIndex = 34;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnkeyboard
             // 
+            resources.ApplyResources(this.btnkeyboard, "btnkeyboard");
             this.btnkeyboard.BackColor = System.Drawing.Color.Transparent;
             this.btnkeyboard.CheckedState.Parent = this.btnkeyboard;
             this.btnkeyboard.CustomImages.Parent = this.btnkeyboard;
             this.btnkeyboard.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
             this.btnkeyboard.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
-            this.btnkeyboard.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnkeyboard.ForeColor = System.Drawing.Color.White;
             this.btnkeyboard.HoverState.Parent = this.btnkeyboard;
-            this.btnkeyboard.Location = new System.Drawing.Point(171, 160);
-            this.btnkeyboard.Margin = new System.Windows.Forms.Padding(2);
             this.btnkeyboard.Name = "btnkeyboard";
             this.btnkeyboard.ShadowDecoration.Parent = this.btnkeyboard;
-            this.btnkeyboard.Size = new System.Drawing.Size(138, 34);
-            this.btnkeyboard.TabIndex = 35;
-            this.btnkeyboard.Text = "Đổi";
             // 
             // guna2DragControl1
             // 
@@ -243,27 +199,22 @@
             // 
             // guna2VSeparator1
             // 
+            resources.ApplyResources(this.guna2VSeparator1, "guna2VSeparator1");
             this.guna2VSeparator1.FillThickness = 3;
-            this.guna2VSeparator1.Location = new System.Drawing.Point(497, 0);
             this.guna2VSeparator1.Name = "guna2VSeparator1";
-            this.guna2VSeparator1.Size = new System.Drawing.Size(10, 204);
-            this.guna2VSeparator1.TabIndex = 36;
             // 
             // guna2VSeparator2
             // 
+            resources.ApplyResources(this.guna2VSeparator2, "guna2VSeparator2");
             this.guna2VSeparator2.FillThickness = 3;
-            this.guna2VSeparator2.Location = new System.Drawing.Point(-1, 0);
             this.guna2VSeparator2.Name = "guna2VSeparator2";
-            this.guna2VSeparator2.Size = new System.Drawing.Size(10, 204);
-            this.guna2VSeparator2.TabIndex = 37;
             this.guna2VSeparator2.Click += new System.EventHandler(this.guna2VSeparator2_Click);
             // 
             // FrmChangePassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(508, 205);
             this.Controls.Add(this.guna2VSeparator2);
             this.Controls.Add(this.guna2VSeparator1);
             this.Controls.Add(this.btnkeyboard);
@@ -275,10 +226,7 @@
             this.Controls.Add(this.guna2TextBox2);
             this.Controls.Add(this.label12);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmChangePassword";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmChangePassword";
             this.guna2GradientPanel11.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
