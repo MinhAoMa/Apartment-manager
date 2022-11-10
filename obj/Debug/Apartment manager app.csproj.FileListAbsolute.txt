@@ -74,3 +74,11 @@ C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment manag
 C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment manager app.csproj.CopyComplete
 C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment manager app.exe
 C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment manager app.pdb
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\bin\Debug\en\Apartment manager app.resources.dll
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmChangePassword.en.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmMenu.en.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmPerson.en.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmSetting.en.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmSideMain.en.resources
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\en\Apartment manager app.resources.dll
+C:\Users\Acer\source\repos\quan ly 3\Apartment-manager\obj\Debug\Apartment_manager_app.FrmClose.en.resources

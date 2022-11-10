@@ -153,8 +153,10 @@
             // FrmMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1152, 586);
             this.Controls.Add(this.panel1);
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
             this.KeyPreview = true;
@@ -162,6 +164,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmMain";
             this.Load += new System.EventHandler(this.FrmMain_Load);
+            this.BackColorChanged += new System.EventHandler(this.FrmMain_BackColorChanged);
+            this.ForeColorChanged += new System.EventHandler(this.FrmMain_ForeColorChanged);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keydown);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.eventKey);
             this.panel1.ResumeLayout(false);

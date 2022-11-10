@@ -89,6 +89,8 @@ namespace Apartment_manager_app
             frm.Show();
             BtnMenu.Checked = false;
             BtnHome.Checked = true; 
+            
+            
         }
 
 
@@ -154,6 +156,14 @@ namespace Apartment_manager_app
                     break;
                 }
             }
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name != "FrmSetting")
+                {
+                    f.Close();
+                    
+                }
+            }
             if (!isExits)
             {
                 FrmSetting frm = new FrmSetting();
@@ -164,6 +174,25 @@ namespace Apartment_manager_app
             BtnHome.Checked = false;
             BtnMenu.Checked = false;
             btnSetting.Checked = true;   
+        }
+
+        private void FrmMain_BackColorChanged(object sender, EventArgs e)
+        {
+            foreach(Form f in this.MdiChildren)
+            {
+                f.BackColor = this.BackColor;
+                
+            }
+        }
+
+        private void FrmMain_ForeColorChanged(object sender, EventArgs e)
+        {
+            foreach (Form f in this.MdiChildren)
+            {
+                f.ForeColor = this.ForeColor;
+
+            }
+            
         }
     }
 }
