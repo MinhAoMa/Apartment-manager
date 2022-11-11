@@ -146,11 +146,11 @@ namespace Apartment_manager_app
 
             if (_Language == 0)
             {
-                this.PicFlag.Image = System.Drawing.Image.FromFile("C:\\Users\\Acer\\source\\repos\\test quan ly\\Apartment-manager\\Resources\\vietnam.png");
+                this.PicFlag.Image = System.Drawing.Image.FromFile("C:\\Users\\Acer\\source\\repos\\quan ly 3\\Apartment-manager\\Resources\\vietnam.png");
             }
             else
             {
-                this.PicFlag.Image = System.Drawing.Image.FromFile("C:\\Users\\Acer\\source\\repos\\test quan ly\\Apartment-manager\\Resources\\united-kingdom.png");
+                this.PicFlag.Image = System.Drawing.Image.FromFile("C:\\Users\\Acer\\source\\repos\\quan ly 3\\Apartment-manager\\Resources\\united-kingdom.png");
             }
         }
     }
