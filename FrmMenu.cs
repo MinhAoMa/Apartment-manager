@@ -102,5 +102,71 @@ namespace Apartment_manager_app
         {
             this.BackColor = this.MdiParent.BackColor;
         }
+
+        private void appApartment_Click(object sender, EventArgs e)
+        {
+            bool isExits = false;
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "FrmApartment")
+                {
+                    f.Activate();
+                    isExits = true;
+                    break;
+                }
+            }
+            if (!isExits)
+            {
+                FrmApartment frm = new FrmApartment();
+                frm.MdiParent = this.MdiParent;
+                frm.Dock = DockStyle.Fill;
+                frm.Show();
+                frm.BackColor = this.BackColor;
+            }
+        }
+
+        private void guna2GradientButton6_Click(object sender, EventArgs e)
+        {
+            bool isExits = false;
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "FrmElectric")
+                {
+                    f.Activate();
+                    isExits = true;
+                    break;
+                }
+            }
+            if (!isExits)
+            {
+                FrmElectric frm = new FrmElectric();
+                frm.MdiParent = this.MdiParent;
+                frm.Dock = DockStyle.Fill;
+                frm.Show();
+                frm.BackColor = this.BackColor;
+            }
+        }
+
+        private void guna2GradientButton4_Click(object sender, EventArgs e)
+        {
+            bool isExits = false;
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "FrmEmployee")
+                {
+                    f.Activate();
+                    isExits = true;
+                    break;
+                }
+            }
+            if (!isExits)
+            {
+                FrmEmployee frm = new FrmEmployee();
+                frm.MdiParent = this.MdiParent;
+                frm.Dock = DockStyle.Fill;
+                frm.Show();
+                frm.BackColor = this.BackColor;
+            }
+        }
     }
 }

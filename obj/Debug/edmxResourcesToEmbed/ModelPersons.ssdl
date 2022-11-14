@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PersonsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="canho">
+    <Key>
+      <PropertyRef Name="Macanho" />
+    </Key>
+    <Property Name="Macanho" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="dientich" Type="varchar" MaxLength="5" />
+    <Property Name="loaicanho" Type="varchar" MaxLength="5" />
+    <Property Name="gia" Type="nvarchar" MaxLength="10" />
+    <Property Name="trangthai" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="dancu">
+    <Key>
+      <PropertyRef Name="Madancu" />
+    </Key>
+    <Property Name="Madancu" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="ten" Type="nvarchar" MaxLength="50" />
+    <Property Name="gioitinh" Type="nvarchar" MaxLength="3" />
+    <Property Name="anh" Type="image" />
+    <Property Name="Macanho" Type="varchar" MaxLength="10" />
+    <Property Name="ngaysinh" Type="date" />
+    <Property Name="quoctich" Type="varchar" MaxLength="50" />
+    <Property Name="dantoc" Type="nvarchar" MaxLength="50" />
+    <Property Name="sodienthoai" Type="nvarchar" MaxLength="12" />
+    <Property Name="quequan" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK__dancu__Macanho__4222D4EF">
+    <End Role="canho" Type="Self.canho" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="dancu" Type="Self.dancu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="canho">
+        <PropertyRef Name="Macanho" />
+      </Principal>
+      <Dependent Role="dancu">
+        <PropertyRef Name="Macanho" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PersonsModelStoreContainer">
+    <EntitySet Name="canho" EntityType="Self.canho" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="dancu" EntityType="Self.dancu" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__dancu__Macanho__4222D4EF" Association="Self.FK__dancu__Macanho__4222D4EF">
+      <End Role="canho" EntitySet="canho" />
+      <End Role="dancu" EntitySet="dancu" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

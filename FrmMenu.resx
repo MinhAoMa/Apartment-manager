@@ -129,7 +129,7 @@
     <value>769, 52</value>
   </data>
   <data name="LbDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 19</value>
+    <value>223, 23</value>
   </data>
   <data name="LbDate.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -208,7 +208,7 @@
     <value>36, 101</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 20</value>
+    <value>85, 30</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -278,31 +278,31 @@
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="guna2GradientButton2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="appApartment.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="guna2GradientButton2.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="appApartment.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
-  <data name="guna2GradientButton2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="appApartment.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="guna2GradientButton2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="appApartment.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 86</value>
   </data>
-  <data name="guna2GradientButton2.TabIndex" type="System.Int32, mscorlib">
+  <data name="appApartment.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
   </data>
-  <data name="&gt;&gt;guna2GradientButton2.Name" xml:space="preserve">
-    <value>guna2GradientButton2</value>
+  <data name="&gt;&gt;appApartment.Name" xml:space="preserve">
+    <value>appApartment</value>
   </data>
-  <data name="&gt;&gt;guna2GradientButton2.Type" xml:space="preserve">
+  <data name="&gt;&gt;appApartment.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
   </data>
-  <data name="&gt;&gt;guna2GradientButton2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;appApartment.Parent" xml:space="preserve">
     <value>guna2GradientPanel2</value>
   </data>
-  <data name="&gt;&gt;guna2GradientButton2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;appApartment.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="guna2GradientPanel2.Location" type="System.Drawing.Point, System.Drawing">
@@ -336,7 +336,7 @@
     <value>31, 100</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
+    <value>88, 31</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -435,7 +435,7 @@
     <value>26, 98</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 20</value>
+    <value>114, 30</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -534,7 +534,7 @@
     <value>22, 96</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 20</value>
+    <value>123, 31</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -636,7 +636,7 @@
     <value>20, 100</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 20</value>
+    <value>134, 30</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -759,7 +759,7 @@
     <value>43, 99</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 20</value>
+    <value>60, 30</value>
   </data>
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -858,7 +858,7 @@
     <value>20, 100</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 20</value>
+    <value>136, 30</value>
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -957,7 +957,7 @@
     <value>20, 99</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 20</value>
+    <value>132, 30</value>
   </data>
   <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -1056,7 +1056,7 @@
     <value>40, 100</value>
   </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
+    <value>67, 30</value>
   </data>
   <data name="label10.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -1155,7 +1155,7 @@
     <value>32, 101</value>
   </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
+    <value>89, 30</value>
   </data>
   <data name="label11.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>

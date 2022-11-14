@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,13 +34,47 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=6.1.0.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>packages\EPPlus.6.1.0\lib\net462\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.Interfaces, Version=6.1.0.0, Culture=neutral, PublicKeyToken=a694d7f3b0907a61, processorArchitecture=MSIL">
+      <HintPath>packages\EPPlus.Interfaces.6.1.0\lib\net452\EPPlus.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus.System.Drawing, Version=6.1.0.0, Culture=neutral, PublicKeyToken=2308d35469c9bac0, processorArchitecture=MSIL">
+      <HintPath>packages\EPPlus.System.Drawing.6.1.0\lib\net462\EPPlus.System.Drawing.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI2">
       <HintPath>C:\Users\LENOVO\Desktop\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=1.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IO.RecyclableMemoryStream.1.4.1\lib\net46\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,11 +86,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="canho.cs">
+      <DependentUpon>ModelPersons.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClassCallConnection.cs" />
+    <Compile Include="CrystalReportApartment.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReportApartment.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReportEmployee.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReportEmployee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReportPerson.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReportPerson.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dancu.cs">
+      <DependentUpon>ModelPersons.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FomReportPersons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FomReportPersons.Designer.cs">
+      <DependentUpon>FomReportPersons.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmApartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmApartment.Designer.cs">
+      <DependentUpon>FrmApartment.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmChangePassword.cs">
       <SubType>Form</SubType>
@@ -68,6 +140,18 @@
     </Compile>
     <Compile Include="FrmClose.Designer.cs">
       <DependentUpon>FrmClose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmElectric.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmElectric.Designer.cs">
+      <DependentUpon>FrmElectric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmployee.Designer.cs">
+      <DependentUpon>FrmEmployee.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
@@ -93,6 +177,18 @@
     <Compile Include="FrmPerson.Designer.cs">
       <DependentUpon>FrmPerson.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmReportApartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportApartment.Designer.cs">
+      <DependentUpon>FrmReportApartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportEmployee.Designer.cs">
+      <DependentUpon>FrmReportEmployee.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmSetting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,8 +201,74 @@
     <Compile Include="FrmSideMain.Designer.cs">
       <DependentUpon>FrmSideMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModelApartment.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelApartment.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelApartment.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelApartment.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelApartment.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelApartment.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ModelEmployee.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelEmployee.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelEmployee.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelEmployee.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelEmployee.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelEmployee.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ModelPersons.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelPersons.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelPersons.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelPersons.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelPersons.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelPersons.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVien.cs">
+      <DependentUpon>ModelEmployee.tt</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CrystalReportApartment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReportApartment.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReportEmployee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReportEmployee.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReportPerson.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReportPerson.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FomReportPersons.resx">
+      <DependentUpon>FomReportPersons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmApartment.resx">
+      <DependentUpon>FrmApartment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmChangePassword.en.resx">
       <DependentUpon>FrmChangePassword.cs</DependentUpon>
     </EmbeddedResource>
@@ -118,6 +280,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmClose.resx">
       <DependentUpon>FrmClose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmElectric.resx">
+      <DependentUpon>FrmElectric.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmployee.resx">
+      <DependentUpon>FrmEmployee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
@@ -139,6 +307,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPerson.vi.resx">
       <DependentUpon>FrmPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportApartment.resx">
+      <DependentUpon>FrmReportApartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportEmployee.resx">
+      <DependentUpon>FrmReportEmployee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSetting.en.resx">
       <DependentUpon>FrmSetting.cs</DependentUpon>
@@ -165,6 +339,28 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EntityDeploy Include="ModelApartment.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelApartment.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ModelApartment.edmx.diagram">
+      <DependentUpon>ModelApartment.edmx</DependentUpon>
+    </None>
+    <EntityDeploy Include="ModelPersons.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelPersons.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <EntityDeploy Include="ModelEmployee.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelEmployee.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ModelEmployee.edmx.diagram">
+      <DependentUpon>ModelEmployee.edmx</DependentUpon>
+    </None>
+    <None Include="ModelPersons.edmx.diagram">
+      <DependentUpon>ModelPersons.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -285,6 +481,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\vietnam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_delete_sign_24px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_delete_sign_24px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModelApartment.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelApartment.Context.cs</LastGenOutput>
+      <DependentUpon>ModelApartment.edmx</DependentUpon>
+    </Content>
+    <Content Include="ModelApartment.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelApartment.edmx</DependentUpon>
+      <LastGenOutput>ModelApartment.cs</LastGenOutput>
+    </Content>
+    <Content Include="ModelEmployee.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelEmployee.edmx</DependentUpon>
+      <LastGenOutput>ModelEmployee.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ModelEmployee.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelEmployee.edmx</DependentUpon>
+      <LastGenOutput>ModelEmployee.cs</LastGenOutput>
+    </Content>
+    <Content Include="ModelPersons.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelPersons.edmx</DependentUpon>
+      <LastGenOutput>ModelPersons.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ModelPersons.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelPersons.edmx</DependentUpon>
+      <LastGenOutput>ModelPersons.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

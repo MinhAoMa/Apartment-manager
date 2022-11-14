@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ApartmentModelStoreContainer" CdmEntityContainer="ApartmentEntities">
+    <EntitySetMapping Name="canhoes">
+      <EntityTypeMapping TypeName="ApartmentModel.canho">
+        <MappingFragment StoreEntitySet="canho">
+          <ScalarProperty Name="Macanho" ColumnName="Macanho" />
+          <ScalarProperty Name="dientich" ColumnName="dientich" />
+          <ScalarProperty Name="loaicanho" ColumnName="loaicanho" />
+          <ScalarProperty Name="gia" ColumnName="gia" />
+          <ScalarProperty Name="trangthai" ColumnName="trangthai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

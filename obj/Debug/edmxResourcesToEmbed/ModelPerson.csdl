@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PersonModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="canho">
+    <Key>
+      <PropertyRef Name="Macanho" />
+    </Key>
+    <Property Name="Macanho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dientich" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="loaicanho" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="gia" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="trangthai" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="dancus" Relationship="Self.FK__dancu__Macanho__4222D4EF" FromRole="canho" ToRole="dancu" />
+  </EntityType>
+  <EntityType Name="dancu">
+    <Key>
+      <PropertyRef Name="Madancu" />
+    </Key>
+    <Property Name="Madancu" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ten" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="gioitinh" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="anh" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Macanho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ngaysinh" Type="DateTime" Precision="0" />
+    <Property Name="quoctich" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dantoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="sodienthoai" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="quequan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="canho" Relationship="Self.FK__dancu__Macanho__4222D4EF" FromRole="dancu" ToRole="canho" />
+  </EntityType>
+  <Association Name="FK__dancu__Macanho__4222D4EF">
+    <End Role="canho" Type="Self.canho" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="dancu" Type="Self.dancu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="canho">
+        <PropertyRef Name="Macanho" />
+      </Principal>
+      <Dependent Role="dancu">
+        <PropertyRef Name="Macanho" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PersonEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="canhoes" EntityType="Self.canho" />
+    <EntitySet Name="dancus" EntityType="Self.dancu" />
+    <AssociationSet Name="FK__dancu__Macanho__4222D4EF" Association="Self.FK__dancu__Macanho__4222D4EF">
+      <End Role="canho" EntitySet="canhoes" />
+      <End Role="dancu" EntitySet="dancus" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

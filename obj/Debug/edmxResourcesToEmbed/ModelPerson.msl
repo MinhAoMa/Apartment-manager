@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PersonModelStoreContainer" CdmEntityContainer="PersonEntities">
+    <EntitySetMapping Name="canhoes">
+      <EntityTypeMapping TypeName="PersonModel.canho">
+        <MappingFragment StoreEntitySet="canho">
+          <ScalarProperty Name="Macanho" ColumnName="Macanho" />
+          <ScalarProperty Name="dientich" ColumnName="dientich" />
+          <ScalarProperty Name="loaicanho" ColumnName="loaicanho" />
+          <ScalarProperty Name="gia" ColumnName="gia" />
+          <ScalarProperty Name="trangthai" ColumnName="trangthai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dancus">
+      <EntityTypeMapping TypeName="PersonModel.dancu">
+        <MappingFragment StoreEntitySet="dancu">
+          <ScalarProperty Name="Madancu" ColumnName="Madancu" />
+          <ScalarProperty Name="ten" ColumnName="ten" />
+          <ScalarProperty Name="gioitinh" ColumnName="gioitinh" />
+          <ScalarProperty Name="anh" ColumnName="anh" />
+          <ScalarProperty Name="Macanho" ColumnName="Macanho" />
+          <ScalarProperty Name="ngaysinh" ColumnName="ngaysinh" />
+          <ScalarProperty Name="quoctich" ColumnName="quoctich" />
+          <ScalarProperty Name="dantoc" ColumnName="dantoc" />
+          <ScalarProperty Name="sodienthoai" ColumnName="sodienthoai" />
+          <ScalarProperty Name="quequan" ColumnName="quequan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
