@@ -168,5 +168,49 @@ namespace Apartment_manager_app
                 frm.BackColor = this.BackColor;
             }
         }
+
+        private void guna2GradientButton10_Click(object sender, EventArgs e)
+        {
+            bool isExits = false;
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "FrmServices")
+                {
+                    f.Activate();
+                    isExits = true;
+                    break;
+                }
+            }
+            if (!isExits)
+            {
+                FrmServices frm = new FrmServices();
+                frm.MdiParent = this.MdiParent;
+                frm.Dock = DockStyle.Fill;
+                frm.Show();
+                frm.BackColor = this.BackColor;
+            }
+        }
+
+        private void guna2GradientButton8_Click(object sender, EventArgs e)
+        {
+            bool isExits = false;
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "FrmManagerService")
+                {
+                    f.Activate();
+                    isExits = true;
+                    break;
+                }
+            }
+            if (!isExits)
+            {
+                FrmManagerService frm = new FrmManagerService();
+                frm.MdiParent = this.MdiParent;
+                frm.Dock = DockStyle.Fill;
+                frm.Show();
+                frm.BackColor = this.BackColor;
+            }
+        }
     }
 }

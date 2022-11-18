@@ -165,6 +165,12 @@
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmManagerService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManagerService.Designer.cs">
+      <DependentUpon>FrmManagerService.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -189,6 +195,12 @@
     <Compile Include="FrmReportEmployee.Designer.cs">
       <DependentUpon>FrmReportEmployee.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmServices.Designer.cs">
+      <DependentUpon>FrmServices.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmSetting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -200,6 +212,12 @@
     </Compile>
     <Compile Include="FrmSideMain.Designer.cs">
       <DependentUpon>FrmSideMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUser.Designer.cs">
+      <DependentUpon>FrmUser.cs</DependentUpon>
     </Compile>
     <Compile Include="ModelApartment.Context.cs">
       <AutoGen>True</AutoGen>
@@ -293,6 +311,9 @@
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmManagerService.resx">
+      <DependentUpon>FrmManagerService.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.en.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -314,6 +335,9 @@
     <EmbeddedResource Include="FrmReportEmployee.resx">
       <DependentUpon>FrmReportEmployee.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmServices.resx">
+      <DependentUpon>FrmServices.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmSetting.en.resx">
       <DependentUpon>FrmSetting.cs</DependentUpon>
     </EmbeddedResource>
@@ -328,6 +352,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSideMain.vi.resx">
       <DependentUpon>FrmSideMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUser.resx">
+      <DependentUpon>FrmUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
