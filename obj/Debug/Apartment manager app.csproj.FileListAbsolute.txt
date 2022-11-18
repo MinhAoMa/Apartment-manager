@@ -151,3 +151,6 @@ D:\Fuck\Apartment-manager\obj\Debug\Apartment manager app.csproj.AssemblyReferen
 D:\Fuck\Apartment-manager\obj\Debug\Apartment_manager_app.FomReportPersons.resources
 D:\Fuck\Apartment-manager\obj\Debug\Apartment_manager_app.FrmEmployee.resources
 D:\Fuck\Apartment-manager\obj\Debug\Apartment_manager_app.FrmReportEmployee.resources
+D:\Fuck\Apartment-manager\obj\Debug\Apartment_manager_app.FrmServices.resources
+D:\Fuck\Apartment-manager\obj\Debug\Apartment_manager_app.FrmUser.resources
+D:\Fuck\Apartment-manager\obj\Debug\Apartment_manager_app.FrmManagerService.resources
