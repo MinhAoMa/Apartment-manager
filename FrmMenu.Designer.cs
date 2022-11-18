@@ -454,6 +454,7 @@
             this.guna2GradientButton8.ImageSize = new System.Drawing.Size(40, 40);
             this.guna2GradientButton8.Name = "guna2GradientButton8";
             this.guna2GradientButton8.ShadowDecoration.Parent = this.guna2GradientButton8;
+            this.guna2GradientButton8.Click += new System.EventHandler(this.guna2GradientButton8_Click);
             // 
             // label9
             // 
@@ -532,6 +533,7 @@
             this.guna2GradientButton10.ImageSize = new System.Drawing.Size(40, 40);
             this.guna2GradientButton10.Name = "guna2GradientButton10";
             this.guna2GradientButton10.ShadowDecoration.Parent = this.guna2GradientButton10;
+            this.guna2GradientButton10.Click += new System.EventHandler(this.guna2GradientButton10_Click);
             // 
             // label11
             // 
