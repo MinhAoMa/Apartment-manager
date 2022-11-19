@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Apartment_managerModelStoreContainer" CdmEntityContainer="CustomersEntities">
+    <EntitySetMapping Name="KhachHangs">
+      <EntityTypeMapping TypeName="Apartment_managerModel.KhachHang">
+        <MappingFragment StoreEntitySet="KhachHang">
+          <ScalarProperty Name="MaKhachHang" ColumnName="MaKhachHang" />
+          <ScalarProperty Name="TenKhachhang" ColumnName="TenKhachhang" />
+          <ScalarProperty Name="gioitinh" ColumnName="gioitinh" />
+          <ScalarProperty Name="anh" ColumnName="anh" />
+          <ScalarProperty Name="Macanho" ColumnName="Macanho" />
+          <ScalarProperty Name="ngaysinh" ColumnName="ngaysinh" />
+          <ScalarProperty Name="quoctich" ColumnName="quoctich" />
+          <ScalarProperty Name="dantoc" ColumnName="dantoc" />
+          <ScalarProperty Name="sodienthoai" ColumnName="sodienthoai" />
+          <ScalarProperty Name="quequan" ColumnName="quequan" />
+          <ScalarProperty Name="pathAnh" ColumnName="pathAnh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

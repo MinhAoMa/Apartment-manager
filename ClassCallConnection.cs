@@ -14,7 +14,7 @@ namespace Apartment_manager_app
         public SqlConnection getConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = @"Server = DATG\SERVEROFDAT;database = BaiTapLon;Integrated Security = True; TrustServerCertificate = True";
+            con.ConnectionString = @"Server = LAPTOP-A5DSVJ7O\HAZARD;database = Apartment_manager;Integrated Security = True; TrustServerCertificate = True";
             return con;
         }
         public DataSet GetData(string query)

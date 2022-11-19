@@ -212,5 +212,49 @@ namespace Apartment_manager_app
                 frm.BackColor = this.BackColor;
             }
         }
+
+        private void appContact_Click(object sender, EventArgs e)
+        {
+            bool isExits = false;
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "FrmContacts")
+                {
+                    f.Activate();
+                    isExits = true;
+                    break;
+                }
+            }
+            if (!isExits)
+            {
+                FrmContacts frm = new FrmContacts();
+                frm.MdiParent = this.MdiParent;
+                frm.Dock = DockStyle.Fill;
+                frm.Show();
+                frm.BackColor = this.BackColor;
+            }
+        }
+
+        private void AppCustomer_Click(object sender, EventArgs e)
+        {
+            bool isExits = false;
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "FrmCustomers")
+                {
+                    f.Activate();
+                    isExits = true;
+                    break;
+                }
+            }
+            if (!isExits)
+            {
+                FrmCustomers frm = new FrmCustomers();
+                frm.MdiParent = this.MdiParent;
+                frm.Dock = DockStyle.Fill;
+                frm.Show();
+                frm.BackColor = this.BackColor;
+            }
+        }
     }
 }

@@ -42,7 +42,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.appContact = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
@@ -50,7 +50,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.guna2GradientPanel5 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2GradientButton5 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.AppCustomer = new Guna.UI2.WinForms.Guna2GradientButton();
             this.label6 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
@@ -212,28 +212,29 @@
             // 
             this.guna2GradientPanel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel3.BorderRadius = 10;
-            this.guna2GradientPanel3.Controls.Add(this.guna2GradientButton3);
+            this.guna2GradientPanel3.Controls.Add(this.appContact);
             this.guna2GradientPanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(203)))), ((int)(((byte)(204)))));
             this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(222)))), ((int)(((byte)(224)))));
             resources.ApplyResources(this.guna2GradientPanel3, "guna2GradientPanel3");
             this.guna2GradientPanel3.Name = "guna2GradientPanel3";
             this.guna2GradientPanel3.ShadowDecoration.Parent = this.guna2GradientPanel3;
             // 
-            // guna2GradientButton3
+            // appContact
             // 
-            this.guna2GradientButton3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton3.BorderRadius = 10;
-            this.guna2GradientButton3.CheckedState.Parent = this.guna2GradientButton3;
-            this.guna2GradientButton3.CustomImages.Parent = this.guna2GradientButton3;
-            resources.ApplyResources(this.guna2GradientButton3, "guna2GradientButton3");
-            this.guna2GradientButton3.FillColor = System.Drawing.Color.IndianRed;
-            this.guna2GradientButton3.FillColor2 = System.Drawing.Color.RosyBrown;
-            this.guna2GradientButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton3.HoverState.Parent = this.guna2GradientButton3;
-            this.guna2GradientButton3.Image = global::Apartment_manager_app.Properties.Resources.agreement;
-            this.guna2GradientButton3.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2GradientButton3.Name = "guna2GradientButton3";
-            this.guna2GradientButton3.ShadowDecoration.Parent = this.guna2GradientButton3;
+            this.appContact.BackColor = System.Drawing.Color.Transparent;
+            this.appContact.BorderRadius = 10;
+            this.appContact.CheckedState.Parent = this.appContact;
+            this.appContact.CustomImages.Parent = this.appContact;
+            resources.ApplyResources(this.appContact, "appContact");
+            this.appContact.FillColor = System.Drawing.Color.IndianRed;
+            this.appContact.FillColor2 = System.Drawing.Color.RosyBrown;
+            this.appContact.ForeColor = System.Drawing.Color.White;
+            this.appContact.HoverState.Parent = this.appContact;
+            this.appContact.Image = global::Apartment_manager_app.Properties.Resources.agreement;
+            this.appContact.ImageSize = new System.Drawing.Size(40, 40);
+            this.appContact.Name = "appContact";
+            this.appContact.ShadowDecoration.Parent = this.appContact;
+            this.appContact.Click += new System.EventHandler(this.appContact_Click);
             // 
             // label4
             // 
@@ -292,28 +293,29 @@
             // 
             this.guna2GradientPanel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel5.BorderRadius = 10;
-            this.guna2GradientPanel5.Controls.Add(this.guna2GradientButton5);
+            this.guna2GradientPanel5.Controls.Add(this.AppCustomer);
             this.guna2GradientPanel5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(203)))), ((int)(((byte)(204)))));
             this.guna2GradientPanel5.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(222)))), ((int)(((byte)(224)))));
             resources.ApplyResources(this.guna2GradientPanel5, "guna2GradientPanel5");
             this.guna2GradientPanel5.Name = "guna2GradientPanel5";
             this.guna2GradientPanel5.ShadowDecoration.Parent = this.guna2GradientPanel5;
             // 
-            // guna2GradientButton5
+            // AppCustomer
             // 
-            this.guna2GradientButton5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton5.BorderRadius = 10;
-            this.guna2GradientButton5.CheckedState.Parent = this.guna2GradientButton5;
-            this.guna2GradientButton5.CustomImages.Parent = this.guna2GradientButton5;
-            resources.ApplyResources(this.guna2GradientButton5, "guna2GradientButton5");
-            this.guna2GradientButton5.FillColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2GradientButton5.FillColor2 = System.Drawing.Color.SkyBlue;
-            this.guna2GradientButton5.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton5.HoverState.Parent = this.guna2GradientButton5;
-            this.guna2GradientButton5.Image = global::Apartment_manager_app.Properties.Resources.customer_loyalty;
-            this.guna2GradientButton5.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2GradientButton5.Name = "guna2GradientButton5";
-            this.guna2GradientButton5.ShadowDecoration.Parent = this.guna2GradientButton5;
+            this.AppCustomer.BackColor = System.Drawing.Color.Transparent;
+            this.AppCustomer.BorderRadius = 10;
+            this.AppCustomer.CheckedState.Parent = this.AppCustomer;
+            this.AppCustomer.CustomImages.Parent = this.AppCustomer;
+            resources.ApplyResources(this.AppCustomer, "AppCustomer");
+            this.AppCustomer.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.AppCustomer.FillColor2 = System.Drawing.Color.SkyBlue;
+            this.AppCustomer.ForeColor = System.Drawing.Color.White;
+            this.AppCustomer.HoverState.Parent = this.AppCustomer;
+            this.AppCustomer.Image = global::Apartment_manager_app.Properties.Resources.customer_loyalty;
+            this.AppCustomer.ImageSize = new System.Drawing.Size(40, 40);
+            this.AppCustomer.Name = "AppCustomer";
+            this.AppCustomer.ShadowDecoration.Parent = this.AppCustomer;
+            this.AppCustomer.Click += new System.EventHandler(this.AppCustomer_Click);
             // 
             // label6
             // 
@@ -716,7 +718,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel3;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel3;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton3;
+        private Guna.UI2.WinForms.Guna2GradientButton appContact;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel4;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel4;
@@ -724,7 +726,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel5;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel5;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton5;
+        private Guna.UI2.WinForms.Guna2GradientButton AppCustomer;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;

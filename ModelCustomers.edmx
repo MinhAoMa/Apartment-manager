@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Apartment_managerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="KhachHang">
+          <Key>
+            <PropertyRef Name="MaKhachHang" />
+          </Key>
+          <Property Name="MaKhachHang" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="TenKhachhang" Type="nvarchar" MaxLength="50" />
+          <Property Name="gioitinh" Type="nvarchar" MaxLength="3" />
+          <Property Name="anh" Type="image" />
+          <Property Name="Macanho" Type="varchar" MaxLength="10" />
+          <Property Name="ngaysinh" Type="date" />
+          <Property Name="quoctich" Type="varchar" MaxLength="50" />
+          <Property Name="dantoc" Type="nvarchar" MaxLength="50" />
+          <Property Name="sodienthoai" Type="nvarchar" MaxLength="12" />
+          <Property Name="quequan" Type="nvarchar" MaxLength="50" />
+          <Property Name="pathAnh" Type="char" MaxLength="100" />
+        </EntityType>
+        <EntityContainer Name="Apartment_managerModelStoreContainer">
+          <EntitySet Name="KhachHang" EntityType="Self.KhachHang" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Apartment_managerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="KhachHang">
+          <Key>
+            <PropertyRef Name="MaKhachHang" />
+          </Key>
+          <Property Name="MaKhachHang" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TenKhachhang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="gioitinh" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+          <Property Name="anh" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Macanho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ngaysinh" Type="DateTime" Precision="0" />
+          <Property Name="quoctich" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="dantoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="sodienthoai" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Name="quequan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="pathAnh" Type="String" MaxLength="100" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="CustomersEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="KhachHangs" EntityType="Self.KhachHang" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Apartment_managerModelStoreContainer" CdmEntityContainer="CustomersEntities">
+          <EntitySetMapping Name="KhachHangs">
+            <EntityTypeMapping TypeName="Apartment_managerModel.KhachHang">
+              <MappingFragment StoreEntitySet="KhachHang">
+                <ScalarProperty Name="MaKhachHang" ColumnName="MaKhachHang" />
+                <ScalarProperty Name="TenKhachhang" ColumnName="TenKhachhang" />
+                <ScalarProperty Name="gioitinh" ColumnName="gioitinh" />
+                <ScalarProperty Name="anh" ColumnName="anh" />
+                <ScalarProperty Name="Macanho" ColumnName="Macanho" />
+                <ScalarProperty Name="ngaysinh" ColumnName="ngaysinh" />
+                <ScalarProperty Name="quoctich" ColumnName="quoctich" />
+                <ScalarProperty Name="dantoc" ColumnName="dantoc" />
+                <ScalarProperty Name="sodienthoai" ColumnName="sodienthoai" />
+                <ScalarProperty Name="quequan" ColumnName="quequan" />
+                <ScalarProperty Name="pathAnh" ColumnName="pathAnh" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

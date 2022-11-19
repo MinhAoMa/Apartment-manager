@@ -143,8 +143,8 @@
             this.guna2GradientButton12.CheckedState.Parent = this.guna2GradientButton12;
             this.guna2GradientButton12.CustomImages.Parent = this.guna2GradientButton12;
             resources.ApplyResources(this.guna2GradientButton12, "guna2GradientButton12");
-            this.guna2GradientButton12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
-            this.guna2GradientButton12.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
+            this.guna2GradientButton12.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2GradientButton12.FillColor2 = System.Drawing.Color.SkyBlue;
             this.guna2GradientButton12.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton12.HoverState.Parent = this.guna2GradientButton12;
             this.guna2GradientButton12.Image = global::Apartment_manager_app.Properties.Resources.icons8_minus_96px;
@@ -157,8 +157,8 @@
             this.guna2GradientButton11.CheckedState.Parent = this.guna2GradientButton11;
             this.guna2GradientButton11.CustomImages.Parent = this.guna2GradientButton11;
             resources.ApplyResources(this.guna2GradientButton11, "guna2GradientButton11");
-            this.guna2GradientButton11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
-            this.guna2GradientButton11.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
+            this.guna2GradientButton11.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2GradientButton11.FillColor2 = System.Drawing.Color.SkyBlue;
             this.guna2GradientButton11.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton11.HoverState.Parent = this.guna2GradientButton11;
             this.guna2GradientButton11.Image = global::Apartment_manager_app.Properties.Resources.error__1_;
@@ -172,8 +172,8 @@
             this.guna2GradientPanel6.Controls.Add(this.label10);
             this.guna2GradientPanel6.Controls.Add(this.label11);
             this.guna2GradientPanel6.Controls.Add(this.guna2PictureBox5);
-            this.guna2GradientPanel6.FillColor = System.Drawing.Color.SteelBlue;
-            this.guna2GradientPanel6.FillColor2 = System.Drawing.Color.Cyan;
+            this.guna2GradientPanel6.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2GradientPanel6.FillColor2 = System.Drawing.Color.SkyBlue;
             this.guna2GradientPanel6.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             resources.ApplyResources(this.guna2GradientPanel6, "guna2GradientPanel6");
             this.guna2GradientPanel6.Name = "guna2GradientPanel6";
@@ -207,8 +207,8 @@
             this.guna2GradientPanel5.Controls.Add(this.label8);
             this.guna2GradientPanel5.Controls.Add(this.label9);
             this.guna2GradientPanel5.Controls.Add(this.guna2PictureBox4);
-            this.guna2GradientPanel5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.guna2GradientPanel5.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.guna2GradientPanel5.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2GradientPanel5.FillColor2 = System.Drawing.Color.LightSkyBlue;
             this.guna2GradientPanel5.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             resources.ApplyResources(this.guna2GradientPanel5, "guna2GradientPanel5");
             this.guna2GradientPanel5.Name = "guna2GradientPanel5";
@@ -242,8 +242,8 @@
             this.guna2GradientPanel4.Controls.Add(this.label6);
             this.guna2GradientPanel4.Controls.Add(this.label7);
             this.guna2GradientPanel4.Controls.Add(this.guna2PictureBox3);
-            this.guna2GradientPanel4.FillColor = System.Drawing.Color.Lime;
-            this.guna2GradientPanel4.FillColor2 = System.Drawing.Color.Lime;
+            this.guna2GradientPanel4.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2GradientPanel4.FillColor2 = System.Drawing.Color.SkyBlue;
             this.guna2GradientPanel4.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             resources.ApplyResources(this.guna2GradientPanel4, "guna2GradientPanel4");
             this.guna2GradientPanel4.Name = "guna2GradientPanel4";
@@ -277,8 +277,8 @@
             this.guna2GradientPanel3.Controls.Add(this.Price);
             this.guna2GradientPanel3.Controls.Add(this.label5);
             this.guna2GradientPanel3.Controls.Add(this.guna2PictureBox2);
-            this.guna2GradientPanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(48)))), ((int)(((byte)(121)))));
-            this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(85)))), ((int)(((byte)(219)))));
+            this.guna2GradientPanel3.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.SkyBlue;
             this.guna2GradientPanel3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             resources.ApplyResources(this.guna2GradientPanel3, "guna2GradientPanel3");
             this.guna2GradientPanel3.Name = "guna2GradientPanel3";
@@ -420,8 +420,8 @@
             this.guna2GradientPanel8.Controls.Add(this.guna2VProgressBar2);
             this.guna2GradientPanel8.Controls.Add(this.guna2VProgressBar1);
             this.guna2GradientPanel8.Controls.Add(this.label14);
-            this.guna2GradientPanel8.FillColor = System.Drawing.Color.Tomato;
-            this.guna2GradientPanel8.FillColor2 = System.Drawing.Color.Salmon;
+            this.guna2GradientPanel8.FillColor = System.Drawing.Color.MediumSlateBlue;
+            this.guna2GradientPanel8.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.guna2GradientPanel8, "guna2GradientPanel8");
             this.guna2GradientPanel8.Name = "guna2GradientPanel8";
             this.guna2GradientPanel8.ShadowDecoration.Parent = this.guna2GradientPanel8;
@@ -603,8 +603,8 @@
             this.guna2GradientPanel7.Controls.Add(this.panel4);
             this.guna2GradientPanel7.Controls.Add(this.label13);
             this.guna2GradientPanel7.Controls.Add(this.guna2CircleProgressBar1);
-            this.guna2GradientPanel7.FillColor = System.Drawing.Color.Orange;
-            this.guna2GradientPanel7.FillColor2 = System.Drawing.Color.Gold;
+            this.guna2GradientPanel7.FillColor = System.Drawing.Color.MediumSlateBlue;
+            this.guna2GradientPanel7.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.guna2GradientPanel7, "guna2GradientPanel7");
             this.guna2GradientPanel7.Name = "guna2GradientPanel7";
             this.guna2GradientPanel7.ShadowDecoration.Parent = this.guna2GradientPanel7;

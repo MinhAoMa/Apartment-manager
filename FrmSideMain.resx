@@ -301,7 +301,7 @@
     <value>2</value>
   </data>
   <data name="guna2GradientPanel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>812, 137</value>
+    <value>12, 137</value>
   </data>
   <data name="guna2GradientPanel6.Size" type="System.Drawing.Size, System.Drawing">
     <value>233, 132</value>
@@ -712,7 +712,7 @@
     <value>2</value>
   </data>
   <data name="guna2GradientPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 137</value>
+    <value>787, 137</value>
   </data>
   <data name="guna2GradientPanel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>233, 132</value>

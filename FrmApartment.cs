@@ -23,10 +23,7 @@ namespace Apartment_manager_app
             InitializeComponent();
         }
 
-        private void btnback_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        
 
         private void FrmApartment_Load(object sender, EventArgs e)
         {
@@ -179,6 +176,11 @@ namespace Apartment_manager_app
         {
             FrmReportApartment frm = new FrmReportApartment();
             frm.Show();
+        }
+
+        private void btnBacktomenu_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

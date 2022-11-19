@@ -82,20 +82,21 @@ namespace Apartment_manager_app
             titlePerson.Text = "Nhập thông tin cư dân";
             SqlConnection con = connect.getConnection();
             con.Open();
-            string commandText = "INSERT INTO dancu VALUES(@Madancu,@ten,@gioitinh,@anh,@Macanho,@ngaysinh,@quoctich,@dantoc,@sodienthoai,@quequan)";
+            string commandText = "INSERT INTO dancu VALUES(@Madancu,@ten,@gioitinh,@anh,@Macanho,@ngaysinh,@quoctich,@dantoc,@sodienthoai,@quequan,@pathAnh)";
             SqlCommand com = new SqlCommand(commandText, con);
             com.Parameters.AddWithValue("@Madancu", txtMa.Text);
             com.Parameters.AddWithValue("@ten", txtName.Text);
             com.Parameters.AddWithValue("@gioitinh", rbMale.Checked ? "Nam" : "Nữ");
-            com.Parameters.AddWithValue("@anh",convert());
+            com.Parameters.AddWithValue("@anh", convert());
             com.Parameters.AddWithValue("@Macanho", cbbApartment.SelectedValue.ToString());
             com.Parameters.AddWithValue("@ngaysinh", txtBirthday.Text);
             com.Parameters.AddWithValue("@quoctich", txtnational.Text);
             com.Parameters.AddWithValue("@dantoc", txtethnic.Text);
             com.Parameters.AddWithValue("@sodienthoai", txtphone.Text);
             com.Parameters.AddWithValue("@quequan", txtAddress.Text);
+            com.Parameters.AddWithValue("@pathAnh", txtpath.Text);
             com.ExecuteNonQuery();
-            con.Close();            
+            con.Close();
             ContainerData.Visible = false;
             FrmPerson_Load(sender, e);
         }
@@ -315,6 +316,11 @@ namespace Apartment_manager_app
         }
 
         private void txtAddress_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtphone_TextChanged(object sender, EventArgs e)
         {
 
         }

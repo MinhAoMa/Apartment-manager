@@ -30,15 +30,16 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmManagerService));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvql = new Guna.UI2.WinForms.Guna2DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnBacktomenu = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvql)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,13 +58,13 @@
             this.dgvql.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Asap SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvql.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvql.ColumnHeadersHeight = 32;
+            resources.ApplyResources(this.dgvql, "dgvql");
             this.dgvql.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
@@ -77,14 +78,10 @@
             this.dgvql.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvql.EnableHeadersVisualStyles = false;
             this.dgvql.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvql.Location = new System.Drawing.Point(12, 124);
             this.dgvql.Name = "dgvql";
             this.dgvql.RowHeadersVisible = false;
-            this.dgvql.RowHeadersWidth = 62;
             this.dgvql.RowTemplate.Height = 28;
             this.dgvql.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvql.Size = new System.Drawing.Size(1095, 363);
-            this.dgvql.TabIndex = 0;
             this.dgvql.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.dgvql.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvql.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -111,15 +108,13 @@
             // Column1
             // 
             this.Column1.DataPropertyName = "macanho";
-            this.Column1.HeaderText = "Mã căn hộ";
-            this.Column1.MinimumWidth = 8;
+            resources.ApplyResources(this.Column1, "Column1");
             this.Column1.Name = "Column1";
             // 
             // Column2
             // 
             this.Column2.DataPropertyName = "tendichvu";
-            this.Column2.HeaderText = "Tên dịch vụ";
-            this.Column2.MinimumWidth = 8;
+            resources.ApplyResources(this.Column2, "Column2");
             this.Column2.Name = "Column2";
             // 
             // guna2TextBox1
@@ -135,87 +130,83 @@
             this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(20, 65);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            resources.ApplyResources(this.guna2TextBox1, "guna2TextBox1");
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(300, 37);
-            this.guna2TextBox1.TabIndex = 1;
             // 
             // guna2GradientButton1
             // 
+            this.guna2GradientButton1.BorderRadius = 10;
             this.guna2GradientButton1.CheckedState.Parent = this.guna2GradientButton1;
             this.guna2GradientButton1.CustomImages.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2GradientButton1.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.SkyBlue;
+            resources.ApplyResources(this.guna2GradientButton1, "guna2GradientButton1");
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton1.HoverState.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(316, 65);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.ShadowDecoration.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Size = new System.Drawing.Size(180, 37);
-            this.guna2GradientButton1.TabIndex = 2;
-            this.guna2GradientButton1.Text = "Tìm kiếm";
-            // 
-            // guna2GradientButton2
-            // 
-            this.guna2GradientButton2.CheckedState.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.CustomImages.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton2.HoverState.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.Image = global::Apartment_manager_app.Properties.Resources.icons8_left_96px;
-            this.guna2GradientButton2.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2GradientButton2.Location = new System.Drawing.Point(1, -1);
-            this.guna2GradientButton2.Name = "guna2GradientButton2";
-            this.guna2GradientButton2.ShadowDecoration.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.Size = new System.Drawing.Size(110, 45);
-            this.guna2GradientButton2.TabIndex = 3;
+            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // guna2GradientButton3
             // 
+            this.guna2GradientButton3.BorderRadius = 10;
             this.guna2GradientButton3.CheckedState.Parent = this.guna2GradientButton3;
             this.guna2GradientButton3.CustomImages.Parent = this.guna2GradientButton3;
-            this.guna2GradientButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2GradientButton3.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2GradientButton3.FillColor2 = System.Drawing.Color.SkyBlue;
+            resources.ApplyResources(this.guna2GradientButton3, "guna2GradientButton3");
             this.guna2GradientButton3.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton3.HoverState.Parent = this.guna2GradientButton3;
-            this.guna2GradientButton3.Location = new System.Drawing.Point(973, 507);
             this.guna2GradientButton3.Name = "guna2GradientButton3";
             this.guna2GradientButton3.ShadowDecoration.Parent = this.guna2GradientButton3;
-            this.guna2GradientButton3.Size = new System.Drawing.Size(134, 45);
-            this.guna2GradientButton3.TabIndex = 4;
-            this.guna2GradientButton3.Text = "Excel";
             // 
             // guna2GradientButton4
             // 
+            this.guna2GradientButton4.BorderRadius = 10;
             this.guna2GradientButton4.CheckedState.Parent = this.guna2GradientButton4;
             this.guna2GradientButton4.CustomImages.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2GradientButton4.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.guna2GradientButton4.FillColor2 = System.Drawing.Color.SkyBlue;
+            resources.ApplyResources(this.guna2GradientButton4, "guna2GradientButton4");
             this.guna2GradientButton4.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton4.HoverState.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.Location = new System.Drawing.Point(816, 507);
             this.guna2GradientButton4.Name = "guna2GradientButton4";
             this.guna2GradientButton4.ShadowDecoration.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.Size = new System.Drawing.Size(134, 45);
-            this.guna2GradientButton4.TabIndex = 5;
-            this.guna2GradientButton4.Text = "Báo cáo";
+            // 
+            // btnBacktomenu
+            // 
+            this.btnBacktomenu.BorderRadius = 9;
+            this.btnBacktomenu.CheckedState.Parent = this.btnBacktomenu;
+            this.btnBacktomenu.CustomImages.Parent = this.btnBacktomenu;
+            this.btnBacktomenu.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
+            this.btnBacktomenu.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
+            resources.ApplyResources(this.btnBacktomenu, "btnBacktomenu");
+            this.btnBacktomenu.ForeColor = System.Drawing.Color.White;
+            this.btnBacktomenu.HoverState.Parent = this.btnBacktomenu;
+            this.btnBacktomenu.Image = ((System.Drawing.Image)(resources.GetObject("btnBacktomenu.Image")));
+            this.btnBacktomenu.ImageOffset = new System.Drawing.Point(3, 3);
+            this.btnBacktomenu.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnBacktomenu.Name = "btnBacktomenu";
+            this.btnBacktomenu.ShadowDecoration.Parent = this.btnBacktomenu;
+            this.btnBacktomenu.Click += new System.EventHandler(this.btnBacktomenu_Click);
             // 
             // FrmManagerService
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(219)))), ((int)(((byte)(245)))));
-            this.ClientSize = new System.Drawing.Size(1119, 583);
+            resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.btnBacktomenu);
             this.Controls.Add(this.guna2GradientButton4);
             this.Controls.Add(this.guna2GradientButton3);
-            this.Controls.Add(this.guna2GradientButton2);
             this.Controls.Add(this.guna2GradientButton1);
             this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.dgvql);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmManagerService";
-            this.Text = "FrmManagerService";
             this.Load += new System.EventHandler(this.FrmManagerService_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvql)).EndInit();
             this.ResumeLayout(false);
@@ -225,12 +216,12 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2DataGridView dgvql;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton3;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton4;
+        private Guna.UI2.WinForms.Guna2GradientButton btnBacktomenu;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
     }
 }

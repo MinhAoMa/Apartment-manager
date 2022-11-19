@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="guna2PictureBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;guna2PictureBox1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;btnThue.Name" xml:space="preserve">
+    <value>btnThue</value>
+  </data>
+  <data name="&gt;&gt;btnThue.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnThue.Text" xml:space="preserve">
+    <value>Thuê Căn Hộ</value>
+  </data>
+  <data name="guna2GradientButton2.Text" xml:space="preserve">
+    <value>Mua Căn Hộ</value>
+  </data>
+  <data name="&gt;&gt;guna2PictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmContacts</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="guna2PictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 289</value>
+  </data>
+  <data name="btnThue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Asap SemiBold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnBacktomenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="guna2PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 12</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;guna2HtmlToolTip1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2HtmlToolTip, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;guna2PictureBox2.Name" xml:space="preserve">
+    <value>guna2PictureBox2</value>
+  </data>
+  <data name="guna2PictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>586, 271</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FrmContacts</value>
+  </data>
+  <data name="&gt;&gt;btnBacktomenu.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="guna2GradientButton2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="guna2PictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;btnThue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnBacktomenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAAh9JREFUeF7t
+        3DFLw0AYxvFaUHHQXXAURwdnRx1EK1i/lPoxXAXB6qKu6sdw6VjSu1QouljfyFsoIa1petc77P8H79L2
+        SHmekERJUwMAAAAAAAAAAAAAAAtkMBjUrbXn3W73KhtjzJm8tqRvw6d2u70mgd/LDHLTyt7Tj8EHDf8p
+        F/zoXOtH4VqJ8LP57nQ6m7oErpQM/3fknHCky+CC7NHrEuxLPuhxIwXs6lLMSvf853zIE+ZdroaWdTlm
+        USH8vuz9+7ocs5j2sCPTI3xHCD8gwg+oQvgfhO8I4Qek4b/mAp40hO8K4QdE+AERfkCEH1CSJBsSKOGH
+        QPgBEX5AhB9QFr619q0g5HFD+K5UCP+/TkfmNk3TbY3Gv+y+HdmTH3NfZNFH9slkSyPyS8JvFHwBxpgb
+        jcgvKeCiYOOMMVYj8ksKuCzYOGNMqhH5JQUcF2yckZOxRuRXdqOsbOwht/FFn26v19vRiPyTElZlo0U3
+        0S7apDLzvQwdqlBCX/52ONDlcIESIiAlrEiw05ZwqMvhQoUSPrOrKV0OFyghAhVLONHlcIESIqAltHJB
+        T5ovKaGhy+ECJUSAEiJACRGoUoLMqS6HC5QQAS3hbiTkv4YSXKOECPAz1QjwQ+0ITHs4stbu6VK4wsM6
+        IlCyBB5X41OJEnhgk29aQtG/snlk2bzIibkugTfleD98aF9TXuOhfQAAAAAAAAAAAAAAoKxa7QfzMsGd
+        YC43IQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;guna2PictureBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;guna2HtmlToolTip1.Name" xml:space="preserve">
+    <value>guna2HtmlToolTip1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1113, 568</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="guna2GradientButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="btnThue.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton2.Name" xml:space="preserve">
+    <value>guna2GradientButton2</value>
+  </data>
+  <data name="guna2GradientButton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Asap SemiBold, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnBacktomenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-5, -10</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="btnThue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 76</value>
+  </data>
+  <data name="btnThue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBacktomenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 44</value>
+  </data>
+  <data name="&gt;&gt;btnBacktomenu.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;guna2PictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnBacktomenu.Name" xml:space="preserve">
+    <value>btnBacktomenu</value>
+  </data>
+  <data name="btnThue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>855, 105</value>
+  </data>
+  <data name="btnBacktomenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="guna2PictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="btnBacktomenu.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="guna2PictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;guna2PictureBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="guna2GradientButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 76</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnBacktomenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;guna2PictureBox1.Name" xml:space="preserve">
+    <value>guna2PictureBox1</value>
+  </data>
+  <data name="guna2PictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;btnThue.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="guna2PictureBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;guna2PictureBox2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="guna2GradientButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 392</value>
+  </data>
+  <data name="guna2PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>586, 271</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="guna2HtmlToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

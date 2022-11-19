@@ -117,10 +117,223 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgvql.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
   <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>Mã căn hộ</value>
+  </data>
+  <data name="Column1.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
   <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>Tên dịch vụ</value>
+  </data>
+  <data name="Column2.MinimumWidth" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dgvql.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 124</value>
+  </data>
+  <data name="dgvql.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="dgvql.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1095, 363</value>
+  </data>
+  <data name="dgvql.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvql.Name" xml:space="preserve">
+    <value>dgvql</value>
+  </data>
+  <data name="&gt;&gt;dgvql.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2DataGridView, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;dgvql.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgvql.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="guna2TextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 65</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="guna2TextBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="guna2TextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 37</value>
+  </data>
+  <data name="guna2TextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;guna2TextBox1.Name" xml:space="preserve">
+    <value>guna2TextBox1</value>
+  </data>
+  <data name="&gt;&gt;guna2TextBox1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;guna2TextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2TextBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="guna2GradientButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Asap SemiBold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="guna2GradientButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 65</value>
+  </data>
+  <data name="guna2GradientButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 37</value>
+  </data>
+  <data name="guna2GradientButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="guna2GradientButton1.Text" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton1.Name" xml:space="preserve">
+    <value>guna2GradientButton1</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="guna2GradientButton3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Asap SemiBold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="guna2GradientButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>973, 507</value>
+  </data>
+  <data name="guna2GradientButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 45</value>
+  </data>
+  <data name="guna2GradientButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="guna2GradientButton3.Text" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton3.Name" xml:space="preserve">
+    <value>guna2GradientButton3</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="guna2GradientButton4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Asap SemiBold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="guna2GradientButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>816, 507</value>
+  </data>
+  <data name="guna2GradientButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 45</value>
+  </data>
+  <data name="guna2GradientButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="guna2GradientButton4.Text" xml:space="preserve">
+    <value>Báo cáo</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton4.Name" xml:space="preserve">
+    <value>guna2GradientButton4</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton4.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnBacktomenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="btnBacktomenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAAh9JREFUeF7t
+        3DFLw0AYxvFaUHHQXXAURwdnRx1EK1i/lPoxXAXB6qKu6sdw6VjSu1QouljfyFsoIa1petc77P8H79L2
+        SHmekERJUwMAAAAAAAAAAAAAAAtkMBjUrbXn3W73KhtjzJm8tqRvw6d2u70mgd/LDHLTyt7Tj8EHDf8p
+        F/zoXOtH4VqJ8LP57nQ6m7oErpQM/3fknHCky+CC7NHrEuxLPuhxIwXs6lLMSvf853zIE+ZdroaWdTlm
+        USH8vuz9+7ocs5j2sCPTI3xHCD8gwg+oQvgfhO8I4Qek4b/mAp40hO8K4QdE+AERfkCEH1CSJBsSKOGH
+        QPgBEX5AhB9QFr619q0g5HFD+K5UCP+/TkfmNk3TbY3Gv+y+HdmTH3NfZNFH9slkSyPyS8JvFHwBxpgb
+        jcgvKeCiYOOMMVYj8ksKuCzYOGNMqhH5JQUcF2yckZOxRuRXdqOsbOwht/FFn26v19vRiPyTElZlo0U3
+        0S7apDLzvQwdqlBCX/52ONDlcIESIiAlrEiw05ZwqMvhQoUSPrOrKV0OFyghAhVLONHlcIESIqAltHJB
+        T5ovKaGhy+ECJUSAEiJACRGoUoLMqS6HC5QQAS3hbiTkv4YSXKOECPAz1QjwQ+0ITHs4stbu6VK4wsM6
+        IlCyBB5X41OJEnhgk29aQtG/snlk2bzIibkugTfleD98aF9TXuOhfQAAAAAAAAAAAAAAoKxa7QfzMsGd
+        YC43IQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnBacktomenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-8, -6</value>
+  </data>
+  <data name="btnBacktomenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 44</value>
+  </data>
+  <data name="btnBacktomenu.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;btnBacktomenu.Name" xml:space="preserve">
+    <value>btnBacktomenu</value>
+  </data>
+  <data name="&gt;&gt;btnBacktomenu.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;btnBacktomenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnBacktomenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1119, 583</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FrmManagerService</value>
+  </data>
+  <data name="&gt;&gt;Column1.Name" xml:space="preserve">
+    <value>Column1</value>
+  </data>
+  <data name="&gt;&gt;Column1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column2.Name" xml:space="preserve">
+    <value>Column2</value>
+  </data>
+  <data name="&gt;&gt;Column2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmManagerService</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

@@ -133,7 +133,7 @@
     <value>769, 52</value>
   </data>
   <data name="LbDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 23</value>
+    <value>163, 19</value>
   </data>
   <data name="LbDate.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -152,6 +152,21 @@
   </data>
   <data name="&gt;&gt;LbDate.ZOrder" xml:space="preserve">
     <value>7</value>
+  </data>
+  <data name="BtnButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BtnButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="BtnButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="BtnButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 86</value>
+  </data>
+  <data name="BtnButton.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
   </data>
   <data name="&gt;&gt;BtnButton.Name" xml:space="preserve">
     <value>BtnButton</value>
@@ -186,33 +201,6 @@
   <data name="&gt;&gt;guna2GradientPanel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="BtnButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="BtnButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="BtnButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="BtnButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 86</value>
-  </data>
-  <data name="BtnButton.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;BtnButton.Name" xml:space="preserve">
-    <value>BtnButton</value>
-  </data>
-  <data name="&gt;&gt;BtnButton.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;BtnButton.Parent" xml:space="preserve">
-    <value>guna2GradientPanel1</value>
-  </data>
-  <data name="&gt;&gt;BtnButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -226,7 +214,7 @@
     <value>36, 101</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 30</value>
+    <value>54, 20</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -299,50 +287,20 @@
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;guna2GradientPanel2.Name" xml:space="preserve">
-    <value>guna2GradientPanel2</value>
+  <data name="appApartment.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="&gt;&gt;guna2GradientPanel2.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  <data name="appApartment.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;guna2GradientPanel2.Parent" xml:space="preserve">
-    <value>panel2</value>
+  <data name="appApartment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;guna2GradientPanel2.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="appApartment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 86</value>
   </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>260, 22</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 134</value>
-  </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>panel6</value>
-  </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="appApartment.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
   </data>
   <data name="&gt;&gt;appApartment.Name" xml:space="preserve">
     <value>appApartment</value>
@@ -377,33 +335,6 @@
   <data name="&gt;&gt;guna2GradientPanel2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="appApartment.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="appApartment.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="appApartment.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="appApartment.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 86</value>
-  </data>
-  <data name="appApartment.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;appApartment.Name" xml:space="preserve">
-    <value>appApartment</value>
-  </data>
-  <data name="&gt;&gt;appApartment.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;appApartment.Parent" xml:space="preserve">
-    <value>guna2GradientPanel2</value>
-  </data>
-  <data name="&gt;&gt;appApartment.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -417,7 +348,7 @@
     <value>31, 100</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 31</value>
+    <value>57, 20</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -437,6 +368,63 @@
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 22</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 134</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="appContact.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="appContact.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="appContact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="appContact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 86</value>
+  </data>
+  <data name="appContact.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;appContact.Name" xml:space="preserve">
+    <value>appContact</value>
+  </data>
+  <data name="&gt;&gt;appContact.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;appContact.Parent" xml:space="preserve">
+    <value>guna2GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;appContact.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="guna2GradientPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 11</value>
+  </data>
+  <data name="guna2GradientPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 86</value>
+  </data>
+  <data name="guna2GradientPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
   <data name="&gt;&gt;guna2GradientPanel3.Name" xml:space="preserve">
     <value>guna2GradientPanel3</value>
   </data>
@@ -448,6 +436,27 @@
   </data>
   <data name="&gt;&gt;guna2GradientPanel3.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Asap, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 98</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Hợp đồng</value>
   </data>
   <data name="&gt;&gt;label4.Name" xml:space="preserve">
     <value>label4</value>
@@ -482,143 +491,20 @@
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;guna2GradientButton3.Name" xml:space="preserve">
-    <value>guna2GradientButton3</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton3.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton3.Parent" xml:space="preserve">
-    <value>guna2GradientPanel3</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="guna2GradientPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 11</value>
-  </data>
-  <data name="guna2GradientPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 86</value>
-  </data>
-  <data name="guna2GradientPanel3.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel3.Name" xml:space="preserve">
-    <value>guna2GradientPanel3</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel3.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel3.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="guna2GradientButton3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="guna2GradientButton4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="guna2GradientButton3.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="guna2GradientButton4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
-  <data name="guna2GradientButton3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="guna2GradientButton4.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="guna2GradientButton3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="guna2GradientButton4.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 86</value>
   </data>
-  <data name="guna2GradientButton3.TabIndex" type="System.Int32, mscorlib">
+  <data name="guna2GradientButton4.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton3.Name" xml:space="preserve">
-    <value>guna2GradientButton3</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton3.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton3.Parent" xml:space="preserve">
-    <value>guna2GradientPanel3</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Asap, 11.25pt, style=Bold</value>
-  </data>
-  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 98</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 30</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Hợp đồng</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel4.Name" xml:space="preserve">
-    <value>guna2GradientPanel4</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel4.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel4.Parent" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>680, 27</value>
-  </data>
-  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 134</value>
-  </data>
-  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
-    <value>panel6</value>
-  </data>
-  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;guna2GradientButton4.Name" xml:space="preserve">
     <value>guna2GradientButton4</value>
@@ -653,33 +539,6 @@
   <data name="&gt;&gt;guna2GradientPanel4.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="guna2GradientButton4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="guna2GradientButton4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="guna2GradientButton4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="guna2GradientButton4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 86</value>
-  </data>
-  <data name="guna2GradientButton4.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton4.Name" xml:space="preserve">
-    <value>guna2GradientButton4</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton4.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton4.Parent" xml:space="preserve">
-    <value>guna2GradientPanel4</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -693,7 +552,7 @@
     <value>22, 96</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 31</value>
+    <value>80, 20</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -716,6 +575,63 @@
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>680, 27</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 134</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="AppCustomer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="AppCustomer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="AppCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="AppCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 86</value>
+  </data>
+  <data name="AppCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;AppCustomer.Name" xml:space="preserve">
+    <value>AppCustomer</value>
+  </data>
+  <data name="&gt;&gt;AppCustomer.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;AppCustomer.Parent" xml:space="preserve">
+    <value>guna2GradientPanel5</value>
+  </data>
+  <data name="&gt;&gt;AppCustomer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="guna2GradientPanel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 11</value>
+  </data>
+  <data name="guna2GradientPanel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 86</value>
+  </data>
+  <data name="guna2GradientPanel5.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
   <data name="&gt;&gt;guna2GradientPanel5.Name" xml:space="preserve">
     <value>guna2GradientPanel5</value>
   </data>
@@ -727,6 +643,30 @@
   </data>
   <data name="&gt;&gt;guna2GradientPanel5.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Asap, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 100</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Khách hàng</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
@@ -761,102 +701,6 @@
   <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;guna2GradientButton5.Name" xml:space="preserve">
-    <value>guna2GradientButton5</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton5.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton5.Parent" xml:space="preserve">
-    <value>guna2GradientPanel5</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="guna2GradientPanel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 11</value>
-  </data>
-  <data name="guna2GradientPanel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 86</value>
-  </data>
-  <data name="guna2GradientPanel5.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel5.Name" xml:space="preserve">
-    <value>guna2GradientPanel5</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel5.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel5.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="guna2GradientButton5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="guna2GradientButton5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="guna2GradientButton5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="guna2GradientButton5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 86</value>
-  </data>
-  <data name="guna2GradientButton5.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton5.Name" xml:space="preserve">
-    <value>guna2GradientButton5</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton5.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton5.Parent" xml:space="preserve">
-    <value>guna2GradientPanel5</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Asap, 11.25pt, style=Bold</value>
-  </data>
-  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 100</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 30</value>
-  </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Khách hàng</value>
-  </data>
-  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 140</value>
   </data>
@@ -878,6 +722,42 @@
   <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="guna2GradientButton6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="guna2GradientButton6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="guna2GradientButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="guna2GradientButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 86</value>
+  </data>
+  <data name="guna2GradientButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton6.Name" xml:space="preserve">
+    <value>guna2GradientButton6</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton6.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton6.Parent" xml:space="preserve">
+    <value>guna2GradientPanel6</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="guna2GradientPanel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 11</value>
+  </data>
+  <data name="guna2GradientPanel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 86</value>
+  </data>
+  <data name="guna2GradientPanel6.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
   <data name="&gt;&gt;guna2GradientPanel6.Name" xml:space="preserve">
     <value>guna2GradientPanel6</value>
   </data>
@@ -889,6 +769,27 @@
   </data>
   <data name="&gt;&gt;guna2GradientPanel6.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Asap, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 99</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Điện</value>
   </data>
   <data name="&gt;&gt;label7.Name" xml:space="preserve">
     <value>label7</value>
@@ -923,6 +824,42 @@
   <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="guna2GradientButton7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="guna2GradientButton7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="guna2GradientButton7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="guna2GradientButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 86</value>
+  </data>
+  <data name="guna2GradientButton7.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton7.Name" xml:space="preserve">
+    <value>guna2GradientButton7</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton7.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton7.Parent" xml:space="preserve">
+    <value>guna2GradientPanel7</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="guna2GradientPanel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 11</value>
+  </data>
+  <data name="guna2GradientPanel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 86</value>
+  </data>
+  <data name="guna2GradientPanel7.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
   <data name="&gt;&gt;guna2GradientPanel7.Name" xml:space="preserve">
     <value>guna2GradientPanel7</value>
   </data>
@@ -934,6 +871,27 @@
   </data>
   <data name="&gt;&gt;guna2GradientPanel7.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Asap, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 100</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Phương tiện</value>
   </data>
   <data name="&gt;&gt;label8.Name" xml:space="preserve">
     <value>label8</value>
@@ -1029,7 +987,7 @@
     <value>20, 99</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 30</value>
+    <value>109, 20</value>
   </data>
   <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -1070,6 +1028,42 @@
   <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="guna2GradientButton9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="guna2GradientButton9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="guna2GradientButton9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="guna2GradientButton9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 86</value>
+  </data>
+  <data name="guna2GradientButton9.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton9.Name" xml:space="preserve">
+    <value>guna2GradientButton9</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton9.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton9.Parent" xml:space="preserve">
+    <value>guna2GradientPanel9</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="guna2GradientPanel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 11</value>
+  </data>
+  <data name="guna2GradientPanel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 86</value>
+  </data>
+  <data name="guna2GradientPanel9.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
   <data name="&gt;&gt;guna2GradientPanel9.Name" xml:space="preserve">
     <value>guna2GradientPanel9</value>
   </data>
@@ -1081,6 +1075,27 @@
   </data>
   <data name="&gt;&gt;guna2GradientPanel9.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Asap, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 100</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Nước</value>
   </data>
   <data name="&gt;&gt;label10.Name" xml:space="preserve">
     <value>label10</value>
@@ -1115,6 +1130,42 @@
   <data name="&gt;&gt;panel11.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="guna2GradientButton10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="guna2GradientButton10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="guna2GradientButton10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="guna2GradientButton10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 86</value>
+  </data>
+  <data name="guna2GradientButton10.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton10.Name" xml:space="preserve">
+    <value>guna2GradientButton10</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton10.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton10.Parent" xml:space="preserve">
+    <value>guna2GradientPanel10</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientButton10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="guna2GradientPanel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 11</value>
+  </data>
+  <data name="guna2GradientPanel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 86</value>
+  </data>
+  <data name="guna2GradientPanel10.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
   <data name="&gt;&gt;guna2GradientPanel10.Name" xml:space="preserve">
     <value>guna2GradientPanel10</value>
   </data>
@@ -1126,6 +1177,27 @@
   </data>
   <data name="&gt;&gt;guna2GradientPanel10.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Asap, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 101</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Dịch vụ</value>
   </data>
   <data name="&gt;&gt;label11.Name" xml:space="preserve">
     <value>label11</value>
@@ -1181,423 +1253,6 @@
   <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;guna2GradientButton6.Name" xml:space="preserve">
-    <value>guna2GradientButton6</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton6.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton6.Parent" xml:space="preserve">
-    <value>guna2GradientPanel6</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton6.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="guna2GradientPanel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 11</value>
-  </data>
-  <data name="guna2GradientPanel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 86</value>
-  </data>
-  <data name="guna2GradientPanel6.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel6.Name" xml:space="preserve">
-    <value>guna2GradientPanel6</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel6.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel6.Parent" xml:space="preserve">
-    <value>panel8</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel6.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="guna2GradientButton6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="guna2GradientButton6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="guna2GradientButton6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="guna2GradientButton6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 86</value>
-  </data>
-  <data name="guna2GradientButton6.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton6.Name" xml:space="preserve">
-    <value>guna2GradientButton6</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton6.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton6.Parent" xml:space="preserve">
-    <value>guna2GradientPanel6</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton6.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Asap, 11.25pt, style=Bold</value>
-  </data>
-  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>43, 99</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 30</value>
-  </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Điện</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>panel8</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton7.Name" xml:space="preserve">
-    <value>guna2GradientButton7</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton7.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton7.Parent" xml:space="preserve">
-    <value>guna2GradientPanel7</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton7.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="guna2GradientPanel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 11</value>
-  </data>
-  <data name="guna2GradientPanel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 86</value>
-  </data>
-  <data name="guna2GradientPanel7.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel7.Name" xml:space="preserve">
-    <value>guna2GradientPanel7</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel7.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel7.Parent" xml:space="preserve">
-    <value>panel9</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel7.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="guna2GradientButton7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="guna2GradientButton7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="guna2GradientButton7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="guna2GradientButton7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 86</value>
-  </data>
-  <data name="guna2GradientButton7.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton7.Name" xml:space="preserve">
-    <value>guna2GradientButton7</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton7.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton7.Parent" xml:space="preserve">
-    <value>guna2GradientPanel7</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton7.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Asap, 11.25pt, style=Bold</value>
-  </data>
-  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 100</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 30</value>
-  </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Phương tiện</value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>panel9</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton9.Name" xml:space="preserve">
-    <value>guna2GradientButton9</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton9.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton9.Parent" xml:space="preserve">
-    <value>guna2GradientPanel9</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton9.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="guna2GradientPanel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 11</value>
-  </data>
-  <data name="guna2GradientPanel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 86</value>
-  </data>
-  <data name="guna2GradientPanel9.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel9.Name" xml:space="preserve">
-    <value>guna2GradientPanel9</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel9.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel9.Parent" xml:space="preserve">
-    <value>panel11</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel9.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="guna2GradientButton9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="guna2GradientButton9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="guna2GradientButton9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="guna2GradientButton9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 86</value>
-  </data>
-  <data name="guna2GradientButton9.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton9.Name" xml:space="preserve">
-    <value>guna2GradientButton9</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton9.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton9.Parent" xml:space="preserve">
-    <value>guna2GradientPanel9</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton9.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Asap, 11.25pt, style=Bold</value>
-  </data>
-  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 100</value>
-  </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 30</value>
-  </data>
-  <data name="label10.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>Nước</value>
-  </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>panel11</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton10.Name" xml:space="preserve">
-    <value>guna2GradientButton10</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton10.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton10.Parent" xml:space="preserve">
-    <value>guna2GradientPanel10</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton10.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="guna2GradientPanel10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 11</value>
-  </data>
-  <data name="guna2GradientPanel10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 86</value>
-  </data>
-  <data name="guna2GradientPanel10.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel10.Name" xml:space="preserve">
-    <value>guna2GradientPanel10</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel10.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel10.Parent" xml:space="preserve">
-    <value>panel12</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel10.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="guna2GradientButton10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="guna2GradientButton10.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="guna2GradientButton10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="guna2GradientButton10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 86</value>
-  </data>
-  <data name="guna2GradientButton10.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton10.Name" xml:space="preserve">
-    <value>guna2GradientButton10</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton10.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton10.Parent" xml:space="preserve">
-    <value>guna2GradientPanel10</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton10.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Asap, 11.25pt, style=Bold</value>
-  </data>
-  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>32, 101</value>
-  </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 30</value>
-  </data>
-  <data name="label11.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>Dịch vụ</value>
-  </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
-  </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
-    <value>panel12</value>
-  </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton12.Name" xml:space="preserve">
-    <value>guna2GradientButton12</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton12.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton12.Parent" xml:space="preserve">
-    <value>guna2GradientPanel11</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton12.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton11.Name" xml:space="preserve">
-    <value>guna2GradientButton11</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton11.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton11.Parent" xml:space="preserve">
-    <value>guna2GradientPanel11</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientButton11.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="guna2GradientPanel11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>817, -1</value>
-  </data>
-  <data name="guna2GradientPanel11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 35</value>
-  </data>
-  <data name="guna2GradientPanel11.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel11.Name" xml:space="preserve">
-    <value>guna2GradientPanel11</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel11.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel11.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel11.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="guna2GradientButton12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
   </data>
@@ -1650,6 +1305,27 @@
     <value>guna2GradientPanel11</value>
   </data>
   <data name="&gt;&gt;guna2GradientButton11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="guna2GradientPanel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>817, -1</value>
+  </data>
+  <data name="guna2GradientPanel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 35</value>
+  </data>
+  <data name="guna2GradientPanel11.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientPanel11.Name" xml:space="preserve">
+    <value>guna2GradientPanel11</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientPanel11.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientPanel11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientPanel11.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="guna2TextBox2.Location" type="System.Drawing.Point, System.Drawing">
@@ -1727,6 +1403,9 @@
   <data name="&gt;&gt;btnBackforward.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

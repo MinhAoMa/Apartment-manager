@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Apartment_managerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="KhachHang">
+    <Key>
+      <PropertyRef Name="MaKhachHang" />
+    </Key>
+    <Property Name="MaKhachHang" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenKhachhang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="gioitinh" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="anh" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Macanho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ngaysinh" Type="DateTime" Precision="0" />
+    <Property Name="quoctich" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dantoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="sodienthoai" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="quequan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="pathAnh" Type="String" MaxLength="100" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="CustomersEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="KhachHangs" EntityType="Self.KhachHang" />
+  </EntityContainer>
+</Schema>

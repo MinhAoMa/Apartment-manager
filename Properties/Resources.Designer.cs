@@ -93,6 +93,16 @@ namespace Apartment_manager_app.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap banners_98292_2910 {
+            get {
+                object obj = ResourceManager.GetObject("banners_98292-2910", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap buildings_of_big_city_poster_vector_21267773__1_ {
             get {
                 object obj = ResourceManager.GetObject("buildings-of-big-city-poster-vector-21267773 (1)", resourceCulture);
@@ -356,6 +366,16 @@ namespace Apartment_manager_app.Properties {
         internal static System.Drawing.Bitmap online_support {
             get {
                 object obj = ResourceManager.GetObject("online-support", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap real_estate_banners_98292_2910 {
+            get {
+                object obj = ResourceManager.GetObject("real-estate-banners_98292-2910", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

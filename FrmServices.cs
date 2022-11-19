@@ -21,10 +21,7 @@ namespace Apartment_manager_app
             InitializeComponent();
         }
 
-        private void btnback_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        
 
         private void btnClose_Click(object sender, EventArgs e)
         {
@@ -106,6 +103,11 @@ namespace Apartment_manager_app
                     row.Selected = false;
                 }
             }
+        }
+
+        private void btnBacktomenu_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

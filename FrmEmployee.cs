@@ -229,5 +229,10 @@ namespace Apartment_manager_app
             FrmReportEmployee frm = new FrmReportEmployee();
             frm.Show();
         }
+
+        private void btnBacktomenu_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

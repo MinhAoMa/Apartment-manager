@@ -24,5 +24,15 @@ namespace Apartment_manager_app
             DataSet tmp = connect.GetData("select DISTINCT macanho,tendichvu from qlDichVu");
             dgvql.DataSource = tmp.Tables[0];
         }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBacktomenu_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

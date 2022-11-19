@@ -96,6 +96,12 @@
       <DependentUpon>CrystalReportApartment.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CrystalReportContacts1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReportContacts.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="CrystalReportEmployee.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -140,6 +146,24 @@
     </Compile>
     <Compile Include="FrmClose.Designer.cs">
       <DependentUpon>FrmClose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmContacts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContacts.Designer.cs">
+      <DependentUpon>FrmContacts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmContactsReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContactsReport.Designer.cs">
+      <DependentUpon>FrmContactsReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCustomers.Designer.cs">
+      <DependentUpon>FrmCustomers.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmElectric.cs">
       <SubType>Form</SubType>
@@ -213,11 +237,20 @@
     <Compile Include="FrmSideMain.Designer.cs">
       <DependentUpon>FrmSideMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmThue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmThue.Designer.cs">
+      <DependentUpon>FrmThue.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmUser.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmUser.Designer.cs">
       <DependentUpon>FrmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachHang.cs">
+      <DependentUpon>ModelCustomers.tt</DependentUpon>
     </Compile>
     <Compile Include="ModelApartment.Context.cs">
       <AutoGen>True</AutoGen>
@@ -233,6 +266,21 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ModelApartment.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ModelCustomers.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelCustomers.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelCustomers.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelCustomers.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelCustomers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelCustomers.edmx</DependentUpon>
     </Compile>
     <Compile Include="ModelEmployee.Context.cs">
       <AutoGen>True</AutoGen>
@@ -273,6 +321,10 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReportApartment.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReportContacts.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReportContacts1.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="CrystalReportEmployee.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReportEmployee.cs</LastGenOutput>
@@ -283,6 +335,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FomReportPersons.resx">
       <DependentUpon>FomReportPersons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmApartment.aa.resx">
+      <DependentUpon>FrmApartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmApartment.en.resx">
+      <DependentUpon>FrmApartment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmApartment.resx">
       <DependentUpon>FrmApartment.cs</DependentUpon>
@@ -299,8 +357,29 @@
     <EmbeddedResource Include="FrmClose.resx">
       <DependentUpon>FrmClose.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmContacts.en.resx">
+      <DependentUpon>FrmContacts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContacts.resx">
+      <DependentUpon>FrmContacts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContactsReport.resx">
+      <DependentUpon>FrmContactsReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCustomers.en.resx">
+      <DependentUpon>FrmCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCustomers.resx">
+      <DependentUpon>FrmCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmElectric.en.resx">
+      <DependentUpon>FrmElectric.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmElectric.resx">
       <DependentUpon>FrmElectric.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmployee.en.resx">
+      <DependentUpon>FrmEmployee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEmployee.resx">
       <DependentUpon>FrmEmployee.cs</DependentUpon>
@@ -310,6 +389,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmManagerService.en.resx">
+      <DependentUpon>FrmManagerService.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmManagerService.resx">
       <DependentUpon>FrmManagerService.cs</DependentUpon>
@@ -335,6 +417,9 @@
     <EmbeddedResource Include="FrmReportEmployee.resx">
       <DependentUpon>FrmReportEmployee.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmServices.en.resx">
+      <DependentUpon>FrmServices.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmServices.resx">
       <DependentUpon>FrmServices.cs</DependentUpon>
     </EmbeddedResource>
@@ -352,6 +437,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSideMain.vi.resx">
       <DependentUpon>FrmSideMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmThue.en.resx">
+      <DependentUpon>FrmThue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmThue.resx">
+      <DependentUpon>FrmThue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUser.en.resx">
+      <DependentUpon>FrmUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUser.resx">
       <DependentUpon>FrmUser.cs</DependentUpon>
@@ -381,6 +475,13 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>ModelEmployee.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <EntityDeploy Include="ModelCustomers.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelCustomers.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ModelCustomers.edmx.diagram">
+      <DependentUpon>ModelCustomers.edmx</DependentUpon>
+    </None>
     <None Include="ModelEmployee.edmx.diagram">
       <DependentUpon>ModelEmployee.edmx</DependentUpon>
     </None>
@@ -526,6 +627,16 @@
       <DependentUpon>ModelApartment.edmx</DependentUpon>
       <LastGenOutput>ModelApartment.cs</LastGenOutput>
     </Content>
+    <Content Include="ModelCustomers.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelCustomers.edmx</DependentUpon>
+      <LastGenOutput>ModelCustomers.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ModelCustomers.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelCustomers.edmx</DependentUpon>
+      <LastGenOutput>ModelCustomers.cs</LastGenOutput>
+    </Content>
     <Content Include="ModelEmployee.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>ModelEmployee.edmx</DependentUpon>
@@ -546,6 +657,8 @@
       <DependentUpon>ModelPersons.edmx</DependentUpon>
       <LastGenOutput>ModelPersons.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\real-estate-banners_98292-2910.png" />
+    <None Include="Resources\banners_98292-2910.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
