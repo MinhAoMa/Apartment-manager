@@ -235,7 +235,7 @@
     <value>147, 196</value>
   </data>
   <data name="txtLoai.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 25</value>
+    <value>203, 34</value>
   </data>
   <data name="txtLoai.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -259,7 +259,7 @@
     <value>8, 196</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 19</value>
+    <value>57, 28</value>
   </data>
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -385,7 +385,7 @@
     <value>542, 69</value>
   </data>
   <data name="txtgia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 25</value>
+    <value>203, 34</value>
   </data>
   <data name="txtgia.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -406,7 +406,7 @@
     <value>147, 134</value>
   </data>
   <data name="txtdientich.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 25</value>
+    <value>203, 34</value>
   </data>
   <data name="txtdientich.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -427,7 +427,7 @@
     <value>147, 72</value>
   </data>
   <data name="txtMacanho.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 25</value>
+    <value>203, 34</value>
   </data>
   <data name="txtMacanho.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -451,7 +451,7 @@
     <value>456, 140</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 19</value>
+    <value>108, 28</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -478,13 +478,13 @@
     <value>456, 72</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 19</value>
+    <value>43, 28</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Gía</value>
+    <value>Giá</value>
   </data>
   <data name="&gt;&gt;label5.Name" xml:space="preserve">
     <value>label5</value>
@@ -505,7 +505,7 @@
     <value>8, 134</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 19</value>
+    <value>142, 28</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -532,7 +532,7 @@
     <value>8, 72</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 19</value>
+    <value>111, 28</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -577,7 +577,7 @@
     <value>13</value>
   </data>
   <data name="ContainerData.Location" type="System.Drawing.Point, System.Drawing">
-    <value>145, 89</value>
+    <value>168, 0</value>
   </data>
   <data name="ContainerData.Size" type="System.Drawing.Size, System.Drawing">
     <value>792, 274</value>
@@ -601,7 +601,7 @@
     <value>0</value>
   </data>
   <data name="dgvdepartment.ColumnHeadersHeight" type="System.Int32, mscorlib">
-    <value>30</value>
+    <value>50</value>
   </data>
   <metadata name="clma.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -616,7 +616,7 @@
     <value>True</value>
   </metadata>
   <data name="cldientich.HeaderText" xml:space="preserve">
-    <value>Diện tích</value>
+    <value>Diện tích(m2)</value>
   </data>
   <data name="cldientich.MinimumWidth" type="System.Int32, mscorlib">
     <value>8</value>
@@ -634,7 +634,7 @@
     <value>True</value>
   </metadata>
   <data name="clgia.HeaderText" xml:space="preserve">
-    <value>Gía</value>
+    <value>Giá</value>
   </data>
   <data name="clgia.MinimumWidth" type="System.Int32, mscorlib">
     <value>8</value>
@@ -817,7 +817,7 @@
     <value>68, 541</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 17</value>
+    <value>57, 26</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
@@ -847,7 +847,7 @@
     <value>293, 541</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 17</value>
+    <value>67, 26</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -874,7 +874,7 @@
     <value>108, 541</value>
   </data>
   <data name="total.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 13</value>
+    <value>0, 20</value>
   </data>
   <data name="total.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
@@ -898,7 +898,7 @@
     <value>345, 541</value>
   </data>
   <data name="active.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 13</value>
+    <value>0, 20</value>
   </data>
   <data name="active.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
@@ -957,9 +957,6 @@
   <data name="&gt;&gt;btnBacktomenu.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="guna2DragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>125, 17</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1007,12 +1004,6 @@
   </data>
   <data name="&gt;&gt;tooltipcbb.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2HtmlToolTip, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2DragControl1.Name" xml:space="preserve">
-    <value>guna2DragControl1</value>
-  </data>
-  <data name="&gt;&gt;guna2DragControl1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2DragControl, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FrmApartment</value>

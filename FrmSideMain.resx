@@ -205,7 +205,7 @@
     <value>14, 70</value>
   </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 17</value>
+    <value>97, 26</value>
   </data>
   <data name="label10.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -225,34 +225,34 @@
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+  <data name="labelPerson.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="labelPerson.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt, style=Bold</value>
   </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="labelPerson.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 32</value>
   </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 19</value>
+  <data name="labelPerson.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 28</value>
   </data>
-  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+  <data name="labelPerson.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="label11.Text" xml:space="preserve">
+  <data name="labelPerson.Text" xml:space="preserve">
     <value>1000</value>
   </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
+  <data name="&gt;&gt;labelPerson.Name" xml:space="preserve">
+    <value>labelPerson</value>
   </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+  <data name="&gt;&gt;labelPerson.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+  <data name="&gt;&gt;labelPerson.Parent" xml:space="preserve">
     <value>guna2GradientPanel6</value>
   </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;labelPerson.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="guna2PictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -331,7 +331,7 @@
     <value>17, 70</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 17</value>
+    <value>149, 26</value>
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -351,34 +351,34 @@
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+  <data name="labelManager.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="labelManager.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt, style=Bold</value>
   </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="labelManager.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 32</value>
   </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 19</value>
+  <data name="labelManager.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 28</value>
   </data>
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+  <data name="labelManager.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="label9.Text" xml:space="preserve">
+  <data name="labelManager.Text" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
+  <data name="&gt;&gt;labelManager.Name" xml:space="preserve">
+    <value>labelManager</value>
   </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+  <data name="&gt;&gt;labelManager.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+  <data name="&gt;&gt;labelManager.Parent" xml:space="preserve">
     <value>guna2GradientPanel5</value>
   </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;labelManager.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="guna2PictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -462,7 +462,7 @@
     <value>3, 70</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 17</value>
+    <value>143, 26</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -482,34 +482,34 @@
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+  <data name="labelApartment.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="labelApartment.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 12pt, style=Bold</value>
   </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="labelApartment.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 32</value>
   </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>27, 19</value>
+  <data name="labelApartment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 28</value>
   </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+  <data name="labelApartment.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="label7.Text" xml:space="preserve">
+  <data name="labelApartment.Text" xml:space="preserve">
     <value>77</value>
   </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
+  <data name="&gt;&gt;labelApartment.Name" xml:space="preserve">
+    <value>labelApartment</value>
   </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+  <data name="&gt;&gt;labelApartment.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+  <data name="&gt;&gt;labelApartment.Parent" xml:space="preserve">
     <value>guna2GradientPanel4</value>
   </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;labelApartment.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="guna2PictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -593,7 +593,7 @@
     <value>20, 70</value>
   </data>
   <data name="Price.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 17</value>
+    <value>136, 26</value>
   </data>
   <data name="Price.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -623,7 +623,7 @@
     <value>19, 32</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 19</value>
+    <value>110, 28</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -742,7 +742,7 @@
     <value>28, 86</value>
   </data>
   <data name="LbOverview.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 19</value>
+    <value>132, 28</value>
   </data>
   <data name="LbOverview.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -772,7 +772,7 @@
     <value>805, 45</value>
   </data>
   <data name="LbDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 19</value>
+    <value>223, 23</value>
   </data>
   <data name="LbDate.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -802,7 +802,7 @@
     <value>146, 42</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 17</value>
+    <value>22, 23</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -832,13 +832,13 @@
     <value>165, 42</value>
   </data>
   <data name="LbUsername.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 20</value>
+    <value>102, 30</value>
   </data>
   <data name="LbUsername.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="LbUsername.Text" xml:space="preserve">
-    <value>Xin chào Dat Nguyen</value>
+    <value>Xin chào</value>
   </data>
   <data name="&gt;&gt;LbUsername.Name" xml:space="preserve">
     <value>LbUsername</value>
@@ -862,7 +862,7 @@
     <value>28, 42</value>
   </data>
   <data name="LbDashboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 20</value>
+    <value>178, 30</value>
   </data>
   <data name="LbDashboard.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -916,7 +916,7 @@
     <value>156, 53</value>
   </data>
   <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 16</value>
+    <value>33, 24</value>
   </data>
   <data name="label18.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -943,10 +943,10 @@
     <value>Asap SemiBold, 9pt, style=Bold</value>
   </data>
   <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 18</value>
+    <value>156, 10</value>
   </data>
   <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 16</value>
+    <value>48, 24</value>
   </data>
   <data name="label17.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -1008,25 +1008,25 @@
   <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="guna2CircleProgressBar2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="bieudogioitinh.Location" type="System.Drawing.Point, System.Drawing">
     <value>21, 6</value>
   </data>
-  <data name="guna2CircleProgressBar2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="bieudogioitinh.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 71</value>
   </data>
-  <data name="guna2CircleProgressBar2.TabIndex" type="System.Int32, mscorlib">
+  <data name="bieudogioitinh.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <data name="&gt;&gt;guna2CircleProgressBar2.Name" xml:space="preserve">
-    <value>guna2CircleProgressBar2</value>
+  <data name="&gt;&gt;bieudogioitinh.Name" xml:space="preserve">
+    <value>bieudogioitinh</value>
   </data>
-  <data name="&gt;&gt;guna2CircleProgressBar2.Type" xml:space="preserve">
+  <data name="&gt;&gt;bieudogioitinh.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2CircleProgressBar, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
   </data>
-  <data name="&gt;&gt;guna2CircleProgressBar2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;bieudogioitinh.Parent" xml:space="preserve">
     <value>guna2GradientPanel9</value>
   </data>
-  <data name="&gt;&gt;guna2CircleProgressBar2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;bieudogioitinh.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="guna2GradientPanel9.Location" type="System.Drawing.Point, System.Drawing">
@@ -1207,7 +1207,7 @@
     <value>23, 226</value>
   </data>
   <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 17</value>
+    <value>282, 26</value>
   </data>
   <data name="label14.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -1258,7 +1258,7 @@
     <value>741, 235</value>
   </data>
   <data name="LbFacebook.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 16</value>
+    <value>137, 24</value>
   </data>
   <data name="LbFacebook.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -1323,7 +1323,7 @@
     <value>741, 271</value>
   </data>
   <data name="LbLocation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 16</value>
+    <value>137, 24</value>
   </data>
   <data name="LbLocation.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -1413,7 +1413,7 @@
     <value>796, 210</value>
   </data>
   <data name="Lbinfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 20</value>
+    <value>186, 30</value>
   </data>
   <data name="Lbinfo.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -1443,7 +1443,7 @@
     <value>910, 235</value>
   </data>
   <data name="LbGmail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 16</value>
+    <value>137, 24</value>
   </data>
   <data name="LbGmail.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -1512,7 +1512,7 @@
     <value>910, 271</value>
   </data>
   <data name="Lbphone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 16</value>
+    <value>110, 24</value>
   </data>
   <data name="Lbphone.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -1598,7 +1598,7 @@
     <value>47, 116</value>
   </data>
   <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 17</value>
+    <value>153, 26</value>
   </data>
   <data name="label16.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -1649,7 +1649,7 @@
     <value>47, 81</value>
   </data>
   <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 17</value>
+    <value>133, 26</value>
   </data>
   <data name="label15.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1700,7 +1700,7 @@
     <value>20, 25</value>
   </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 25</value>
+    <value>274, 39</value>
   </data>
   <data name="label13.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1720,28 +1720,28 @@
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="guna2CircleProgressBar1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="bieudocanho.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 10pt, style=Bold</value>
   </data>
-  <data name="guna2CircleProgressBar1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="bieudocanho.Location" type="System.Drawing.Point, System.Drawing">
     <value>228, 15</value>
   </data>
-  <data name="guna2CircleProgressBar1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="bieudocanho.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 130</value>
   </data>
-  <data name="guna2CircleProgressBar1.TabIndex" type="System.Int32, mscorlib">
+  <data name="bieudocanho.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;guna2CircleProgressBar1.Name" xml:space="preserve">
-    <value>guna2CircleProgressBar1</value>
+  <data name="&gt;&gt;bieudocanho.Name" xml:space="preserve">
+    <value>bieudocanho</value>
   </data>
-  <data name="&gt;&gt;guna2CircleProgressBar1.Type" xml:space="preserve">
+  <data name="&gt;&gt;bieudocanho.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2CircleProgressBar, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
   </data>
-  <data name="&gt;&gt;guna2CircleProgressBar1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;bieudocanho.Parent" xml:space="preserve">
     <value>guna2GradientPanel7</value>
   </data>
-  <data name="&gt;&gt;guna2CircleProgressBar1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;bieudocanho.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="guna2GradientPanel7.Location" type="System.Drawing.Point, System.Drawing">

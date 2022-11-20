@@ -32,12 +32,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnlogout = new Guna.UI2.WinForms.Guna2Button();
             this.btnSetting = new Guna.UI2.WinForms.Guna2Button();
             this.BtnMenu = new Guna.UI2.WinForms.Guna2Button();
             this.BtnHome = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -51,7 +51,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.guna2PictureBox1);
-            this.panel1.Controls.Add(this.guna2Button4);
+            this.panel1.Controls.Add(this.btnlogout);
             this.panel1.Controls.Add(this.btnSetting);
             this.panel1.Controls.Add(this.BtnMenu);
             this.panel1.Controls.Add(this.BtnHome);
@@ -60,6 +60,10 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(73, 586);
             this.panel1.TabIndex = 0;
+            // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.TargetControl = this.panel1;
             // 
             // guna2PictureBox1
             // 
@@ -73,22 +77,23 @@
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.Click += new System.EventHandler(this.btnLogoClick);
             // 
-            // guna2Button4
+            // btnlogout
             // 
-            this.guna2Button4.CheckedState.Parent = this.guna2Button4;
-            this.guna2Button4.CustomImages.Parent = this.guna2Button4;
-            this.guna2Button4.FillColor = System.Drawing.Color.White;
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.HoverState.Image")));
-            this.guna2Button4.HoverState.Parent = this.guna2Button4;
-            this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
-            this.guna2Button4.ImageSize = new System.Drawing.Size(24, 24);
-            this.guna2Button4.Location = new System.Drawing.Point(7, 471);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
-            this.guna2Button4.Size = new System.Drawing.Size(59, 45);
-            this.guna2Button4.TabIndex = 1;
+            this.btnlogout.CheckedState.Parent = this.btnlogout;
+            this.btnlogout.CustomImages.Parent = this.btnlogout;
+            this.btnlogout.FillColor = System.Drawing.Color.White;
+            this.btnlogout.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnlogout.ForeColor = System.Drawing.Color.White;
+            this.btnlogout.HoverState.Image = global::Apartment_manager_app.Properties.Resources.icons8_logout_96px;
+            this.btnlogout.HoverState.Parent = this.btnlogout;
+            this.btnlogout.Image = ((System.Drawing.Image)(resources.GetObject("btnlogout.Image")));
+            this.btnlogout.ImageSize = new System.Drawing.Size(24, 24);
+            this.btnlogout.Location = new System.Drawing.Point(7, 471);
+            this.btnlogout.Name = "btnlogout";
+            this.btnlogout.ShadowDecoration.Parent = this.btnlogout;
+            this.btnlogout.Size = new System.Drawing.Size(59, 45);
+            this.btnlogout.TabIndex = 1;
+            this.btnlogout.Click += new System.EventHandler(this.btnlogout_Click);
             // 
             // btnSetting
             // 
@@ -146,10 +151,6 @@
             this.BtnHome.TabIndex = 4;
             this.BtnHome.Click += new System.EventHandler(this.btnHome_click);
             // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.TargetControl = this.panel1;
-            // 
             // FrmMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -178,7 +179,7 @@
 
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button btnlogout;
         private Guna.UI2.WinForms.Guna2Button btnSetting;
         private Guna.UI2.WinForms.Guna2Button BtnMenu;
         private Guna.UI2.WinForms.Guna2Button BtnHome;

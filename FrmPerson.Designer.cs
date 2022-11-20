@@ -49,6 +49,17 @@
             this.panelContainergrv = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.dgvPerson = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.clMa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clten = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clgioitinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clanh = new System.Windows.Forms.DataGridViewImageColumn();
+            this.clcanho = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clngay = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clquoctich = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cldan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clsdt = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clque = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ContainerData = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.cbbApartment = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -91,17 +102,6 @@
             this.btnbaocao = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnexcel = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnBacktomenu = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.clMa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clten = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clgioitinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clanh = new System.Windows.Forms.DataGridViewImageColumn();
-            this.clcanho = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clngay = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clquoctich = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cldan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clsdt = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clque = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelContainergrv.SuspendLayout();
             this.guna2GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPerson)).BeginInit();
@@ -256,7 +256,7 @@
             this.dgvPerson.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.dgvPerson.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.dgvPerson.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.dgvPerson.ThemeStyle.HeaderStyle.Height = 27;
+            this.dgvPerson.ThemeStyle.HeaderStyle.Height = 50;
             this.dgvPerson.ThemeStyle.ReadOnly = false;
             this.dgvPerson.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvPerson.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
@@ -267,6 +267,115 @@
             this.dgvPerson.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.guna2HtmlToolTip1.SetToolTip(this.dgvPerson, resources.GetString("dgvPerson.ToolTip"));
             this.dgvPerson.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPerson_CellClick);
+            // 
+            // clMa
+            // 
+            this.clMa.DataPropertyName = "Madancu";
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            this.clMa.DefaultCellStyle = dataGridViewCellStyle3;
+            this.clMa.FillWeight = 40.68605F;
+            resources.ApplyResources(this.clMa, "clMa");
+            this.clMa.Name = "clMa";
+            // 
+            // clten
+            // 
+            this.clten.DataPropertyName = "ten";
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.clten.DefaultCellStyle = dataGridViewCellStyle4;
+            this.clten.FillWeight = 40.68605F;
+            resources.ApplyResources(this.clten, "clten");
+            this.clten.Name = "clten";
+            // 
+            // clgioitinh
+            // 
+            this.clgioitinh.DataPropertyName = "gioitinh";
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            this.clgioitinh.DefaultCellStyle = dataGridViewCellStyle5;
+            this.clgioitinh.FillWeight = 40.68605F;
+            resources.ApplyResources(this.clgioitinh, "clgioitinh");
+            this.clgioitinh.Name = "clgioitinh";
+            // 
+            // clanh
+            // 
+            this.clanh.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clanh.DataPropertyName = "anh";
+            this.clanh.FillWeight = 40.68605F;
+            resources.ApplyResources(this.clanh, "clanh");
+            this.clanh.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.clanh.Name = "clanh";
+            // 
+            // clcanho
+            // 
+            this.clcanho.DataPropertyName = "Macanho";
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            this.clcanho.DefaultCellStyle = dataGridViewCellStyle6;
+            this.clcanho.FillWeight = 73.08872F;
+            resources.ApplyResources(this.clcanho, "clcanho");
+            this.clcanho.Name = "clcanho";
+            // 
+            // clngay
+            // 
+            this.clngay.DataPropertyName = "ngaysinh";
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            this.clngay.DefaultCellStyle = dataGridViewCellStyle7;
+            this.clngay.FillWeight = 40.68605F;
+            resources.ApplyResources(this.clngay, "clngay");
+            this.clngay.Name = "clngay";
+            this.clngay.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.clngay.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // clquoctich
+            // 
+            this.clquoctich.DataPropertyName = "quoctich";
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            this.clquoctich.DefaultCellStyle = dataGridViewCellStyle8;
+            this.clquoctich.FillWeight = 40.68605F;
+            resources.ApplyResources(this.clquoctich, "clquoctich");
+            this.clquoctich.Name = "clquoctich";
+            this.clquoctich.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.clquoctich.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // cldan
+            // 
+            this.cldan.DataPropertyName = "dantoc";
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            this.cldan.DefaultCellStyle = dataGridViewCellStyle9;
+            this.cldan.FillWeight = 40.68605F;
+            resources.ApplyResources(this.cldan, "cldan");
+            this.cldan.Name = "cldan";
+            this.cldan.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.cldan.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // clsdt
+            // 
+            this.clsdt.DataPropertyName = "sodienthoai";
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black;
+            this.clsdt.DefaultCellStyle = dataGridViewCellStyle10;
+            this.clsdt.FillWeight = 40.68605F;
+            resources.ApplyResources(this.clsdt, "clsdt");
+            this.clsdt.Name = "clsdt";
+            this.clsdt.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.clsdt.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // clque
+            // 
+            this.clque.DataPropertyName = "quequan";
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black;
+            this.clque.DefaultCellStyle = dataGridViewCellStyle11;
+            this.clque.FillWeight = 40.68605F;
+            resources.ApplyResources(this.clque, "clque");
+            this.clque.Name = "clque";
+            this.clque.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.clque.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "pathAnh";
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle12;
+            this.Column1.FillWeight = 40.68605F;
+            resources.ApplyResources(this.Column1, "Column1");
+            this.Column1.Name = "Column1";
             // 
             // ContainerData
             // 
@@ -680,8 +789,7 @@
             resources.GetString("cbbOption.Items4"),
             resources.GetString("cbbOption.Items5"),
             resources.GetString("cbbOption.Items6"),
-            resources.GetString("cbbOption.Items7"),
-            resources.GetString("cbbOption.Items8")});
+            resources.GetString("cbbOption.Items7")});
             this.cbbOption.ItemsAppearance.Parent = this.cbbOption;
             this.cbbOption.Name = "cbbOption";
             this.cbbOption.ShadowDecoration.Parent = this.cbbOption;
@@ -783,6 +891,7 @@
             this.cbbcanho.Name = "cbbcanho";
             this.cbbcanho.ShadowDecoration.Parent = this.cbbcanho;
             this.guna2HtmlToolTip1.SetToolTip(this.cbbcanho, resources.GetString("cbbcanho.ToolTip"));
+            this.cbbcanho.SelectedIndexChanged += new System.EventHandler(this.cbbcanho_SelectedIndexChanged);
             this.cbbcanho.SelectionChangeCommitted += new System.EventHandler(this.cbbcanho_SelectionChangeCommitted);
             // 
             // btnfindapartment
@@ -847,115 +956,6 @@
             this.btnBacktomenu.ShadowDecoration.Parent = this.btnBacktomenu;
             this.guna2HtmlToolTip1.SetToolTip(this.btnBacktomenu, resources.GetString("btnBacktomenu.ToolTip"));
             this.btnBacktomenu.Click += new System.EventHandler(this.btnBacktomenu_Click);
-            // 
-            // clMa
-            // 
-            this.clMa.DataPropertyName = "Madancu";
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            this.clMa.DefaultCellStyle = dataGridViewCellStyle3;
-            this.clMa.FillWeight = 40.68605F;
-            resources.ApplyResources(this.clMa, "clMa");
-            this.clMa.Name = "clMa";
-            // 
-            // clten
-            // 
-            this.clten.DataPropertyName = "ten";
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            this.clten.DefaultCellStyle = dataGridViewCellStyle4;
-            this.clten.FillWeight = 40.68605F;
-            resources.ApplyResources(this.clten, "clten");
-            this.clten.Name = "clten";
-            // 
-            // clgioitinh
-            // 
-            this.clgioitinh.DataPropertyName = "gioitinh";
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            this.clgioitinh.DefaultCellStyle = dataGridViewCellStyle5;
-            this.clgioitinh.FillWeight = 40.68605F;
-            resources.ApplyResources(this.clgioitinh, "clgioitinh");
-            this.clgioitinh.Name = "clgioitinh";
-            // 
-            // clanh
-            // 
-            this.clanh.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.clanh.DataPropertyName = "anh";
-            this.clanh.FillWeight = 40.68605F;
-            resources.ApplyResources(this.clanh, "clanh");
-            this.clanh.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Stretch;
-            this.clanh.Name = "clanh";
-            // 
-            // clcanho
-            // 
-            this.clcanho.DataPropertyName = "Macanho";
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            this.clcanho.DefaultCellStyle = dataGridViewCellStyle6;
-            this.clcanho.FillWeight = 73.08872F;
-            resources.ApplyResources(this.clcanho, "clcanho");
-            this.clcanho.Name = "clcanho";
-            // 
-            // clngay
-            // 
-            this.clngay.DataPropertyName = "ngaysinh";
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            this.clngay.DefaultCellStyle = dataGridViewCellStyle7;
-            this.clngay.FillWeight = 40.68605F;
-            resources.ApplyResources(this.clngay, "clngay");
-            this.clngay.Name = "clngay";
-            this.clngay.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.clngay.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // clquoctich
-            // 
-            this.clquoctich.DataPropertyName = "quoctich";
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            this.clquoctich.DefaultCellStyle = dataGridViewCellStyle8;
-            this.clquoctich.FillWeight = 40.68605F;
-            resources.ApplyResources(this.clquoctich, "clquoctich");
-            this.clquoctich.Name = "clquoctich";
-            this.clquoctich.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.clquoctich.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // cldan
-            // 
-            this.cldan.DataPropertyName = "dantoc";
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            this.cldan.DefaultCellStyle = dataGridViewCellStyle9;
-            this.cldan.FillWeight = 40.68605F;
-            resources.ApplyResources(this.cldan, "cldan");
-            this.cldan.Name = "cldan";
-            this.cldan.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.cldan.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // clsdt
-            // 
-            this.clsdt.DataPropertyName = "sodienthoai";
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black;
-            this.clsdt.DefaultCellStyle = dataGridViewCellStyle10;
-            this.clsdt.FillWeight = 40.68605F;
-            resources.ApplyResources(this.clsdt, "clsdt");
-            this.clsdt.Name = "clsdt";
-            this.clsdt.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.clsdt.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // clque
-            // 
-            this.clque.DataPropertyName = "quequan";
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black;
-            this.clque.DefaultCellStyle = dataGridViewCellStyle11;
-            this.clque.FillWeight = 40.68605F;
-            resources.ApplyResources(this.clque, "clque");
-            this.clque.Name = "clque";
-            this.clque.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.clque.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // Column1
-            // 
-            this.Column1.DataPropertyName = "pathAnh";
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle12;
-            this.Column1.FillWeight = 40.68605F;
-            resources.ApplyResources(this.Column1, "Column1");
-            this.Column1.Name = "Column1";
             // 
             // FrmPerson
             // 

@@ -46,9 +46,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.btnChangePass = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.labeltk = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -184,9 +182,7 @@
             // 
             this.guna2GradientPanel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel4.Controls.Add(this.btnChangePass);
-            this.guna2GradientPanel4.Controls.Add(this.label17);
-            this.guna2GradientPanel4.Controls.Add(this.label16);
-            this.guna2GradientPanel4.Controls.Add(this.label15);
+            this.guna2GradientPanel4.Controls.Add(this.labeltk);
             this.guna2GradientPanel4.Controls.Add(this.label14);
             this.guna2GradientPanel4.Controls.Add(this.label13);
             this.guna2GradientPanel4.Controls.Add(this.label12);
@@ -210,20 +206,11 @@
             this.btnChangePass.ShadowDecoration.Parent = this.btnChangePass;
             this.btnChangePass.Click += new System.EventHandler(this.btnChangePass_Click);
             // 
-            // label17
+            // labeltk
             // 
-            resources.ApplyResources(this.label17, "label17");
-            this.label17.Name = "label17";
-            // 
-            // label16
-            // 
-            resources.ApplyResources(this.label16, "label16");
-            this.label16.Name = "label16";
-            // 
-            // label15
-            // 
-            resources.ApplyResources(this.label15, "label15");
-            this.label15.Name = "label15";
+            resources.ApplyResources(this.labeltk, "labeltk");
+            this.labeltk.Name = "labeltk";
+            this.labeltk.Click += new System.EventHandler(this.label16_Click);
             // 
             // label14
             // 
@@ -250,6 +237,7 @@
             this.Controls.Add(this.guna2GradientPanel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmSetting";
+            this.Load += new System.EventHandler(this.FrmSetting_Load);
             this.BackColorChanged += new System.EventHandler(this.FrmSetting_BackColorChanged);
             this.guna2GradientPanel2.ResumeLayout(false);
             this.guna2GradientPanel2.PerformLayout();
@@ -277,13 +265,11 @@
         private Guna.UI2.WinForms.Guna2ToggleSwitch ToogleBackGround;
         private System.Windows.Forms.Label label9;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel4;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private Guna.UI2.WinForms.Guna2GradientButton btnChangePass;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label labeltk;
         private Guna.UI2.WinForms.Guna2PictureBox PicFlag;
         private Guna.UI2.WinForms.Guna2ComboBox CbbLanguages;
     }

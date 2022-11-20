@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,9 +29,16 @@ namespace Apartment_manager_app
         {
             DataSet tmp = connect.GetData("select * from canho");
             dgvdepartment.DataSource = tmp.Tables[0];      
-            total.Text = dgvdepartment.Rows.Count.ToString();          
+            total.Text = dgvdepartment.Rows.Count.ToString();
+            string query = "select Macanho from canho where trangthai = N'Đã thuê'";
+            DataSet a = connect.GetData(query);
+            for(int i =0; i < a.Tables[0].Rows.Count; i++)
+            {
+                String query1 = "INSERT INTO taikhoan VALUES('" + a.Tables[0].Rows[i][0].ToString() + "'," +
+                            "'" + a.Tables[0].Rows[i][0].ToString() + "')";
+                connect.setDatda(query1);
+            }
         }
-
         private void btncreate_Click(object sender, EventArgs e)
         {
             ContainerData.Visible = true;
@@ -52,7 +59,7 @@ namespace Apartment_manager_app
             SqlCommand com = new SqlCommand(commandText, con);
             com.Parameters.AddWithValue("@Macanho", txtMacanho.Text);
             com.Parameters.AddWithValue("@dientich", txtdientich.Text);
-            com.Parameters.AddWithValue("@loaicanho", txtLoai.Text);
+            com.Parameters.AddWithValue("@loaicanho", txtLoai.Text.ToUpper());
             com.Parameters.AddWithValue("@gia", txtgia.Text);
             com.Parameters.AddWithValue("@trangthai", tooglestatus.Checked ? "Đã thuê" : "Trống");
             com.ExecuteNonQuery();
@@ -136,12 +143,10 @@ namespace Apartment_manager_app
                 {
                     if (row.Cells[0].Value.ToString().Contains(txtvalue.Text))
                     {
-                        row.Selected = true;
-                    }
-                    else
-                    {
-                        row.Selected = false;
-                    }
+                    string query = $"select * from canho where Macanho = '{txtvalue.Text}'";
+                    DataSet tmp = connect.GetData(query);
+                    dgvdepartment.DataSource = tmp.Tables[0];
+                }                   
                 }           
         }
 

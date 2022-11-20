@@ -32,7 +32,7 @@ namespace Apartment_manager_app
             SqlConnection con = connect.getConnection();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from canho";
+            cmd.CommandText = "select Macanho from canho where trangthai = N'Đã thuê'";
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
@@ -84,17 +84,17 @@ namespace Apartment_manager_app
             con.Open();
             string commandText = "INSERT INTO dancu VALUES(@Madancu,@ten,@gioitinh,@anh,@Macanho,@ngaysinh,@quoctich,@dantoc,@sodienthoai,@quequan,@pathAnh)";
             SqlCommand com = new SqlCommand(commandText, con);
-            com.Parameters.AddWithValue("@Madancu", txtMa.Text);
-            com.Parameters.AddWithValue("@ten", txtName.Text);
+            com.Parameters.AddWithValue("@Madancu", txtMa.Text.Trim());
+            com.Parameters.AddWithValue("@ten", txtName.Text.Trim());
             com.Parameters.AddWithValue("@gioitinh", rbMale.Checked ? "Nam" : "Nữ");
             com.Parameters.AddWithValue("@anh", convert());
             com.Parameters.AddWithValue("@Macanho", cbbApartment.SelectedValue.ToString());
-            com.Parameters.AddWithValue("@ngaysinh", txtBirthday.Text);
-            com.Parameters.AddWithValue("@quoctich", txtnational.Text);
-            com.Parameters.AddWithValue("@dantoc", txtethnic.Text);
-            com.Parameters.AddWithValue("@sodienthoai", txtphone.Text);
-            com.Parameters.AddWithValue("@quequan", txtAddress.Text);
-            com.Parameters.AddWithValue("@pathAnh", txtpath.Text);
+            com.Parameters.AddWithValue("@ngaysinh", txtBirthday.Text.Trim());
+            com.Parameters.AddWithValue("@quoctich", txtnational.Text.Trim());
+            com.Parameters.AddWithValue("@dantoc", txtethnic.Text.Trim());
+            com.Parameters.AddWithValue("@sodienthoai", txtphone.Text.Trim());
+            com.Parameters.AddWithValue("@quequan", txtAddress.Text.Trim());
+            com.Parameters.AddWithValue("@pathAnh", txtpath.Text.Trim());
             com.ExecuteNonQuery();
             con.Close();
             ContainerData.Visible = false;
@@ -123,6 +123,7 @@ namespace Apartment_manager_app
             txtethnic.Text = dgvPerson.CurrentRow.Cells[7].Value.ToString();
             txtphone.Text = dgvPerson.CurrentRow.Cells[8].Value.ToString();
             txtAddress.Text = dgvPerson.CurrentRow.Cells[9].Value.ToString();
+            txtpath.Text = dgvPerson.CurrentRow.Cells[10].Value.ToString();
             ContainerData.Visible = true;   
             
         }
@@ -182,14 +183,14 @@ namespace Apartment_manager_app
             }
             else if(cbbOption.SelectedItem.ToString() == "Quốc tịch Vn")
             {
-                string query = "select * from dancu where quoctich like N'Việt Nam'";
+                string query = "select * from dancu where quoctich like N'Việt Nam' or quoctich like N'Viet Nam'";
                 DataSet tmp = connect.GetData(query);
                 dgvPerson.DataSource = tmp.Tables[0];
                 active.Text = dgvPerson.Rows.Count.ToString();
             }
             else if (cbbOption.SelectedItem.ToString() == "Khác quốc tịch Vn")
             {
-                string query = "select * from dancu where quoctich not like N'Việt Nam'";
+                string query = "select * from dancu where  quoctich not like N'Viet Nam'";
                 DataSet tmp = connect.GetData(query);
                 dgvPerson.DataSource = tmp.Tables[0];
                 active.Text = dgvPerson.Rows.Count.ToString();
@@ -245,12 +246,10 @@ namespace Apartment_manager_app
             {
                 if (row.Cells[0].Value.ToString().Contains(txtvalue.Text))
                 {
-                    row.Selected = true;
-                }
-                else
-                {
-                    row.Selected = false;
-                }
+                    string query = $"select * from dancu where Madancu = '{txtvalue.Text}'";
+                    DataSet tmp = connect.GetData(query);
+                    dgvPerson.DataSource = tmp.Tables[0];
+                }               
             }
         }
 
@@ -269,7 +268,7 @@ namespace Apartment_manager_app
             SqlConnection con = connect.getConnection();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from canho";
+            cmd.CommandText = "select Macanho from canho where trangthai = N'Đã thuê'";
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd); 
             da.Fill(dt);
@@ -312,6 +311,7 @@ namespace Apartment_manager_app
         private void btnbaocao_Click(object sender, EventArgs e)
         {
             FomReportPersons frm = new FomReportPersons();
+            frm.Dock = DockStyle.Fill;
             frm.Show();
         }
 
@@ -321,6 +321,11 @@ namespace Apartment_manager_app
         }
 
         private void txtphone_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbbcanho_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

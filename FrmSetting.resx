@@ -129,7 +129,7 @@
     <value>198, 181</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 17</value>
+    <value>37, 25</value>
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -159,7 +159,7 @@
     <value>39, 180</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 20</value>
+    <value>114, 30</value>
   </data>
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -189,7 +189,7 @@
     <value>199, 134</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 17</value>
+    <value>37, 25</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -219,7 +219,7 @@
     <value>39, 132</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 20</value>
+    <value>202, 30</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -249,7 +249,7 @@
     <value>198, 89</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 17</value>
+    <value>37, 25</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -279,7 +279,7 @@
     <value>39, 86</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 20</value>
+    <value>142, 30</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -309,7 +309,7 @@
     <value>198, 44</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 17</value>
+    <value>48, 25</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -339,7 +339,7 @@
     <value>39, 41</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 20</value>
+    <value>176, 30</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -383,6 +383,90 @@
   </data>
   <data name="&gt;&gt;guna2GradientPanel2.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;PicFlag.Name" xml:space="preserve">
+    <value>PicFlag</value>
+  </data>
+  <data name="&gt;&gt;PicFlag.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;PicFlag.Parent" xml:space="preserve">
+    <value>guna2GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;PicFlag.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CbbLanguages.Name" xml:space="preserve">
+    <value>CbbLanguages</value>
+  </data>
+  <data name="&gt;&gt;CbbLanguages.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;CbbLanguages.Parent" xml:space="preserve">
+    <value>guna2GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;CbbLanguages.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LbDarkMode.Name" xml:space="preserve">
+    <value>LbDarkMode</value>
+  </data>
+  <data name="&gt;&gt;LbDarkMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LbDarkMode.Parent" xml:space="preserve">
+    <value>guna2GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;LbDarkMode.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ToogleBackGround.Name" xml:space="preserve">
+    <value>ToogleBackGround</value>
+  </data>
+  <data name="&gt;&gt;ToogleBackGround.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ToggleSwitch, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;ToogleBackGround.Parent" xml:space="preserve">
+    <value>guna2GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;ToogleBackGround.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>guna2GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="guna2GradientPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="guna2GradientPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="guna2GradientPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 530</value>
+  </data>
+  <data name="guna2GradientPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientPanel3.Name" xml:space="preserve">
+    <value>guna2GradientPanel3</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientPanel3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientPanel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientPanel3.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="PicFlag.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -454,7 +538,7 @@
     <value>109, 177</value>
   </data>
   <data name="LbDarkMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 20</value>
+    <value>63, 30</value>
   </data>
   <data name="LbDarkMode.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -505,7 +589,7 @@
     <value>17, 40</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 21</value>
+    <value>116, 31</value>
   </data>
   <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -524,30 +608,6 @@
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="guna2GradientPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="guna2GradientPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="guna2GradientPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>324, 530</value>
-  </data>
-  <data name="guna2GradientPanel3.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel3.Name" xml:space="preserve">
-    <value>guna2GradientPanel3</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel3.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;guna2GradientPanel3.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="btnChangePass.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 10pt, style=Bold</value>
@@ -576,95 +636,32 @@
   <data name="&gt;&gt;btnChangePass.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+  <data name="labeltk.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="labeltk.Font" type="System.Drawing.Font, System.Drawing">
     <value>Asap SemiBold, 11.25pt, style=Bold</value>
   </data>
-  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>164, 118</value>
-  </data>
-  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 20</value>
-  </data>
-  <data name="label17.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="label17.Text" xml:space="preserve">
-    <value>label17</value>
-  </data>
-  <data name="&gt;&gt;label17.Name" xml:space="preserve">
-    <value>label17</value>
-  </data>
-  <data name="&gt;&gt;label17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
-    <value>guna2GradientPanel4</value>
-  </data>
-  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Asap SemiBold, 11.25pt, style=Bold</value>
-  </data>
-  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="labeltk.Location" type="System.Drawing.Point, System.Drawing">
     <value>164, 78</value>
   </data>
-  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 20</value>
+  <data name="labeltk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 30</value>
   </data>
-  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+  <data name="labeltk.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="label16.Text" xml:space="preserve">
-    <value>label16</value>
+  <data name="&gt;&gt;labeltk.Name" xml:space="preserve">
+    <value>labeltk</value>
   </data>
-  <data name="&gt;&gt;label16.Name" xml:space="preserve">
-    <value>label16</value>
-  </data>
-  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+  <data name="&gt;&gt;labeltk.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+  <data name="&gt;&gt;labeltk.Parent" xml:space="preserve">
     <value>guna2GradientPanel4</value>
   </data>
-  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Asap SemiBold, 11.25pt, style=Bold</value>
-  </data>
-  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 118</value>
-  </data>
-  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 20</value>
-  </data>
-  <data name="label15.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="label15.Text" xml:space="preserve">
-    <value>Mật khẩu</value>
-  </data>
-  <data name="&gt;&gt;label15.Name" xml:space="preserve">
-    <value>label15</value>
-  </data>
-  <data name="&gt;&gt;label15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
-    <value>guna2GradientPanel4</value>
-  </data>
-  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;labeltk.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="label14.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -676,7 +673,7 @@
     <value>163, 80</value>
   </data>
   <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 19</value>
+    <value>0, 28</value>
   </data>
   <data name="label14.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -691,7 +688,7 @@
     <value>guna2GradientPanel4</value>
   </data>
   <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>2</value>
   </data>
   <data name="label13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -703,7 +700,7 @@
     <value>30, 78</value>
   </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 20</value>
+    <value>152, 30</value>
   </data>
   <data name="label13.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -721,7 +718,7 @@
     <value>guna2GradientPanel4</value>
   </data>
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>3</value>
   </data>
   <data name="label12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -733,7 +730,7 @@
     <value>30, 34</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 19</value>
+    <value>103, 28</value>
   </data>
   <data name="label12.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -751,7 +748,7 @@
     <value>guna2GradientPanel4</value>
   </data>
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>4</value>
   </data>
   <data name="guna2GradientPanel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>

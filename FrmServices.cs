@@ -94,20 +94,23 @@ namespace Apartment_manager_app
         {
             foreach (DataGridViewRow row in dgvSrevices.Rows)
             {
-                if (row.Cells[0].Value.ToString().Contains(txtvalue.Text))
+                if (row.Cells[1].Value.ToString().Contains(txtvalue.Text))
                 {
-                    row.Selected = true;
-                }
-                else
-                {
-                    row.Selected = false;
-                }
+                    string query = $"select * from Dichvu where tendichvu = N'{txtvalue.Text}'";
+                    DataSet tmp = connect.GetData(query);
+                    dgvSrevices.DataSource = tmp.Tables[0];
+                }               
             }
         }
 
         private void btnBacktomenu_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void totalValue_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

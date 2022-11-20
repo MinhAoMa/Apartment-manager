@@ -121,17 +121,7 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="guna2Button4.HoverState.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAARtJREFUSEvt
-        lTFOw0AURC1KFLzrFaKIlJoWDpBr5BbkLlyEOyCanACaeJ0i0KVOEyn8CaOFWLMhjtPBk55keeaPSxd/
-        hxDmo8rFt+CaVzzz9XnwfnFflfHdPrDdac/eN3eM+xFcnNjoOo1/u0bG2mn4spna0KY1/NONL+MD613Y
-        XgQfH8WgFF3c8Pgww+HHZXD1kxo6JG5wyxnNYDC/sfKsfdzBGTY4t8/1Vby1Qt06OMUaW5z9oqri2IJV
-        q9jHFTY5bx9wzVKUelovOb+PLh8vZ/Kooy5yJo86gowTqgMZ51FHkHFCdSDjPOoIMk6oDmScRx1BxgnV
-        gYzzqCPIOKE6kHEedQQZJ1QHMs5jP5MXcfjMOHFs759fKIpPWSnqa8SelvQAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="guna2Button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnlogout.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAQRJREFUSEvt
         lc0KwjAQhPsygoriSU8ePIuvrae2SdOfmyKioF76CLobthK6a38CvfWDQZPMjNomNhjpRar1IVfqkin1

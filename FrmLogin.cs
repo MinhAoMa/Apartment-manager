@@ -26,53 +26,51 @@ namespace Apartment_manager_app
         }
 
         private void btnlogin_Click(object sender, EventArgs e)
-        {
-            // Tài khoản đăng nhập của người dùng
-            List<string> user = new List<string>();
-            DataSet tmp = connect.GetData("select * from canho");
-            foreach (DataRow dr in tmp.Tables[0].Rows)
+        { 
+            if(txtUsername.Text.Trim() == "" ||txtPassword.Text.Trim() == "")
             {
-                user.Add(dr["Macanho"].ToString());
+                MessageBox.Show("Vui lòng nhập đầy đủ tài khoản và mật khẩu");
             }
-            for (int i = 0; i < user.Count; i++)
-            {                
-                if (user[i].ToString() == txtUsername.Text && txtPassword.Text == "1")
-                {
-                    SqlConnection con = connect.getConnection();
-                    con.Open();
-                    string commandText = "INSERT INTO saveUser VALUES(@saveValue)";
-                    SqlCommand com = new SqlCommand(commandText, con);
-                    com.Parameters.AddWithValue("@saveValue", txtUsername.Text.Trim());
-                    com.ExecuteNonQuery();
-                    con.Close();
-                    FrmUser frm = new FrmUser();
-                    frm.Show();
-                }
-            }        
-            // Tài khoản đăng nhâp của nhân viên quản lý
-            List<string> Employee = new List<string>();
-            DataSet tmp1 = connect.GetData("select Manhanvien from NhanVien where chucvu like N'%Quản lý%'");
-            foreach (DataRow dr in tmp1.Tables[0].Rows)
+            else if(txtUsername.Text.Trim() != "" || txtPassword.Text.Trim() != "")
             {
-                Employee.Add(dr["Manhanvien"].ToString());
-            }
-            for (int i = 0; i < Employee.Count; i++)
-            {               
-                if (Employee[i].ToString().Trim() == txtUsername.Text)
+                String query1 = "select * from taikhoan";
+                DataSet a = connect.GetData(query1);
+                for(int i = 0;i< a.Tables[0].Rows.Count; i++)
                 {
-                    FrmMain frmMain = new FrmMain();
-                    frmMain.ShowDialog();
-                }
-            }                                 
-        }
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
+                    if(txtUsername.Text.Trim() == a.Tables[0].Rows[i][1].ToString().Trim() && txtPassword.Text.Trim() == a.Tables[0].Rows[i][2].ToString().Trim())
+                    {
+                        if (txtUsername.Text.Trim().Contains("nv"))
+                        {
+                            SqlConnection con = connect.getConnection();
+                            con.Open();
+                            string commandText = "INSERT INTO saveUser VALUES(@saveValue)";
+                            SqlCommand com = new SqlCommand(commandText, con);
+                            com.Parameters.AddWithValue("@saveValue", txtUsername.Text.Trim());
+                            com.ExecuteNonQuery();
+                            con.Close();
+                            FrmMain frmMain = new FrmMain();
+                            frmMain.Show();
+                        }
+                        else
+                        {
+                            SqlConnection con = connect.getConnection();
+                            con.Open();
+                            string commandText = "INSERT INTO saveUser VALUES(@saveValue)";
+                            SqlCommand com = new SqlCommand(commandText, con);
+                            com.Parameters.AddWithValue("@saveValue", txtUsername.Text.Trim());
+                            com.ExecuteNonQuery();
+                            con.Close();
+                            FrmUser frm = new FrmUser();
+                            frm.Show();
+                        }
+                    }
+                    }
+            }                                
         }
 
-        private void FrmLogin_Load(object sender, EventArgs e)
+        private void labelForgot_Click(object sender, EventArgs e)
         {
-           
+
         }
     }
 }
