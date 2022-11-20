@@ -36,15 +36,15 @@
             this.guna2GradientButton11 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientPanel6 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.labelPerson = new System.Windows.Forms.Label();
             this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientPanel5 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.labelManager = new System.Windows.Forms.Label();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.labelApartment = new System.Windows.Forms.Label();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.Price = new System.Windows.Forms.Label();
@@ -61,7 +61,7 @@
             this.label17 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.guna2CircleProgressBar2 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
+            this.bieudogioitinh = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.guna2GradientPanel8 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2VProgressBar7 = new Guna.UI2.WinForms.Guna2VProgressBar();
             this.guna2VProgressBar6 = new Guna.UI2.WinForms.Guna2VProgressBar();
@@ -88,7 +88,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
-            this.guna2CircleProgressBar1 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
+            this.bieudocanho = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel11.SuspendLayout();
@@ -170,7 +170,7 @@
             // 
             this.guna2GradientPanel6.BorderRadius = 15;
             this.guna2GradientPanel6.Controls.Add(this.label10);
-            this.guna2GradientPanel6.Controls.Add(this.label11);
+            this.guna2GradientPanel6.Controls.Add(this.labelPerson);
             this.guna2GradientPanel6.Controls.Add(this.guna2PictureBox5);
             this.guna2GradientPanel6.FillColor = System.Drawing.Color.DeepSkyBlue;
             this.guna2GradientPanel6.FillColor2 = System.Drawing.Color.SkyBlue;
@@ -186,12 +186,12 @@
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Name = "label10";
             // 
-            // label11
+            // labelPerson
             // 
-            resources.ApplyResources(this.label11, "label11");
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Name = "label11";
+            resources.ApplyResources(this.labelPerson, "labelPerson");
+            this.labelPerson.BackColor = System.Drawing.Color.Transparent;
+            this.labelPerson.ForeColor = System.Drawing.Color.White;
+            this.labelPerson.Name = "labelPerson";
             // 
             // guna2PictureBox5
             // 
@@ -205,7 +205,7 @@
             // 
             this.guna2GradientPanel5.BorderRadius = 15;
             this.guna2GradientPanel5.Controls.Add(this.label8);
-            this.guna2GradientPanel5.Controls.Add(this.label9);
+            this.guna2GradientPanel5.Controls.Add(this.labelManager);
             this.guna2GradientPanel5.Controls.Add(this.guna2PictureBox4);
             this.guna2GradientPanel5.FillColor = System.Drawing.Color.DeepSkyBlue;
             this.guna2GradientPanel5.FillColor2 = System.Drawing.Color.LightSkyBlue;
@@ -221,12 +221,12 @@
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Name = "label8";
             // 
-            // label9
+            // labelManager
             // 
-            resources.ApplyResources(this.label9, "label9");
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Name = "label9";
+            resources.ApplyResources(this.labelManager, "labelManager");
+            this.labelManager.BackColor = System.Drawing.Color.Transparent;
+            this.labelManager.ForeColor = System.Drawing.Color.White;
+            this.labelManager.Name = "labelManager";
             // 
             // guna2PictureBox4
             // 
@@ -240,7 +240,7 @@
             // 
             this.guna2GradientPanel4.BorderRadius = 15;
             this.guna2GradientPanel4.Controls.Add(this.label6);
-            this.guna2GradientPanel4.Controls.Add(this.label7);
+            this.guna2GradientPanel4.Controls.Add(this.labelApartment);
             this.guna2GradientPanel4.Controls.Add(this.guna2PictureBox3);
             this.guna2GradientPanel4.FillColor = System.Drawing.Color.DeepSkyBlue;
             this.guna2GradientPanel4.FillColor2 = System.Drawing.Color.SkyBlue;
@@ -256,12 +256,12 @@
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Name = "label6";
             // 
-            // label7
+            // labelApartment
             // 
-            resources.ApplyResources(this.label7, "label7");
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Name = "label7";
+            resources.ApplyResources(this.labelApartment, "labelApartment");
+            this.labelApartment.BackColor = System.Drawing.Color.Transparent;
+            this.labelApartment.ForeColor = System.Drawing.Color.White;
+            this.labelApartment.Name = "labelApartment";
             // 
             // guna2PictureBox3
             // 
@@ -368,7 +368,7 @@
             this.guna2GradientPanel9.Controls.Add(this.label17);
             this.guna2GradientPanel9.Controls.Add(this.panel6);
             this.guna2GradientPanel9.Controls.Add(this.panel7);
-            this.guna2GradientPanel9.Controls.Add(this.guna2CircleProgressBar2);
+            this.guna2GradientPanel9.Controls.Add(this.bieudogioitinh);
             this.guna2GradientPanel9.FillColor = System.Drawing.Color.MediumSlateBlue;
             this.guna2GradientPanel9.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.guna2GradientPanel9, "guna2GradientPanel9");
@@ -399,15 +399,17 @@
             resources.ApplyResources(this.panel7, "panel7");
             this.panel7.Name = "panel7";
             // 
-            // guna2CircleProgressBar2
+            // bieudogioitinh
             // 
-            resources.ApplyResources(this.guna2CircleProgressBar2, "guna2CircleProgressBar2");
-            this.guna2CircleProgressBar2.Name = "guna2CircleProgressBar2";
-            this.guna2CircleProgressBar2.ProgressColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2CircleProgressBar2.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
-            this.guna2CircleProgressBar2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleProgressBar2.ShadowDecoration.Parent = this.guna2CircleProgressBar2;
-            this.guna2CircleProgressBar2.Value = 25;
+            this.bieudogioitinh.FillThickness = 35;
+            resources.ApplyResources(this.bieudogioitinh, "bieudogioitinh");
+            this.bieudogioitinh.Name = "bieudogioitinh";
+            this.bieudogioitinh.ProgressColor = System.Drawing.Color.DeepSkyBlue;
+            this.bieudogioitinh.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
+            this.bieudogioitinh.ProgressThickness = 35;
+            this.bieudogioitinh.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.bieudogioitinh.ShadowDecoration.Parent = this.bieudogioitinh;
+            this.bieudogioitinh.Value = 20;
             // 
             // guna2GradientPanel8
             // 
@@ -602,7 +604,7 @@
             this.guna2GradientPanel7.Controls.Add(this.label15);
             this.guna2GradientPanel7.Controls.Add(this.panel4);
             this.guna2GradientPanel7.Controls.Add(this.label13);
-            this.guna2GradientPanel7.Controls.Add(this.guna2CircleProgressBar1);
+            this.guna2GradientPanel7.Controls.Add(this.bieudocanho);
             this.guna2GradientPanel7.FillColor = System.Drawing.Color.MediumSlateBlue;
             this.guna2GradientPanel7.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             resources.ApplyResources(this.guna2GradientPanel7, "guna2GradientPanel7");
@@ -642,22 +644,23 @@
             this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Name = "label13";
             // 
-            // guna2CircleProgressBar1
+            // bieudocanho
             // 
-            this.guna2CircleProgressBar1.Animated = true;
-            this.guna2CircleProgressBar1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CircleProgressBar1.FillColor = System.Drawing.Color.White;
-            this.guna2CircleProgressBar1.FillThickness = 18;
-            resources.ApplyResources(this.guna2CircleProgressBar1, "guna2CircleProgressBar1");
-            this.guna2CircleProgressBar1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleProgressBar1.Name = "guna2CircleProgressBar1";
-            this.guna2CircleProgressBar1.ProgressColor = System.Drawing.Color.DeepSkyBlue;
-            this.guna2CircleProgressBar1.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
-            this.guna2CircleProgressBar1.ProgressThickness = 18;
-            this.guna2CircleProgressBar1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleProgressBar1.ShadowDecoration.Parent = this.guna2CircleProgressBar1;
-            this.guna2CircleProgressBar1.ShowPercentage = true;
-            this.guna2CircleProgressBar1.Value = 75;
+            this.bieudocanho.Animated = true;
+            this.bieudocanho.AnimationSpeed = 0.3F;
+            this.bieudocanho.BackColor = System.Drawing.Color.Transparent;
+            this.bieudocanho.FillColor = System.Drawing.Color.White;
+            this.bieudocanho.FillThickness = 18;
+            resources.ApplyResources(this.bieudocanho, "bieudocanho");
+            this.bieudocanho.ForeColor = System.Drawing.Color.White;
+            this.bieudocanho.Name = "bieudocanho";
+            this.bieudocanho.ProgressColor = System.Drawing.Color.DeepSkyBlue;
+            this.bieudocanho.ProgressColor2 = System.Drawing.Color.DeepSkyBlue;
+            this.bieudocanho.ProgressThickness = 18;
+            this.bieudocanho.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.bieudocanho.ShadowDecoration.Parent = this.bieudocanho;
+            this.bieudocanho.ShowPercentage = true;
+            this.bieudocanho.Value = 75;
             // 
             // timer1
             // 
@@ -714,15 +717,15 @@
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel6;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label labelPerson;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox5;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel5;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label labelManager;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label labelApartment;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel3;
         private System.Windows.Forms.Label Price;
@@ -751,7 +754,7 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label13;
-        private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar1;
+        private Guna.UI2.WinForms.Guna2CircleProgressBar bieudocanho;
         private System.Windows.Forms.Label label14;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel11;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton12;
@@ -762,7 +765,7 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
-        private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar2;
+        private Guna.UI2.WinForms.Guna2CircleProgressBar bieudogioitinh;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel8;
         private Guna.UI2.WinForms.Guna2VProgressBar guna2VProgressBar7;
         private Guna.UI2.WinForms.Guna2VProgressBar guna2VProgressBar6;

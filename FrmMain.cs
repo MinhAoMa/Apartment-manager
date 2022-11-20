@@ -194,5 +194,10 @@ namespace Apartment_manager_app
             }
 
         }
+
+        private void btnlogout_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -9,10 +9,14 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+
+
 namespace Apartment_manager_app
 {
     public partial class FrmSetting : Form
     {
+        public Apartment_manager_app.ClassCallConnection connect = new ClassCallConnection();
         private int _Language = 1;
         private int _Darkmode = 0;
         public FrmSetting()
@@ -23,34 +27,7 @@ namespace Apartment_manager_app
 
         private void btnkeyboard_Click(object sender, EventArgs e)
         {
-            //bool isExits = false;
-            //foreach (Form f in this.MdiChildren)
-            //{
-            //    if (f.Name == "FrmKeyShortcut")
-            //    {
-            //        f.Activate();
-            //        isExits = true;
-            //        break;
-            //    }
-            //}
-            //if (!isExits)
-            //{
-            //    FrmKeyShortcut frm = new FrmKeyShortcut();
-            //    frm.MdiParent = this;
-            //    frm.Dock = DockStyle.Fill;
-            //    frm.Show();
-            //}
-            //foreach (Form form in Application.OpenForms)
-            //{
-            //    if (form.GetType() == typeof(FrmKeyShortcut))
-            //    {
-            //        form.Activate();
-            //        form.Show();                   
-            //        return;
-            //    }
-            //}
-            //FrmKeyShortcut frm = new FrmKeyShortcut();
-            //frm.Show();
+            
         }
 
         private void guna2GradientPanel4_Paint(object sender, PaintEventArgs e)
@@ -146,12 +123,25 @@ namespace Apartment_manager_app
 
             if (_Language == 0)
             {
-                this.PicFlag.Image = System.Drawing.Image.FromFile("C:\\Users\\Acer\\source\\repos\\quan ly final\\Apartment-manager\\Resources\\vietnam.png");
+                this.PicFlag.Image = System.Drawing.Image.FromFile("D:\\lastClone\\Apartment-manager\\Resources\\vietnam.png");
             }
             else
             {
-                this.PicFlag.Image = System.Drawing.Image.FromFile("C:\\Users\\Acer\\source\\repos\\quan ly final\\Apartment-manager\\Resources\\united-kingdom.png");
+                this.PicFlag.Image = System.Drawing.Image.FromFile("D:\\lastClone\\Apartment-manager\\Resources\\united-kingdom.png");
             }
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+            
+            
+        }
+
+        private void FrmSetting_Load(object sender, EventArgs e)
+        {
+            string query = "select top 1 saveValue from saveUser order by ID desc";
+            DataSet a = connect.GetData(query);
+            labeltk.Text = a.Tables[0].Rows[0][0].ToString();
         }
     }
 }

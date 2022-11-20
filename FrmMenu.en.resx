@@ -117,22 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LbDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LbDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 23</value>
+  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 20</value>
+    <value>100, 30</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Resident</value>
-  </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>729, 51</value>
@@ -140,97 +133,67 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Management applications of the apartment</value>
   </data>
-  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>21, 101</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 20</value>
+    <value>131, 31</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Apartment</value>
   </data>
-  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 20</value>
+    <value>101, 30</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Contract</value>
   </data>
-  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 20</value>
+    <value>119, 31</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Personnel</value>
   </data>
-  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 20</value>
+    <value>118, 30</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Customers</value>
-  </data>
-  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
     <value>26, 99</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 20</value>
+    <value>113, 30</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>Electricity</value>
-  </data>
-  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 101</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 20</value>
+    <value>90, 30</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Devices</value>
   </data>
-  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 20</value>
+    <value>131, 30</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Households</value>
   </data>
-  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
+    <value>74, 30</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>Water</value>
   </data>
-  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
+    <value>93, 30</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
     <value>Services</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
 </root>

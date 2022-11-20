@@ -34,8 +34,6 @@ namespace Apartment_manager_app
             string count = "select top 1 saveValue from saveUser order by ID desc";
             DataSet countMacanho = connect.GetData(count);
             //
-            MessageBox.Show(countMacanho.Tables[0].Rows[0][0].ToString());          
-
 
             string newquery = $"select DISTINCT tendichvu from qlDichVu where macanho = {countMacanho.Tables[0].Rows[0][0].ToString()}";
 
@@ -53,8 +51,7 @@ namespace Apartment_manager_app
                     if(Savedv[i] == dgvdangky.Rows[j].Cells[1].Value.ToString())
                     {                       
                         dgvdangky.Rows[j].Cells[0].Value = true;                     
-                    }
-                   
+                    }                
                 }
             }
             
@@ -65,12 +62,13 @@ namespace Apartment_manager_app
                 if (Convert.ToBoolean(chkchecking.Value) == true)
                 {
                     totalPrice += int.Parse(row.Cells[2].Value.ToString());
-                    price.Text = totalPrice.ToString();
                 }
             }
+            price.Text = totalPrice.ToString();
         }
         private void guna2GradientButton2_Click(object sender, EventArgs e)
         {
+            totalPrice = 0;
             string queryDelete = "delete  from qlDichVu";
             DataSet lol = connect.GetData(queryDelete);
             foreach (DataGridViewRow row in dgvdangky.Rows)
@@ -83,18 +81,29 @@ namespace Apartment_manager_app
                     DataSet a = connect.GetData(query);                   
                     String query1 = "INSERT INTO qlDichVu VALUES('"+ a.Tables[0].Rows[0][0].ToString()+"'," +
                         "N'"+row.Cells[1].Value.ToString()+"')";
-                    connect.setDatda(query1);                    
+                    connect.setDatda(query1); 
                     totalPrice += int.Parse(row.Cells[2].Value.ToString());
-                    price.Text = totalPrice.ToString();
-                }               
-            }               
-        }
+                }
+            }  
+            price.Text = totalPrice.ToString();
+            MessageBox.Show("Đăng ký thành công");
 
+        }
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            this.Close();
-            string queryDelete = "delete  from saveUser";
-            DataSet lol = connect.GetData(queryDelete);
+            FrmClose frm = new FrmClose();
+            frm.ShowDialog();
+        }
+
+        private void btnaccount_Click(object sender, EventArgs e)
+        {
+            FrmChangePassword frm = new FrmChangePassword();
+            frm.ShowDialog();
+        }
+
+        private void dgvdangky_CellClick(object sender, DataGridViewCellEventArgs e)
+        {           
+           
         }
     }
 }

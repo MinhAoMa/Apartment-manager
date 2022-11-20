@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmApartment));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.txtvalue = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnfind = new Guna.UI2.WinForms.Guna2GradientButton();
             this.cbbAparment = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -70,7 +70,6 @@
             this.active = new System.Windows.Forms.Label();
             this.tooltipcbb = new Guna.UI2.WinForms.Guna2HtmlToolTip();
             this.btnBacktomenu = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GroupBox1.SuspendLayout();
             this.ContainerData.SuspendLayout();
@@ -338,10 +337,10 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvdepartment.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvdepartment.EnableHeadersVisualStyles = false;
-            this.dgvdepartment.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dgvdepartment.GridColor = System.Drawing.Color.White;
             this.dgvdepartment.Name = "dgvdepartment";
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.MenuText;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
@@ -349,6 +348,9 @@
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvdepartment.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvdepartment.RowHeadersVisible = false;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.dgvdepartment.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvdepartment.RowTemplate.Height = 28;
             this.dgvdepartment.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvdepartment.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
@@ -358,13 +360,13 @@
             this.dgvdepartment.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.dgvdepartment.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.dgvdepartment.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.dgvdepartment.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dgvdepartment.ThemeStyle.GridColor = System.Drawing.Color.White;
             this.dgvdepartment.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.dgvdepartment.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgvdepartment.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.dgvdepartment.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.dgvdepartment.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.dgvdepartment.ThemeStyle.HeaderStyle.Height = 30;
+            this.dgvdepartment.ThemeStyle.HeaderStyle.Height = 50;
             this.dgvdepartment.ThemeStyle.ReadOnly = false;
             this.dgvdepartment.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvdepartment.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
@@ -490,10 +492,6 @@
             this.btnBacktomenu.ShadowDecoration.Parent = this.btnBacktomenu;
             this.btnBacktomenu.Click += new System.EventHandler(this.btnBacktomenu_Click);
             // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.TargetControl = this.ContainerData;
-            // 
             // FrmApartment
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -557,7 +555,6 @@
         private System.Windows.Forms.Label active;
         private Guna.UI2.WinForms.Guna2HtmlToolTip tooltipcbb;
         private Guna.UI2.WinForms.Guna2GradientButton btnBacktomenu;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private System.Windows.Forms.DataGridViewTextBoxColumn clma;
         private System.Windows.Forms.DataGridViewTextBoxColumn cldientich;
         private System.Windows.Forms.DataGridViewTextBoxColumn cloai;

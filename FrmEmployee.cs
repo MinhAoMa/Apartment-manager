@@ -47,6 +47,14 @@ namespace Apartment_manager_app
             DataSet tmp = connect.GetData("select * from Nhanvien");
             dgvEmployee.DataSource = tmp.Tables[0];
             lbtotal.Text = dgvEmployee.Rows.Count.ToString();
+            string query = "select * from Nhanvien where chucvu like N'Quản lý'";
+            DataSet a = connect.GetData(query);
+            for (int i = 0; i < a.Tables[0].Rows.Count; i++)
+            {
+                String query1 = "INSERT INTO taikhoan VALUES('" + a.Tables[0].Rows[i][0].ToString() + "'," +
+                            "'" + a.Tables[0].Rows[i][0].ToString() + "')";
+                connect.setDatda(query1);
+            }
         }
 
         private void btnchoose_Click(object sender, EventArgs e)
@@ -71,43 +79,22 @@ namespace Apartment_manager_app
         {
             SqlConnection con = connect.getConnection();
             con.Open();
-            string commandText = "INSERT INTO Nhanvien VALUES(@Manhanvien,@ten,@gioitinh,@ngaysinh,@sodienthoai,@chucvu,@quequan,@anh)";
+            string commandText = "INSERT INTO Nhanvien VALUES(@Manhanvien,@ten,@gioitinh,@ngaysinh,@sodienthoai,@chucvu,@quequan,@anh,@pathAnh)";
             SqlCommand com = new SqlCommand(commandText, con);
-            com.Parameters.AddWithValue("@Manhanvien", txtma.Text);
-            com.Parameters.AddWithValue("@ten", txtname.Text);
+            com.Parameters.AddWithValue("@Manhanvien", txtma.Text.Trim());
+            com.Parameters.AddWithValue("@ten", txtname.Text.Trim());
             com.Parameters.AddWithValue("@gioitinh", rbMale.Checked ? "Nam" : "Nữ");
-            com.Parameters.AddWithValue("@ngaysinh", txtbirthday.Text);
-            com.Parameters.AddWithValue("@sodienthoai", txtphone.Text);
-            com.Parameters.AddWithValue("@chucvu", txtjob.Text);
-            com.Parameters.AddWithValue("@quequan", txtAddress.Text);
+            com.Parameters.AddWithValue("@ngaysinh", txtbirthday.Text.Trim());
+            com.Parameters.AddWithValue("@sodienthoai", txtphone.Text.Trim());
+            com.Parameters.AddWithValue("@chucvu", txtjob.Text.Trim());
+            com.Parameters.AddWithValue("@quequan", txtAddress.Text.Trim());
             com.Parameters.AddWithValue("@anh", convert());
-            com.ExecuteNonQuery();
-            con.Close();
-            ContainerData.Visible = false;
-            FrmEmployee_Load(sender, e);
-
-        }
-
-        private void btnedit_Click(object sender, EventArgs e)
-        {
-            SqlConnection con = connect.getConnection();
-            con.Open();
-            string commandText = "update Nhanvien set ten=@ten,gioitinh=@gioitinh,anh = @anh ,ngaysinh=@ngaysinh, sodienthoai = @sodienthoai,chucvu = @chucvu,quequan = @quequan where Manhanvien = " + stt;
-            SqlCommand com = new SqlCommand(commandText, con);
-            com.Parameters.AddWithValue("@Manhanvien", txtma.Text);
-            com.Parameters.AddWithValue("@ten", txtname.Text);
-            com.Parameters.AddWithValue("@gioitinh", rbMale.Checked ? "Nam" : "Nữ");
-            com.Parameters.AddWithValue("@ngaysinh", txtbirthday.Text);
-            com.Parameters.AddWithValue("@sodienthoai", txtphone.Text);
-            com.Parameters.AddWithValue("@chucvu", txtjob.Text);
-            com.Parameters.AddWithValue("@quequan", txtAddress.Text);
-            com.Parameters.AddWithValue("@anh", convert());
+            com.Parameters.AddWithValue("@pathAnh", txtpath.Text.Trim());
             com.ExecuteNonQuery();
             con.Close();
             ContainerData.Visible = false;
             FrmEmployee_Load(sender, e);
         }
-
         private void dgvEmployee_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             stt = dgvEmployee.CurrentRow.Cells[0].Value.ToString();
@@ -127,8 +114,30 @@ namespace Apartment_manager_app
             txtAddress.Text = dgvEmployee.CurrentRow.Cells[6].Value.ToString();
             MemoryStream memoryStream = new MemoryStream((byte[])dgvEmployee.CurrentRow.Cells[7].Value);
             pbEmployee.Image = Image.FromStream(memoryStream);
+            txtpath.Text = dgvEmployee.CurrentRow.Cells[8].Value.ToString();
             ContainerData.Visible = true;
         }
+        private void btnedit_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = connect.getConnection();
+            con.Open();
+            string commandText = $"update Nhanvien set ten=@ten,gioitinh=@gioitinh,ngaysinh=@ngaysinh,sodienthoai=@sodienthoai,chucvu = @chucvu,quequan=@quequan,anh=@anh where Manhanvien = '{stt}'";
+            SqlCommand com = new SqlCommand(commandText, con);
+            com.Parameters.AddWithValue("@Manhanvien", txtma.Text.Trim());
+            com.Parameters.AddWithValue("@ten", txtname.Text.Trim());
+            com.Parameters.AddWithValue("@gioitinh", rbMale.Checked ? "Nam" : "Nữ");
+            com.Parameters.AddWithValue("@ngaysinh", txtbirthday.Text.Trim());
+            com.Parameters.AddWithValue("@sodienthoai", txtphone.Text.Trim());
+            com.Parameters.AddWithValue("@chucvu", txtjob.Text.Trim());
+            com.Parameters.AddWithValue("@quequan", txtAddress.Text.Trim());
+            com.Parameters.AddWithValue("@anh",convert());             
+            com.ExecuteNonQuery();
+            con.Close();
+            ContainerData.Visible = false;
+            FrmEmployee_Load(sender, e);
+        }
+
+        
 
         private void btnremove_Click(object sender, EventArgs e)
         {
@@ -147,12 +156,10 @@ namespace Apartment_manager_app
             {
                 if (row.Cells[0].Value.ToString().Contains(txtvalue.Text))
                 {
-                    row.Selected = true;
-                }
-                else
-                {
-                    row.Selected = false;
-                }
+                    string query = $"select * from NhanVien where Manhanvien = '{txtvalue.Text}'";
+                    DataSet tmp = connect.GetData(query);
+                    dgvEmployee.DataSource = tmp.Tables[0];
+                }               
             }
         }
 
@@ -160,42 +167,35 @@ namespace Apartment_manager_app
         {
             if (cbbfind.SelectedItem.ToString() == "An ninh")
             {
-                string query = "select * from Nhanvien where chucvu = N' An ninh '";
+                string query = "select * from Nhanvien where chucvu like N'An ninh'";
                 DataSet tmp = connect.GetData(query);
                 dgvEmployee.DataSource = tmp.Tables[0];
                 lbactive.Text = dgvEmployee.Rows.Count.ToString();
             }
             else if (cbbfind.SelectedItem.ToString() == "Vệ sinh")
             {
-                string query = "select * from Nhanvien where chucvu = N' Vệ sinh '";
+                string query = "select * from Nhanvien where chucvu like N'Vệ sinh'";
                 DataSet tmp = connect.GetData(query);
                 dgvEmployee.DataSource = tmp.Tables[0];
                 lbactive.Text = dgvEmployee.Rows.Count.ToString();
             }
             else if (cbbfind.SelectedItem.ToString() == "Quản lý")
             {
-                string query = "select * from Nhanvien where chucvu = N' Quản lý '";
+                string query = "select * from Nhanvien where chucvu like N'Quản lý'";
                 DataSet tmp = connect.GetData(query);
                 dgvEmployee.DataSource = tmp.Tables[0];
                 lbactive.Text = dgvEmployee.Rows.Count.ToString();
-            }
-            else if (cbbfind.SelectedItem.ToString() == "Chăm sóc khách hàng")
-            {
-                string query = "select * from Nhanvien where chucvu = N' Chăm sóc khách hàng '";
-                DataSet tmp = connect.GetData(query);
-                dgvEmployee.DataSource = tmp.Tables[0];
-                lbactive.Text = dgvEmployee.Rows.Count.ToString();
-            }
+            }         
             else if (cbbfind.SelectedItem.ToString() == "Y tế")
             {
-                string query = "select * from Nhanvien where chucvu = N' Y tế '";
+                string query = "select * from Nhanvien where chucvu like N'Y tế'";
                 DataSet tmp = connect.GetData(query);
                 dgvEmployee.DataSource = tmp.Tables[0];
                 lbactive.Text = dgvEmployee.Rows.Count.ToString();
             }
             else if (cbbfind.SelectedItem.ToString() == "Kĩ thuật")
             {
-                string query = "select * from Nhanvien where chucvu = N' Kĩ thuật '";
+                string query = "select * from Nhanvien where chucvu like N'Kĩ thuật'";
                 DataSet tmp = connect.GetData(query);
                 dgvEmployee.DataSource = tmp.Tables[0];
                 lbactive.Text = dgvEmployee.Rows.Count.ToString();
@@ -233,6 +233,11 @@ namespace Apartment_manager_app
         private void btnBacktomenu_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void guna2GradientButton4_Click(object sender, EventArgs e)
+        {
+            FrmEmployee_Load(sender, e);
         }
     }
 }

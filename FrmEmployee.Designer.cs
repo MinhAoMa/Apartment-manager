@@ -29,30 +29,22 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmEmployee));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnfind = new Guna.UI2.WinForms.Guna2GradientButton();
             this.txtvalue = new Guna.UI2.WinForms.Guna2TextBox();
             this.btncreate = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.dgvEmployee = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.clma = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clten = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clgioitinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clngaysinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clsdt = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clchucvu = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clque = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clanh = new System.Windows.Forms.DataGridViewImageColumn();
             this.ContainerData = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.rbfeMale = new System.Windows.Forms.RadioButton();
             this.rbMale = new System.Windows.Forms.RadioButton();
@@ -85,6 +77,15 @@
             this.lbtotal = new System.Windows.Forms.Label();
             this.lbactive = new System.Windows.Forms.Label();
             this.btnBacktomenu = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.clma = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clten = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clgioitinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clngaysinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clsdt = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clchucvu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clque = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clanh = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployee)).BeginInit();
@@ -159,21 +160,21 @@
             // dgvEmployee
             // 
             this.dgvEmployee.AllowUserToAddRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.dgvEmployee.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.White;
+            this.dgvEmployee.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
             this.dgvEmployee.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvEmployee.BackgroundColor = System.Drawing.Color.White;
             this.dgvEmployee.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvEmployee.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvEmployee.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEmployee.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEmployee.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
             resources.ApplyResources(this.dgvEmployee, "dgvEmployee");
             this.dgvEmployee.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.clma,
@@ -183,15 +184,16 @@
             this.clsdt,
             this.clchucvu,
             this.clque,
-            this.clanh});
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvEmployee.DefaultCellStyle = dataGridViewCellStyle10;
+            this.clanh,
+            this.Column1});
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle30.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvEmployee.DefaultCellStyle = dataGridViewCellStyle30;
             this.dgvEmployee.EnableHeadersVisualStyles = false;
             this.dgvEmployee.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvEmployee.Name = "dgvEmployee";
@@ -221,70 +223,6 @@
             this.dgvEmployee.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvEmployee.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.dgvEmployee.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEmployee_CellClick);
-            // 
-            // clma
-            // 
-            this.clma.DataPropertyName = "Manhanvien";
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            this.clma.DefaultCellStyle = dataGridViewCellStyle3;
-            resources.ApplyResources(this.clma, "clma");
-            this.clma.Name = "clma";
-            // 
-            // clten
-            // 
-            this.clten.DataPropertyName = "ten";
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            this.clten.DefaultCellStyle = dataGridViewCellStyle4;
-            resources.ApplyResources(this.clten, "clten");
-            this.clten.Name = "clten";
-            // 
-            // clgioitinh
-            // 
-            this.clgioitinh.DataPropertyName = "gioitinh";
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            this.clgioitinh.DefaultCellStyle = dataGridViewCellStyle5;
-            resources.ApplyResources(this.clgioitinh, "clgioitinh");
-            this.clgioitinh.Name = "clgioitinh";
-            // 
-            // clngaysinh
-            // 
-            this.clngaysinh.DataPropertyName = "ngaysinh";
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            this.clngaysinh.DefaultCellStyle = dataGridViewCellStyle6;
-            resources.ApplyResources(this.clngaysinh, "clngaysinh");
-            this.clngaysinh.Name = "clngaysinh";
-            // 
-            // clsdt
-            // 
-            this.clsdt.DataPropertyName = "sodienthoai";
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            this.clsdt.DefaultCellStyle = dataGridViewCellStyle7;
-            resources.ApplyResources(this.clsdt, "clsdt");
-            this.clsdt.Name = "clsdt";
-            // 
-            // clchucvu
-            // 
-            this.clchucvu.DataPropertyName = "chucvu";
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            this.clchucvu.DefaultCellStyle = dataGridViewCellStyle8;
-            resources.ApplyResources(this.clchucvu, "clchucvu");
-            this.clchucvu.Name = "clchucvu";
-            // 
-            // clque
-            // 
-            this.clque.DataPropertyName = "quequan";
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
-            this.clque.DefaultCellStyle = dataGridViewCellStyle9;
-            resources.ApplyResources(this.clque, "clque");
-            this.clque.Name = "clque";
-            // 
-            // clanh
-            // 
-            this.clanh.DataPropertyName = "anh";
-            resources.ApplyResources(this.clanh, "clanh");
-            this.clanh.Name = "clanh";
-            this.clanh.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.clanh.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
             // ContainerData
             // 
@@ -496,6 +434,7 @@
             this.guna2GradientButton4.HoverState.Parent = this.guna2GradientButton4;
             this.guna2GradientButton4.Name = "guna2GradientButton4";
             this.guna2GradientButton4.ShadowDecoration.Parent = this.guna2GradientButton4;
+            this.guna2GradientButton4.Click += new System.EventHandler(this.guna2GradientButton4_Click);
             // 
             // btnexcel
             // 
@@ -551,8 +490,7 @@
             resources.GetString("cbbfind.Items1"),
             resources.GetString("cbbfind.Items2"),
             resources.GetString("cbbfind.Items3"),
-            resources.GetString("cbbfind.Items4"),
-            resources.GetString("cbbfind.Items5")});
+            resources.GetString("cbbfind.Items4")});
             this.cbbfind.ItemsAppearance.Parent = this.cbbfind;
             this.cbbfind.Name = "cbbfind";
             this.cbbfind.ShadowDecoration.Parent = this.cbbfind;
@@ -584,6 +522,77 @@
             this.btnBacktomenu.Name = "btnBacktomenu";
             this.btnBacktomenu.ShadowDecoration.Parent = this.btnBacktomenu;
             this.btnBacktomenu.Click += new System.EventHandler(this.btnBacktomenu_Click);
+            // 
+            // clma
+            // 
+            this.clma.DataPropertyName = "Manhanvien";
+            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black;
+            this.clma.DefaultCellStyle = dataGridViewCellStyle23;
+            resources.ApplyResources(this.clma, "clma");
+            this.clma.Name = "clma";
+            // 
+            // clten
+            // 
+            this.clten.DataPropertyName = "ten";
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black;
+            this.clten.DefaultCellStyle = dataGridViewCellStyle24;
+            resources.ApplyResources(this.clten, "clten");
+            this.clten.Name = "clten";
+            // 
+            // clgioitinh
+            // 
+            this.clgioitinh.DataPropertyName = "gioitinh";
+            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.Black;
+            this.clgioitinh.DefaultCellStyle = dataGridViewCellStyle25;
+            resources.ApplyResources(this.clgioitinh, "clgioitinh");
+            this.clgioitinh.Name = "clgioitinh";
+            // 
+            // clngaysinh
+            // 
+            this.clngaysinh.DataPropertyName = "ngaysinh";
+            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.Black;
+            this.clngaysinh.DefaultCellStyle = dataGridViewCellStyle26;
+            resources.ApplyResources(this.clngaysinh, "clngaysinh");
+            this.clngaysinh.Name = "clngaysinh";
+            // 
+            // clsdt
+            // 
+            this.clsdt.DataPropertyName = "sodienthoai";
+            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black;
+            this.clsdt.DefaultCellStyle = dataGridViewCellStyle27;
+            resources.ApplyResources(this.clsdt, "clsdt");
+            this.clsdt.Name = "clsdt";
+            // 
+            // clchucvu
+            // 
+            this.clchucvu.DataPropertyName = "chucvu";
+            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black;
+            this.clchucvu.DefaultCellStyle = dataGridViewCellStyle28;
+            resources.ApplyResources(this.clchucvu, "clchucvu");
+            this.clchucvu.Name = "clchucvu";
+            // 
+            // clque
+            // 
+            this.clque.DataPropertyName = "quequan";
+            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black;
+            this.clque.DefaultCellStyle = dataGridViewCellStyle29;
+            resources.ApplyResources(this.clque, "clque");
+            this.clque.Name = "clque";
+            // 
+            // clanh
+            // 
+            this.clanh.DataPropertyName = "anh";
+            resources.ApplyResources(this.clanh, "clanh");
+            this.clanh.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.clanh.Name = "clanh";
+            this.clanh.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.clanh.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "pathAnh";
+            resources.ApplyResources(this.Column1, "Column1");
+            this.Column1.Name = "Column1";
             // 
             // FrmEmployee
             // 
@@ -666,5 +675,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn clchucvu;
         private System.Windows.Forms.DataGridViewTextBoxColumn clque;
         private System.Windows.Forms.DataGridViewImageColumn clanh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
     }
 }

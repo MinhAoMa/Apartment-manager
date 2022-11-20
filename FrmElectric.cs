@@ -36,7 +36,7 @@ namespace Apartment_manager_app
             SqlConnection con = connect.getConnection();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from canho";
+            cmd.CommandText = "select Macanho from canho where trangthai = N'Đã thuê'";
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);

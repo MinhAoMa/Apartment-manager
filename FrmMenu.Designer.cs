@@ -115,22 +115,22 @@
             // 
             // guna2GradientPanel1
             // 
+            resources.ApplyResources(this.guna2GradientPanel1, "guna2GradientPanel1");
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel1.BorderRadius = 10;
             this.guna2GradientPanel1.Controls.Add(this.BtnButton);
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(203)))), ((int)(((byte)(204)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(222)))), ((int)(((byte)(224)))));
-            resources.ApplyResources(this.guna2GradientPanel1, "guna2GradientPanel1");
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
             // 
             // BtnButton
             // 
+            resources.ApplyResources(this.BtnButton, "BtnButton");
             this.BtnButton.BackColor = System.Drawing.Color.Transparent;
             this.BtnButton.BorderRadius = 10;
             this.BtnButton.CheckedState.Parent = this.BtnButton;
             this.BtnButton.CustomImages.Parent = this.BtnButton;
-            resources.ApplyResources(this.BtnButton, "BtnButton");
             this.BtnButton.FillColor = System.Drawing.Color.Transparent;
             this.BtnButton.FillColor2 = System.Drawing.Color.Transparent;
             this.BtnButton.ForeColor = System.Drawing.Color.White;
@@ -148,44 +148,44 @@
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.guna2GradientPanel1);
             this.panel1.Controls.Add(this.label1);
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.label2, "label2");
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.label2.Name = "label2";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel2
             // 
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Controls.Add(this.guna2GradientPanel2);
             this.panel2.Controls.Add(this.label3);
-            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
             // guna2GradientPanel2
             // 
+            resources.ApplyResources(this.guna2GradientPanel2, "guna2GradientPanel2");
             this.guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel2.BorderRadius = 10;
             this.guna2GradientPanel2.Controls.Add(this.appApartment);
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(164)))), ((int)(((byte)(119)))));
             this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(217)))), ((int)(((byte)(95)))));
-            resources.ApplyResources(this.guna2GradientPanel2, "guna2GradientPanel2");
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
             // 
             // appApartment
             // 
+            resources.ApplyResources(this.appApartment, "appApartment");
             this.appApartment.BackColor = System.Drawing.Color.Transparent;
             this.appApartment.BorderRadius = 10;
             this.appApartment.CheckedState.Parent = this.appApartment;
             this.appApartment.CustomImages.Parent = this.appApartment;
-            resources.ApplyResources(this.appApartment, "appApartment");
             this.appApartment.FillColor = System.Drawing.Color.DarkOrange;
             this.appApartment.FillColor2 = System.Drawing.Color.Transparent;
             this.appApartment.ForeColor = System.Drawing.Color.White;
@@ -203,29 +203,29 @@
             // 
             // panel3
             // 
+            resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Controls.Add(this.guna2GradientPanel3);
             this.panel3.Controls.Add(this.label4);
-            resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Name = "panel3";
             // 
             // guna2GradientPanel3
             // 
+            resources.ApplyResources(this.guna2GradientPanel3, "guna2GradientPanel3");
             this.guna2GradientPanel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel3.BorderRadius = 10;
             this.guna2GradientPanel3.Controls.Add(this.appContact);
             this.guna2GradientPanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(203)))), ((int)(((byte)(204)))));
             this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(222)))), ((int)(((byte)(224)))));
-            resources.ApplyResources(this.guna2GradientPanel3, "guna2GradientPanel3");
             this.guna2GradientPanel3.Name = "guna2GradientPanel3";
             this.guna2GradientPanel3.ShadowDecoration.Parent = this.guna2GradientPanel3;
             // 
             // appContact
             // 
+            resources.ApplyResources(this.appContact, "appContact");
             this.appContact.BackColor = System.Drawing.Color.Transparent;
             this.appContact.BorderRadius = 10;
             this.appContact.CheckedState.Parent = this.appContact;
             this.appContact.CustomImages.Parent = this.appContact;
-            resources.ApplyResources(this.appContact, "appContact");
             this.appContact.FillColor = System.Drawing.Color.IndianRed;
             this.appContact.FillColor2 = System.Drawing.Color.RosyBrown;
             this.appContact.ForeColor = System.Drawing.Color.White;
@@ -244,29 +244,29 @@
             // 
             // panel4
             // 
+            resources.ApplyResources(this.panel4, "panel4");
             this.panel4.Controls.Add(this.guna2GradientPanel4);
             this.panel4.Controls.Add(this.label5);
-            resources.ApplyResources(this.panel4, "panel4");
             this.panel4.Name = "panel4";
             // 
             // guna2GradientPanel4
             // 
+            resources.ApplyResources(this.guna2GradientPanel4, "guna2GradientPanel4");
             this.guna2GradientPanel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel4.BorderRadius = 10;
             this.guna2GradientPanel4.Controls.Add(this.guna2GradientButton4);
             this.guna2GradientPanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(203)))), ((int)(((byte)(204)))));
             this.guna2GradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(222)))), ((int)(((byte)(224)))));
-            resources.ApplyResources(this.guna2GradientPanel4, "guna2GradientPanel4");
             this.guna2GradientPanel4.Name = "guna2GradientPanel4";
             this.guna2GradientPanel4.ShadowDecoration.Parent = this.guna2GradientPanel4;
             // 
             // guna2GradientButton4
             // 
+            resources.ApplyResources(this.guna2GradientButton4, "guna2GradientButton4");
             this.guna2GradientButton4.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientButton4.BorderRadius = 10;
             this.guna2GradientButton4.CheckedState.Parent = this.guna2GradientButton4;
             this.guna2GradientButton4.CustomImages.Parent = this.guna2GradientButton4;
-            resources.ApplyResources(this.guna2GradientButton4, "guna2GradientButton4");
             this.guna2GradientButton4.FillColor = System.Drawing.Color.LawnGreen;
             this.guna2GradientButton4.FillColor2 = System.Drawing.Color.DarkSeaGreen;
             this.guna2GradientButton4.ForeColor = System.Drawing.Color.White;
@@ -284,29 +284,29 @@
             // 
             // panel5
             // 
+            resources.ApplyResources(this.panel5, "panel5");
             this.panel5.Controls.Add(this.guna2GradientPanel5);
             this.panel5.Controls.Add(this.label6);
-            resources.ApplyResources(this.panel5, "panel5");
             this.panel5.Name = "panel5";
             // 
             // guna2GradientPanel5
             // 
+            resources.ApplyResources(this.guna2GradientPanel5, "guna2GradientPanel5");
             this.guna2GradientPanel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel5.BorderRadius = 10;
             this.guna2GradientPanel5.Controls.Add(this.AppCustomer);
             this.guna2GradientPanel5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(203)))), ((int)(((byte)(204)))));
             this.guna2GradientPanel5.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(222)))), ((int)(((byte)(224)))));
-            resources.ApplyResources(this.guna2GradientPanel5, "guna2GradientPanel5");
             this.guna2GradientPanel5.Name = "guna2GradientPanel5";
             this.guna2GradientPanel5.ShadowDecoration.Parent = this.guna2GradientPanel5;
             // 
             // AppCustomer
             // 
+            resources.ApplyResources(this.AppCustomer, "AppCustomer");
             this.AppCustomer.BackColor = System.Drawing.Color.Transparent;
             this.AppCustomer.BorderRadius = 10;
             this.AppCustomer.CheckedState.Parent = this.AppCustomer;
             this.AppCustomer.CustomImages.Parent = this.AppCustomer;
-            resources.ApplyResources(this.AppCustomer, "AppCustomer");
             this.AppCustomer.FillColor = System.Drawing.Color.DeepSkyBlue;
             this.AppCustomer.FillColor2 = System.Drawing.Color.SkyBlue;
             this.AppCustomer.ForeColor = System.Drawing.Color.White;
@@ -324,51 +324,51 @@
             // 
             // panel6
             // 
+            resources.ApplyResources(this.panel6, "panel6");
             this.panel6.BackColor = System.Drawing.Color.Transparent;
             this.panel6.Controls.Add(this.panel3);
             this.panel6.Controls.Add(this.panel5);
             this.panel6.Controls.Add(this.panel2);
             this.panel6.Controls.Add(this.panel4);
             this.panel6.Controls.Add(this.panel1);
-            resources.ApplyResources(this.panel6, "panel6");
             this.panel6.Name = "panel6";
             // 
             // panel7
             // 
+            resources.ApplyResources(this.panel7, "panel7");
             this.panel7.BackColor = System.Drawing.Color.Transparent;
             this.panel7.Controls.Add(this.panel8);
             this.panel7.Controls.Add(this.panel9);
             this.panel7.Controls.Add(this.panel10);
             this.panel7.Controls.Add(this.panel11);
             this.panel7.Controls.Add(this.panel12);
-            resources.ApplyResources(this.panel7, "panel7");
             this.panel7.Name = "panel7";
             // 
             // panel8
             // 
+            resources.ApplyResources(this.panel8, "panel8");
             this.panel8.Controls.Add(this.guna2GradientPanel6);
             this.panel8.Controls.Add(this.label7);
-            resources.ApplyResources(this.panel8, "panel8");
             this.panel8.Name = "panel8";
             // 
             // guna2GradientPanel6
             // 
+            resources.ApplyResources(this.guna2GradientPanel6, "guna2GradientPanel6");
             this.guna2GradientPanel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel6.BorderRadius = 10;
             this.guna2GradientPanel6.Controls.Add(this.guna2GradientButton6);
             this.guna2GradientPanel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(203)))), ((int)(((byte)(204)))));
             this.guna2GradientPanel6.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(222)))), ((int)(((byte)(224)))));
-            resources.ApplyResources(this.guna2GradientPanel6, "guna2GradientPanel6");
             this.guna2GradientPanel6.Name = "guna2GradientPanel6";
             this.guna2GradientPanel6.ShadowDecoration.Parent = this.guna2GradientPanel6;
             // 
             // guna2GradientButton6
             // 
+            resources.ApplyResources(this.guna2GradientButton6, "guna2GradientButton6");
             this.guna2GradientButton6.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientButton6.BorderRadius = 10;
             this.guna2GradientButton6.CheckedState.Parent = this.guna2GradientButton6;
             this.guna2GradientButton6.CustomImages.Parent = this.guna2GradientButton6;
-            resources.ApplyResources(this.guna2GradientButton6, "guna2GradientButton6");
             this.guna2GradientButton6.FillColor = System.Drawing.Color.Tomato;
             this.guna2GradientButton6.FillColor2 = System.Drawing.Color.DarkSalmon;
             this.guna2GradientButton6.ForeColor = System.Drawing.Color.White;
@@ -386,29 +386,29 @@
             // 
             // panel9
             // 
+            resources.ApplyResources(this.panel9, "panel9");
             this.panel9.Controls.Add(this.guna2GradientPanel7);
             this.panel9.Controls.Add(this.label8);
-            resources.ApplyResources(this.panel9, "panel9");
             this.panel9.Name = "panel9";
             // 
             // guna2GradientPanel7
             // 
+            resources.ApplyResources(this.guna2GradientPanel7, "guna2GradientPanel7");
             this.guna2GradientPanel7.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel7.BorderRadius = 10;
             this.guna2GradientPanel7.Controls.Add(this.guna2GradientButton7);
             this.guna2GradientPanel7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(203)))), ((int)(((byte)(204)))));
             this.guna2GradientPanel7.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(222)))), ((int)(((byte)(224)))));
-            resources.ApplyResources(this.guna2GradientPanel7, "guna2GradientPanel7");
             this.guna2GradientPanel7.Name = "guna2GradientPanel7";
             this.guna2GradientPanel7.ShadowDecoration.Parent = this.guna2GradientPanel7;
             // 
             // guna2GradientButton7
             // 
+            resources.ApplyResources(this.guna2GradientButton7, "guna2GradientButton7");
             this.guna2GradientButton7.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientButton7.BorderRadius = 10;
             this.guna2GradientButton7.CheckedState.Parent = this.guna2GradientButton7;
             this.guna2GradientButton7.CustomImages.Parent = this.guna2GradientButton7;
-            resources.ApplyResources(this.guna2GradientButton7, "guna2GradientButton7");
             this.guna2GradientButton7.FillColor = System.Drawing.Color.Cyan;
             this.guna2GradientButton7.FillColor2 = System.Drawing.Color.Transparent;
             this.guna2GradientButton7.ForeColor = System.Drawing.Color.White;
@@ -417,6 +417,7 @@
             this.guna2GradientButton7.ImageSize = new System.Drawing.Size(40, 40);
             this.guna2GradientButton7.Name = "guna2GradientButton7";
             this.guna2GradientButton7.ShadowDecoration.Parent = this.guna2GradientButton7;
+            this.guna2GradientButton7.Click += new System.EventHandler(this.guna2GradientButton7_Click);
             // 
             // label8
             // 
@@ -425,29 +426,29 @@
             // 
             // panel10
             // 
+            resources.ApplyResources(this.panel10, "panel10");
             this.panel10.Controls.Add(this.guna2GradientPanel8);
             this.panel10.Controls.Add(this.label9);
-            resources.ApplyResources(this.panel10, "panel10");
             this.panel10.Name = "panel10";
             // 
             // guna2GradientPanel8
             // 
+            resources.ApplyResources(this.guna2GradientPanel8, "guna2GradientPanel8");
             this.guna2GradientPanel8.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel8.BorderRadius = 10;
             this.guna2GradientPanel8.Controls.Add(this.guna2GradientButton8);
             this.guna2GradientPanel8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(203)))), ((int)(((byte)(204)))));
             this.guna2GradientPanel8.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(222)))), ((int)(((byte)(224)))));
-            resources.ApplyResources(this.guna2GradientPanel8, "guna2GradientPanel8");
             this.guna2GradientPanel8.Name = "guna2GradientPanel8";
             this.guna2GradientPanel8.ShadowDecoration.Parent = this.guna2GradientPanel8;
             // 
             // guna2GradientButton8
             // 
+            resources.ApplyResources(this.guna2GradientButton8, "guna2GradientButton8");
             this.guna2GradientButton8.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientButton8.BorderRadius = 10;
             this.guna2GradientButton8.CheckedState.Parent = this.guna2GradientButton8;
             this.guna2GradientButton8.CustomImages.Parent = this.guna2GradientButton8;
-            resources.ApplyResources(this.guna2GradientButton8, "guna2GradientButton8");
             this.guna2GradientButton8.FillColor = System.Drawing.Color.DarkSlateBlue;
             this.guna2GradientButton8.FillColor2 = System.Drawing.Color.MediumSlateBlue;
             this.guna2GradientButton8.ForeColor = System.Drawing.Color.White;
@@ -465,29 +466,29 @@
             // 
             // panel11
             // 
+            resources.ApplyResources(this.panel11, "panel11");
             this.panel11.Controls.Add(this.guna2GradientPanel9);
             this.panel11.Controls.Add(this.label10);
-            resources.ApplyResources(this.panel11, "panel11");
             this.panel11.Name = "panel11";
             // 
             // guna2GradientPanel9
             // 
+            resources.ApplyResources(this.guna2GradientPanel9, "guna2GradientPanel9");
             this.guna2GradientPanel9.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel9.BorderRadius = 10;
             this.guna2GradientPanel9.Controls.Add(this.guna2GradientButton9);
             this.guna2GradientPanel9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(203)))), ((int)(((byte)(204)))));
             this.guna2GradientPanel9.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(222)))), ((int)(((byte)(224)))));
-            resources.ApplyResources(this.guna2GradientPanel9, "guna2GradientPanel9");
             this.guna2GradientPanel9.Name = "guna2GradientPanel9";
             this.guna2GradientPanel9.ShadowDecoration.Parent = this.guna2GradientPanel9;
             // 
             // guna2GradientButton9
             // 
+            resources.ApplyResources(this.guna2GradientButton9, "guna2GradientButton9");
             this.guna2GradientButton9.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientButton9.BorderRadius = 10;
             this.guna2GradientButton9.CheckedState.Parent = this.guna2GradientButton9;
             this.guna2GradientButton9.CustomImages.Parent = this.guna2GradientButton9;
-            resources.ApplyResources(this.guna2GradientButton9, "guna2GradientButton9");
             this.guna2GradientButton9.FillColor = System.Drawing.Color.Yellow;
             this.guna2GradientButton9.FillColor2 = System.Drawing.Color.YellowGreen;
             this.guna2GradientButton9.ForeColor = System.Drawing.Color.White;
@@ -496,6 +497,7 @@
             this.guna2GradientButton9.ImageSize = new System.Drawing.Size(40, 40);
             this.guna2GradientButton9.Name = "guna2GradientButton9";
             this.guna2GradientButton9.ShadowDecoration.Parent = this.guna2GradientButton9;
+            this.guna2GradientButton9.Click += new System.EventHandler(this.guna2GradientButton9_Click);
             // 
             // label10
             // 
@@ -504,29 +506,29 @@
             // 
             // panel12
             // 
+            resources.ApplyResources(this.panel12, "panel12");
             this.panel12.Controls.Add(this.guna2GradientPanel10);
             this.panel12.Controls.Add(this.label11);
-            resources.ApplyResources(this.panel12, "panel12");
             this.panel12.Name = "panel12";
             // 
             // guna2GradientPanel10
             // 
+            resources.ApplyResources(this.guna2GradientPanel10, "guna2GradientPanel10");
             this.guna2GradientPanel10.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel10.BorderRadius = 10;
             this.guna2GradientPanel10.Controls.Add(this.guna2GradientButton10);
             this.guna2GradientPanel10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(203)))), ((int)(((byte)(204)))));
             this.guna2GradientPanel10.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(222)))), ((int)(((byte)(224)))));
-            resources.ApplyResources(this.guna2GradientPanel10, "guna2GradientPanel10");
             this.guna2GradientPanel10.Name = "guna2GradientPanel10";
             this.guna2GradientPanel10.ShadowDecoration.Parent = this.guna2GradientPanel10;
             // 
             // guna2GradientButton10
             // 
+            resources.ApplyResources(this.guna2GradientButton10, "guna2GradientButton10");
             this.guna2GradientButton10.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientButton10.BorderRadius = 10;
             this.guna2GradientButton10.CheckedState.Parent = this.guna2GradientButton10;
             this.guna2GradientButton10.CustomImages.Parent = this.guna2GradientButton10;
-            resources.ApplyResources(this.guna2GradientButton10, "guna2GradientButton10");
             this.guna2GradientButton10.FillColor = System.Drawing.Color.Fuchsia;
             this.guna2GradientButton10.FillColor2 = System.Drawing.Color.MediumVioletRed;
             this.guna2GradientButton10.ForeColor = System.Drawing.Color.White;
@@ -544,19 +546,19 @@
             // 
             // guna2GradientPanel11
             // 
+            resources.ApplyResources(this.guna2GradientPanel11, "guna2GradientPanel11");
             this.guna2GradientPanel11.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel11.Controls.Add(this.guna2GradientButton12);
             this.guna2GradientPanel11.Controls.Add(this.guna2GradientButton11);
-            resources.ApplyResources(this.guna2GradientPanel11, "guna2GradientPanel11");
             this.guna2GradientPanel11.Name = "guna2GradientPanel11";
             this.guna2GradientPanel11.ShadowDecoration.Parent = this.guna2GradientPanel11;
             // 
             // guna2GradientButton12
             // 
+            resources.ApplyResources(this.guna2GradientButton12, "guna2GradientButton12");
             this.guna2GradientButton12.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientButton12.CheckedState.Parent = this.guna2GradientButton12;
             this.guna2GradientButton12.CustomImages.Parent = this.guna2GradientButton12;
-            resources.ApplyResources(this.guna2GradientButton12, "guna2GradientButton12");
             this.guna2GradientButton12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
             this.guna2GradientButton12.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
             this.guna2GradientButton12.ForeColor = System.Drawing.Color.White;
@@ -567,10 +569,10 @@
             // 
             // guna2GradientButton11
             // 
+            resources.ApplyResources(this.guna2GradientButton11, "guna2GradientButton11");
             this.guna2GradientButton11.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientButton11.CheckedState.Parent = this.guna2GradientButton11;
             this.guna2GradientButton11.CustomImages.Parent = this.guna2GradientButton11;
-            resources.ApplyResources(this.guna2GradientButton11, "guna2GradientButton11");
             this.guna2GradientButton11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
             this.guna2GradientButton11.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
             this.guna2GradientButton11.ForeColor = System.Drawing.Color.White;
@@ -582,6 +584,7 @@
             // 
             // guna2TextBox2
             // 
+            resources.ApplyResources(this.guna2TextBox2, "guna2TextBox2");
             this.guna2TextBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2TextBox2.BorderColor = System.Drawing.Color.Silver;
             this.guna2TextBox2.BorderRadius = 10;
@@ -599,7 +602,6 @@
             this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
             this.guna2TextBox2.IconLeftOffset = new System.Drawing.Point(10, 0);
             this.guna2TextBox2.IconLeftSize = new System.Drawing.Size(24, 24);
-            resources.ApplyResources(this.guna2TextBox2, "guna2TextBox2");
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.Gray;
@@ -616,12 +618,12 @@
             // 
             // guna2GradientButton13
             // 
+            resources.ApplyResources(this.guna2GradientButton13, "guna2GradientButton13");
             this.guna2GradientButton13.BorderRadius = 7;
             this.guna2GradientButton13.CheckedState.Parent = this.guna2GradientButton13;
             this.guna2GradientButton13.CustomImages.Parent = this.guna2GradientButton13;
             this.guna2GradientButton13.FillColor = System.Drawing.Color.DeepSkyBlue;
             this.guna2GradientButton13.FillColor2 = System.Drawing.Color.SkyBlue;
-            resources.ApplyResources(this.guna2GradientButton13, "guna2GradientButton13");
             this.guna2GradientButton13.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton13.HoverState.Parent = this.guna2GradientButton13;
             this.guna2GradientButton13.Image = global::Apartment_manager_app.Properties.Resources.search;
@@ -630,13 +632,13 @@
             // 
             // btnBackforward
             // 
+            resources.ApplyResources(this.btnBackforward, "btnBackforward");
             this.btnBackforward.BackColor = System.Drawing.Color.Transparent;
             this.btnBackforward.BorderRadius = 9;
             this.btnBackforward.CheckedState.Parent = this.btnBackforward;
             this.btnBackforward.CustomImages.Parent = this.btnBackforward;
             this.btnBackforward.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(213)))), ((int)(((byte)(245)))));
             this.btnBackforward.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(127)))), ((int)(((byte)(246)))));
-            resources.ApplyResources(this.btnBackforward, "btnBackforward");
             this.btnBackforward.ForeColor = System.Drawing.Color.White;
             this.btnBackforward.HoverState.Parent = this.btnBackforward;
             this.btnBackforward.Image = global::Apartment_manager_app.Properties.Resources.icons8_left_96px;
@@ -648,10 +650,10 @@
             // 
             // FrmMenu
             // 
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.guna2GradientButton13);
             this.Controls.Add(this.guna2GradientPanel11);
             this.Controls.Add(this.panel7);

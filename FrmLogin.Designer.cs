@@ -31,10 +31,8 @@
             this.components = new System.ComponentModel.Container();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnExit = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2ToggleSwitch1 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.labelForgot = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnlogin = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -54,10 +52,8 @@
             // 
             this.guna2Panel1.BorderRadius = 5;
             this.guna2Panel1.Controls.Add(this.btnExit);
-            this.guna2Panel1.Controls.Add(this.guna2ToggleSwitch1);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel1);
+            this.guna2Panel1.Controls.Add(this.labelForgot);
             this.guna2Panel1.Controls.Add(this.btnlogin);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel4);
             this.guna2Panel1.Controls.Add(this.txtPassword);
             this.guna2Panel1.Controls.Add(this.txtUsername);
             this.guna2Panel1.Controls.Add(this.label1);
@@ -68,7 +64,6 @@
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(447, 524);
             this.guna2Panel1.TabIndex = 0;
-            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
             // btnExit
             // 
@@ -89,35 +84,17 @@
             this.btnExit.TabIndex = 20;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click_1);
             // 
-            // guna2ToggleSwitch1
+            // labelForgot
             // 
-            this.guna2ToggleSwitch1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ToggleSwitch1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ToggleSwitch1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ToggleSwitch1.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch1.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch1.CheckedState.Parent = this.guna2ToggleSwitch1;
-            this.guna2ToggleSwitch1.Location = new System.Drawing.Point(41, 301);
-            this.guna2ToggleSwitch1.Name = "guna2ToggleSwitch1";
-            this.guna2ToggleSwitch1.ShadowDecoration.Parent = this.guna2ToggleSwitch1;
-            this.guna2ToggleSwitch1.Size = new System.Drawing.Size(35, 20);
-            this.guna2ToggleSwitch1.TabIndex = 19;
-            this.guna2ToggleSwitch1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2ToggleSwitch1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2ToggleSwitch1.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch1.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch1.UncheckedState.Parent = this.guna2ToggleSwitch1;
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(123, 447);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(340, 33);
-            this.guna2HtmlLabel1.TabIndex = 18;
-            this.guna2HtmlLabel1.Text = "Forgot Username or Password ?";
+            this.labelForgot.BackColor = System.Drawing.Color.Transparent;
+            this.labelForgot.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelForgot.ForeColor = System.Drawing.Color.Black;
+            this.labelForgot.Location = new System.Drawing.Point(123, 447);
+            this.labelForgot.Name = "labelForgot";
+            this.labelForgot.Size = new System.Drawing.Size(340, 33);
+            this.labelForgot.TabIndex = 18;
+            this.labelForgot.Text = "Forgot Username or Password ?";
+            this.labelForgot.Click += new System.EventHandler(this.labelForgot_Click);
             // 
             // btnlogin
             // 
@@ -138,17 +115,6 @@
             this.btnlogin.Text = "Log in";
             this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
-            // guna2HtmlLabel4
-            // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(82, 301);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(158, 33);
-            this.guna2HtmlLabel4.TabIndex = 15;
-            this.guna2HtmlLabel4.Text = "Remember me";
-            // 
             // txtPassword
             // 
             this.txtPassword.BackColor = System.Drawing.Color.Transparent;
@@ -168,16 +134,16 @@
             this.txtPassword.IconLeft = global::Apartment_manager_app.Properties.Resources._1564520_code_open_password_icon;
             this.txtPassword.IconLeftOffset = new System.Drawing.Point(10, 0);
             this.txtPassword.IconLeftSize = new System.Drawing.Size(24, 24);
-            this.txtPassword.Location = new System.Drawing.Point(25, 227);
+            this.txtPassword.Location = new System.Drawing.Point(25, 271);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.PasswordChar = '\0';
+            this.txtPassword.PasswordChar = '.';
             this.txtPassword.PlaceholderForeColor = System.Drawing.Color.Aqua;
             this.txtPassword.PlaceholderText = "Password";
             this.txtPassword.SelectedText = "";
             this.txtPassword.ShadowDecoration.Parent = this.txtPassword;
             this.txtPassword.Size = new System.Drawing.Size(394, 58);
-            this.txtPassword.TabIndex = 1;
+            this.txtPassword.TabIndex = 2;
             this.txtPassword.TextOffset = new System.Drawing.Point(30, 0);
             // 
             // txtUsername
@@ -199,7 +165,7 @@
             this.txtUsername.IconLeft = global::Apartment_manager_app.Properties.Resources.user;
             this.txtUsername.IconLeftOffset = new System.Drawing.Point(10, 0);
             this.txtUsername.IconLeftSize = new System.Drawing.Size(24, 24);
-            this.txtUsername.Location = new System.Drawing.Point(25, 153);
+            this.txtUsername.Location = new System.Drawing.Point(25, 188);
             this.txtUsername.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.PasswordChar = '\0';
@@ -217,7 +183,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Bungee", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label1.Location = new System.Drawing.Point(60, 84);
+            this.label1.Location = new System.Drawing.Point(53, 58);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(472, 92);
             this.label1.TabIndex = 0;
@@ -280,7 +246,6 @@
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmLogin";
-            this.Load += new System.EventHandler(this.FrmLogin_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -295,10 +260,8 @@
         private Guna.UI2.WinForms.Guna2TextBox txtUsername;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2TextBox txtPassword;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch guna2ToggleSwitch1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel labelForgot;
         private Guna.UI2.WinForms.Guna2GradientButton btnlogin;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2GradientButton btnExit;
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
